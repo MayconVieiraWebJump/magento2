@@ -19,7 +19,8 @@
     "require": {
         "magento/product-community-edition": "2.4.4",
         "magento/composer-dependency-version-audit-plugin": "~0.1",
-        "magento/composer-root-update-plugin": "~2.0"
+        "magento/composer-root-update-plugin": "~2.0",
+        "webjump/carbono-core": "1.6.4"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -76,10 +77,71 @@
         {
             "type": "composer",
             "url": "https://repo.magento.com/"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/webjump-module-webjump-customerbr.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-mask-customerbr.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-theme.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/magento2-theme-translate.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-cms-page-translator.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-postcode.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-via-cep.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-translate-order-status.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono_translation_package.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-calculator-shipping.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-core-configurator.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-sales.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/carbono-disable-registration.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:webjump/module-carbono-product-increment-buttons.git"
         }
-    ],
+    ],      
+  
     "extra": {
         "magento-force": "override"
     }
+    
 }
-
