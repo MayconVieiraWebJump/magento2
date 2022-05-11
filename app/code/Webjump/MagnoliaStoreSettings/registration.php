@@ -4,6 +4,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'Webjump_MagnoliaSettings',
+    'Webjump_MagnoliaStoreSettings',
     __DIR__
 );
