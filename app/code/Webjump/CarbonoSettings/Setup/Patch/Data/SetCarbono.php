@@ -9,6 +9,7 @@ use Magento\Framework\View\Design\Theme\ThemeProviderInterface;
 
 class SetCarbono implements DataPatchInterface
 {
+    # get the theme ID
     CONST PATH_THEME = "design/theme/theme_id";
 
     private $moduleDataSetup;
