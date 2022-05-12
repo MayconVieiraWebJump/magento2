@@ -5,9 +5,8 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
 use Magento\Framework\View\Design\Theme\ThemeProviderInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
-use Magento\Setup\Module\Setup;
 use Magento\Store\Api\WebsiteRepositoryInterface;
-
+use Magento\Setup\Module\Setup;
 class SetThemeMagnolia implements DataPatchInterface
 {
     const THEME_PATH = "design/theme/theme_id";
