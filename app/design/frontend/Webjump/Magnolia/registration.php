@@ -6,4 +6,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontendgit s/Webjump/Magnolia', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Webjump/Magnolia', __DIR__);
