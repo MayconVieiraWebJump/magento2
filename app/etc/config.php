@@ -328,6 +328,7 @@ return [
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
+        'Webjump_BaseConfig' => 1,
         'Webjump_Carbono' => 1,
         'Webjump_CarbonoSales' => 1,
         'Webjump_CarbonoSettings' => 1,
