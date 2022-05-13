@@ -1,76 +1,93 @@
-@menuBg:#40015f;
-@yellow:#fee95f;
+@menuBg: #40015f;
+@yellow: #fee95f;
 
-.section-item-content  {
+.section-item-content {
   background-color: @menuBg;
-  
-       ul{
-          height: 50px;
+
+  ul {
+    height: 50px;
+  }
+
+  li {
+    span {
+      height: 190px;
+      font-family: 'Raleway-Regular';
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-align: left;
+      /* Text style for "Roupas" */
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+
+      &:hover {
+        color: @yellow;
+        transition: all ease-in 0.3s;
       }
-      li {
-          span{
-            height: 190px;
-            font-family: 'Raleway-Regular';
-            color: #ffffff;
-            font-size: 16px;
-            font-weight: 700;
-            font-style: normal;
-            letter-spacing: normal;
-            line-height: normal;
-            text-align: left;
-            /* Text style for "Roupas" */
-            font-style: normal;
-            letter-spacing: normal;
-            line-height: normal;
-            &:hover{
-              color: @yellow;
-              transition: all ease-in 0.3s;
-            }
-        }  
-      }
+    }
+  }
 }
 
 .navigation {
   background-color: @menuBg;
+
+  li.level0:last-child {
+    border-bottom: none;
+    border-top: none;
+  }
+
+  .level0 {
+    border-bottom: none;
+    border-top: none;
+  }
 }
 
-.navigation .level0.active > .level-top{
+.navigation .level0.active>.level-top {
   border-color: @yellow;
 }
 
-.nav-5 a span{
+.nav-5 a span {
   font-family: 'Raleway-Regular';
   color: #fee95f;
   font-weight: 700;
 }
 
 
-.navigation .level0.parent > .level-top > .ui-menu-icon:after {
+.navigation .level0.parent>.level-top>.ui-menu-icon:after {
   content: '';
 }
 
-.ui-menu, .ui-widget, .ui-widget-content, .ui-corner-all{
+.ui-menu,
+.ui-widget,
+.ui-widget-content,
+.ui-corner-all {
   background-color: #40015f;
 
 }
-  
-.navigation .level0 .submenu a:hover{
-  background-color: #4B0082   ;
+
+.navigation .level0 .submenu a:hover {
+  background-color: #4B0082;
 }
 
-.navigation .level0.active > a:not(.ui-state-active){
+.navigation .level0.active>a:not(.ui-state-active) {
   border-color: @yellow
 }
 
-.nav-sections  {
-  background-color: #4B0082   ;
+.nav-sections {
+  background-color: #4B0082;
 }
 
 .nav-sections-item-switch {
   color: white;
+
   &:active {
     color: @yellow;
   }
+
   &:hover {
     color: @yellow;
   }
@@ -78,36 +95,48 @@
 
 .nav-sections-item-title {
   color: white;
-  background-color: #4B0082   ;
+  background-color: #4B0082;
   border: none;
 }
 
 @media (max-width: 780px) {
-  .section-item-content{
-      ul{
-          height: auto;
-      }
+  .section-item-content {
+    ul {
+      height: auto;
+    }
   }
+
   .nav-sections {
-      .header.links {
-          border-bottom: none;
-          li {
-              a {
-                  border-top: none;
-                  color: #fff;
-              }
-          }
-          .greet.welcome {
-              display: none;
-          }
+    .header.links {
+      border-bottom: none;
+
+      li {
+        a {
+          border-top: none;
+          color: #fff;
+        }
       }
+
+      .greet.welcome {
+        display: none;
+      }
+    }
   }
 }
-@media only screen and (max-width: 768px){
-.navigation .level0>.level-top {
+
+@media only screen and (max-width: 768px) {
+  .navigation .level0>.level-top {
     font-weight: 700;
     padding: 8px 40px 8px 15px;
     text-transform: none;
     word-wrap: break-word;
+  }
+}
+
+@media (max-width: 780px){
+  .nav-sections .header.links li a {
+      border-top: none;
+      color: #fff;
+      font-family: 'Raleway-Regular';
   }
 }

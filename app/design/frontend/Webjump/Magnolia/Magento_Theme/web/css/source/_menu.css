@@ -23,6 +23,14 @@
 .navigation {
   background-color: #40015f;
 }
+.navigation li.level0:last-child {
+  border-bottom: none;
+  border-top: none;
+}
+.navigation .level0 {
+  border-bottom: none;
+  border-top: none;
+}
 .navigation .level0.active > .level-top {
   border-color: #fee95f;
 }
@@ -84,5 +92,12 @@
     padding: 8px 40px 8px 15px;
     text-transform: none;
     word-wrap: break-word;
+  }
+}
+@media (max-width: 780px) {
+  .nav-sections .header.links li a {
+    border-top: none;
+    color: #fff;
+    font-family: 'Raleway-Regular';
   }
 }
