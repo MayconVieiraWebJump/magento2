@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('/app/design/frontend/Webjump/WineClub/web/fonts/Poppins-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('/app/design/frontend/Webjump/WineClub/web/fonts/Poppins-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('/app/design/frontend/Webjump/WineClub/web/fonts/Poppins-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
