@@ -336,10 +336,12 @@ return [
         'Webjump_CoreConfigurator' => 1,
         'Webjump_CustomerBr' => 1,
         'Webjump_DisableRegistration' => 1,
+        'Webjump_MagnoliaSettings' => 1,
         'Webjump_OrderStatus' => 1,
         'Webjump_PostCode' => 1,
         'Webjump_ProductIncrementButtons' => 1,
-        'Webjump_ViaCep' => 0
+        'Webjump_ViaCep' => 0,
+        'Webjump_WineClubSettings' => 1
     ],
     'scopes' => [
         'websites' => [

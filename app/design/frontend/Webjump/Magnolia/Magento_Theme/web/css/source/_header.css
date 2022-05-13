@@ -1,0 +1,49 @@
+.not-logged-in {
+  display: none;
+}
+.panel,
+.wrapper {
+  background-color: #eaeaea;
+}
+.panel .switcher-options,
+.wrapper .switcher-options {
+  color: #666666;
+}
+.header.panel .header.links .authorization-link:after {
+  color: #666666;
+  font-size: 14spx;
+  font-family: 'Raleway-Bold';
+}
+.block-search input {
+  width: 261px;
+  height: 32px;
+  border: 1px solid #a6a6a6;
+}
+.block-search input::placeholder {
+  color: #666666;
+  font-size: 15px;
+  font-family: 'Raleway-Bold';
+  font-weight: 300;
+}
+.header.panel > .header.links > li > a {
+  color: #666666;
+  font-family: 'Raleway-Bold';
+  font-size: 14px;
+  transition: 0.2s;
+}
+.header.panel > .header.links > li > a:hover {
+  color: #000000;
+}
+.minicart-wrapper .action.showcart {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+.minicart-wrapper .action.showcart::before {
+  content: '';
+  display: block;
+  width: 19px;
+  height: 25px;
+  background-color: #000000;
+  background: url('@basedirimages/mall.png');
+}
