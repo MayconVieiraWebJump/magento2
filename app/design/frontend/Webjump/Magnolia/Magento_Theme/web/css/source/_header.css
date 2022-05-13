@@ -12,7 +12,7 @@
 .header.panel .header.links .authorization-link:after {
   color: #666666;
   font-size: 14spx;
-  font-family: 'Raleway-Regular';
+  font-family: 'Raleway-Bold';
 }
 .block-search input {
   width: 261px;
@@ -22,12 +22,12 @@
 .block-search input::placeholder {
   color: #666666;
   font-size: 15px;
-  font-family: 'Raleway-Regular';
+  font-family: 'Raleway-Bold';
   font-weight: 300;
 }
 .header.panel > .header.links > li > a {
   color: #666666;
-  font-family: 'Raleway-Regular';
+  font-family: 'Raleway-Bold';
   font-size: 14px;
   transition: 0.2s;
 }
