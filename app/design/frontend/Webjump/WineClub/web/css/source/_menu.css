@@ -1,0 +1,25 @@
+.section-item-content {
+  background-color: #9a1e51;
+}
+.section-item-content .navigation {
+  background-color: #9a1e51;
+}
+.section-item-content ul {
+  height: 50px;
+}
+.section-item-content span {
+  height: 190px;
+  font-family: 'Poppins-Regular';
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  /* Text style for "Roupas" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.navigation .level0.active > .level-top {
+  border-color: white;
+}
