@@ -1,0 +1,24 @@
+.section-item-content {
+  background-color: #40015f;
+}
+.section-item-content ul {
+  height: 50px;
+}
+.section-item-content span {
+  height: 190px;
+  font-family: 'Raleway-Regular';
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  /* Text style for "Roupas" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.navigation {
+  background-color: #40015f;
+}
+.level-top .ui-menu-item-wrapper {
+  border-color: #fee95f !important;
+}
