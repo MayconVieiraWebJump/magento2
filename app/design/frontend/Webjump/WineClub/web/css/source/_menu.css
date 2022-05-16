@@ -21,6 +21,12 @@
   margin-top: 1.1em;
   margin-left: 0.5em;
 }
+.section-item-content .navigation .level0.has-active > a:not(.ui-state-active) {
+  border-color: #9a1e51;
+}
+.section-item-content .navigation .submenu:not(:first-child) .active > a {
+  border-color: #9a1e51;
+}
 .section-item-content ul {
   height: 50px;
 }
