@@ -27,7 +27,7 @@ class CreateModaAttributeSets implements DataPatchInterface
  public static function getDependencies()
     {
         return [
-        ];
+        ]; 
     }
 
     public function getAliases()
