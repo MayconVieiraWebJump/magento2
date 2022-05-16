@@ -8,7 +8,17 @@
   border-color: #c59c3f;
 }
 .section-item-content .navigation .level0.active > a:not(.ui-state-active) {
-  border-color: #c59c3f;
+  border-color: #9a1e51;
+}
+.section-item-content .navigation .level0 .submenu {
+  border: none;
+  box-shadow: none;
+}
+.section-item-content .navigation .level0 .submenu a {
+  background-color: #9a1e51;
+}
+.section-item-content .navigation .level0.parent > .level-top > .ui-menu-icon::after {
+  content: none;
 }
 .section-item-content ul {
   height: 50px;
@@ -37,6 +47,9 @@
     background-color: #f0f0f0;
   }
   .section-item-content .navigation {
+    background-color: #f0f0f0;
+  }
+  .section-item-content .navigation .level0 .submenu a {
     background-color: #f0f0f0;
   }
   .section-item-content .navigation span {
