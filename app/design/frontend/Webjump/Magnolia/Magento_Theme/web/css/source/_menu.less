@@ -1,0 +1,166 @@
+@menuBg: #40015f;
+@yellow: #fee95f;
+@smoke:#f2f2f2;
+
+.section-item-content {
+  background-color: @menuBg;
+
+  ul {
+    height: 50px;
+  }
+
+  li {
+    span {
+      height: 190px;
+      font-family: 'Raleway-Regular';
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-align: left;
+      /* Text style for "Roupas" */
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+
+      &:hover {
+        color: @yellow;
+        transition: all ease-in 0.3s;
+      }
+    }
+  }
+}
+
+.navigation {
+  background-color: @menuBg;
+
+  li.level0:last-child {
+    border-bottom: none;
+    border-top: none;
+  }
+
+  .level0 {
+    border-bottom: none;
+    border-top: none;
+  }
+}
+
+.navigation .level0.active>.level-top {
+  border-color: @yellow;
+}
+
+.nav-5 a span {
+  font-family: 'Raleway-Regular';
+  color: #fee95f;
+  font-weight: 700;
+}
+
+
+.navigation .level0.parent>.level-top>.ui-menu-icon:after {
+  content: '';
+}
+
+.navigation .level0 .submenu a:hover {
+  background-color: @smoke;
+}
+
+.nav-sections {
+  background-color: @smoke;
+}
+
+.nav-sections-item-switch {
+  color: #000000;
+
+  &:active {
+    color: @menuBg;
+  }
+
+  &:hover {
+    color: @menuBg;
+  }
+}
+
+.nav-sections-item-title {
+  color: #000000;
+  background-color: @smoke;
+  border: none;
+}
+
+@media (max-width: 780px) {
+  .section-item-content {
+    ul {
+      height: auto;
+    }
+  }
+
+  .nav-sections {
+    .header.links {
+      border-bottom: none;
+
+      li {
+        a {
+          border-top: none;
+          color: #000000;
+        }
+      }
+
+      .greet.welcome {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation .level0>.level-top {
+    font-weight: 700;
+    padding: 8px 40px 8px 15px;
+    text-transform: none;
+    word-wrap: break-word;
+  }
+}
+
+@media (max-width: 780px){
+  .nav-sections .header.links li a {
+      border-top: none;
+      color: #000000;
+      font-family: 'Raleway-Regular';
+  }
+
+  .section-item-content {
+    background-color: @smoke;
+  
+    ul {
+      height: 50px;
+    }
+  
+    li {
+      span {
+        height: 190px;
+        font-family: 'Raleway-Regular';
+        color: #000000;
+        &:hover {
+          color: #6215e1 !important;
+          transition: all ease-in 0.3s;
+        }
+      }
+    }
+  }
+  .ui-menu,
+.ui-widget,
+.ui-widget-content,
+.ui-corner-all {
+  background-color: @smoke;
+  color: #000000 !important;
+}
+
+.navigation .level0.active>a:not(.ui-state-active) {
+  border: none;
+}
+}
+
+.nav-toggle:before {
+  color: #6e01a5;
+}
