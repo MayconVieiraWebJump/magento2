@@ -32,7 +32,7 @@ body {
 
     input {
         border-radius: 10px;
-        font-family: 'Poppins-Regular';
+        font-family: "Poppins-Regular";
     }
 }
 
@@ -50,8 +50,16 @@ body {
             margin-right: 8px;
             width: 19px;
             height: 25px;
-            background: url('@{baseDir}images/mall.png');
+            background: url("@{baseDir}images/mall.png");
         }
+    }
+    .action.showcart.active {
+        &::before {
+            content: "";
+        }
+    }
+    .action.showcart .counter.qty {
+        background-color: #9a1e51;
     }
 }
 
@@ -68,18 +76,13 @@ body {
                 color: @text-color;
                 font-size: 14px;
                 font-weight: bold;
-                font-family: 'Poppins-Regular';
+                font-family: "Poppins-Regular";
                 &:hover {
                     color: @text-color;
                 }
             }
         }
     }
-}
-
-
-.minicart-wrapper .action.showcart .counter.qty {
-    background-color: #9a1e51;
 }
 
 @media (max-width: 780px) {
