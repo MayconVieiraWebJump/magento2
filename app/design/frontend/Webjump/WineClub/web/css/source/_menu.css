@@ -4,22 +4,63 @@
 .section-item-content .navigation {
   background-color: #9a1e51;
 }
+.section-item-content .navigation .level0.active > .level-top {
+  border-color: #c59c3f;
+}
+.section-item-content .navigation .level0.active > a:not(.ui-state-active) {
+  border-color: #c59c3f;
+}
 .section-item-content ul {
   height: 50px;
 }
-.section-item-content span {
+.section-item-content ul li a span {
   height: 190px;
-  font-family: 'Poppins-Regular';
-  color: #FFFFFF;
+  font-family: "Poppins-Regular";
+  color: #ffffff;
   font-size: 18px;
   font-weight: 700;
   text-align: left;
-  /* Text style for "Roupas" */
+  /* Text style for "Vinhos" */
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
   text-transform: uppercase;
 }
-.navigation .level0.active > .level-top {
-  border-color: white;
+.section-item-content ul li a span:hover {
+  color: #c59c3f;
+}
+@media (max-width: 780px) {
+  .nav-open .nav-sections {
+    background-color: #f0f0f0;
+  }
+  .section-item-content {
+    background-color: #f0f0f0;
+  }
+  .section-item-content .navigation {
+    background-color: #f0f0f0;
+  }
+  .section-item-content .navigation span {
+    color: #414042;
+  }
+  .section-item-content ul {
+    height: auto;
+  }
+  .nav-sections-item-title {
+    background-color: #dedede;
+  }
+  .nav-sections-item-title.active {
+    background-color: #f0f0f0;
+  }
+  .nav-sections-item-switch {
+    color: #9a1e51;
+  }
+  .nav-sections-item-switch:active {
+    color: #9a1e51;
+  }
+  .nav-sections-item-switch:hover {
+    color: #9a1e51;
+  }
+  .nav-sections .header.links li a {
+    color: #414042;
+  }
 }
