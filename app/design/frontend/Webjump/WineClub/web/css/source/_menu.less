@@ -1,4 +1,5 @@
 @backgroud-nav: #9a1e51;
+@backgroud-menu-response: #f0f0f0;
 @color-gold: #c59c3f;
 .section-item-content {
     background-color: @backgroud-nav;
@@ -9,7 +10,19 @@
         }
 
         .level0.active > a:not(.ui-state-active) {
-            border-color: @color-gold;
+            border-color: @backgroud-nav;
+        }
+        .level0 .submenu {
+            border: none;
+            box-shadow: none;
+            a {
+                background-color: @backgroud-nav;
+            }
+        }
+        .level0.parent > .level-top > .ui-menu-icon {
+            &::after {
+                content: none;
+            }
         }
     }
     ul {
@@ -43,14 +56,17 @@
 
 @media (max-width: 780px) {
     .nav-open .nav-sections {
-        background-color: #f0f0f0;
+        background-color: @backgroud-menu-response;
     }
     .section-item-content {
-        background-color: #f0f0f0;
+        background-color: @backgroud-menu-response;
 
         .navigation {
-            background-color: #f0f0f0;
+            background-color: @backgroud-menu-response;
 
+            .level0 .submenu a {
+                background-color: @backgroud-menu-response;
+            }
             span {
                 color: #414042;
                 font-family: "Poppins-Regular";
@@ -117,7 +133,7 @@
 }
 
 @media (max-width: 780px) {
-    .nav-sections .header.links li.greet.welcome{
+    .nav-sections .header.links li.greet.welcome {
         font-weight: normal;
     }
 }
