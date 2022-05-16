@@ -36,6 +36,18 @@
 .navigation {
   background-color: @menuBg;
 
+  .level0 .submenu{
+    border: none;
+    box-shadow: none;
+  }
+
+  .level0 .submenu a{
+    background-color: @menuBg;
+    &:hover{
+      background-color: @menuBg;
+    }
+}
+
   li.level0:last-child {
     border-bottom: none;
     border-top: none;
@@ -60,10 +72,6 @@
 
 .navigation .level0.parent>.level-top>.ui-menu-icon:after {
   content: '';
-}
-
-.navigation .level0 .submenu a:hover {
-  background-color: @smoke;
 }
 
 .nav-sections {
@@ -182,6 +190,10 @@
 
 .navigation .level0.parent > .level-top > .ui-menu-icon:after {
   content: '';
+}
+
+.level0.submenu.ui-menu.ui-widget.ui-widget-content.ui-front {
+  color: @menuBg;
 }
 
 .nav-sections-item-switch {
