@@ -10,6 +10,7 @@ use Magento\Framework\Setup\Patch\DataPatchInterface;
 
 class CreateCategories implements DataPatchInterface
 {
+    // Teste
     private ModuleDataSetupInterface $moduleDataSetup;
     private CategoryRepository $categoryRepository;
     private CategoryFactory $categoryFactory;
