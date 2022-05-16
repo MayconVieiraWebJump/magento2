@@ -1,0 +1,37 @@
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  min-height: 100vh;
+  margin-top: 0px;
+}
+.page-header .panel.wrapper {
+  background-color: #f0f0f0;
+}
+.page-header li span {
+  display: none;
+}
+.block-search input {
+  border-radius: 10px;
+}
+.minicart-wrapper .action.showcart {
+  display: inline-block;
+  position: relative;
+  /* topo | horizontal | inferior */
+  margin: 0.2em 1.4em;
+}
+.minicart-wrapper .action.showcart::before {
+  content: "";
+  display: block;
+  width: 19px;
+  height: 25px;
+}
+.header.panel .header.links li {
+  color: #000;
+}
+.header.panel .header.links li a {
+  color: #000;
+  font-weight: bold;
+}
+.header.panel:hover {
+  color: red;
+}

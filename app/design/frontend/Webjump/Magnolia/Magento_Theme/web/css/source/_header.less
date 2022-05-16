@@ -1,3 +1,4 @@
+
 @login-background:#eaeaea;
 @login-font:#707070;
 @purple:#6e01a5 ;
@@ -41,6 +42,7 @@
             color: @login-font;
             font-size: 14px;
            font-family: 'Raleway-Regular';
+           font-weight: 500;
         }
     }
 }
@@ -64,6 +66,7 @@
     font-family: 'Raleway-Regular';
     font-size: 14px;
     transition: 0.2s;
+    font-weight: bold;
 
     &:hover{
         color:#000000;
@@ -87,3 +90,16 @@
     }
 }
 
+.minicart-wrapper .action.showcart.active:before  {
+    content: '';
+  }
+
+  .block.block-minicart.ui-dialog-content.ui-widget-content{
+      margin: 2em;
+  }
+
+  .nav-5 a span{
+    font-family: 'Raleway-Regular';
+    color: #fee95f;
+    font-weight: 700;
+}
