@@ -25,6 +25,12 @@
                 margin-left: 0.5em;
             }
         }
+        .level0.has-active > a:not(.ui-state-active){
+            border-color: @backgroud-nav;
+        }
+        .submenu:not(:first-child) .active > a{
+            border-color: @backgroud-nav;
+        }
     }
     ul {
         height: 50px;
