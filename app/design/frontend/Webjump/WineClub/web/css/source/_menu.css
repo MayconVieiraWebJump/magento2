@@ -18,7 +18,8 @@
   background-color: #9a1e51;
 }
 .section-item-content .navigation .level0.parent > .level-top > .ui-menu-icon::after {
-  content: none;
+  margin-top: 1.1em;
+  margin-left: 0.5em;
 }
 .section-item-content ul {
   height: 50px;
