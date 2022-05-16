@@ -46,11 +46,11 @@
 }
 .nav-5 a span {
   font-family: 'Raleway-Regular';
-  color: #fee95f;
+  color: #6215e1;
   font-weight: 700;
 }
 .navigation .level0.parent > .level-top > .ui-menu-icon:after {
-  content: '';
+  content: none;
 }
 .nav-sections {
   background-color: #f2f2f2;
@@ -113,6 +113,11 @@
     color: #6215e1 !important;
     transition: all ease-in 0.3s;
   }
+  .section-item-content .nav-5 a span {
+    font-family: 'Raleway-Regular';
+    color: #6215e1;
+    font-weight: 700;
+  }
   .ui-menu,
   .ui-widget,
   .ui-widget-content,
@@ -137,9 +142,6 @@
   font-family: 'Raleway-Regular';
   color: #fee95f;
   font-weight: 700;
-}
-.navigation .level0.parent > .level-top > .ui-menu-icon:after {
-  content: '';
 }
 .level0.submenu.ui-menu.ui-widget.ui-widget-content.ui-front {
   color: #40015f;
