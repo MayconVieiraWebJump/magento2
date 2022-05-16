@@ -53,6 +53,18 @@
 
             span {
                 color: #414042;
+                font-family: "Poppins-Regular";
+                font-size: 14px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: 0.42px;
+                line-height: 20px;
+                text-align: left;
+                /* Text style for "Vinhos" */
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-transform: uppercase;
             }
         }
 
@@ -71,21 +83,41 @@
 
         &:active {
             color: @backgroud-nav;
-          }
-        
-          &:hover {
+        }
+
+        &:hover {
             color: @backgroud-nav;
-          }
+        }
     }
     .nav-sections {
         .header.links {
             li {
                 a {
                     color: #414042;
+                    font-family: "Poppins-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: 0.42px;
+                    line-height: 20px;
+                    text-align: left;
+                    /* Text style for "Entrar" */
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-transform: uppercase;
                 }
             }
             .greet.welcome {
+                text-transform: none;
+                font-weight: normal;
             }
         }
+    }
+}
+
+@media (max-width: 780px) {
+    .nav-sections .header.links li.greet.welcome{
+        font-weight: normal;
     }
 }
