@@ -333,8 +333,7 @@ return [
         'Webjump_CarbonoSales' => 1,
         'Webjump_CarbonoSettings' => 1,
         'Webjump_CmsPageTranslator' => 1,
-        'Webjump_CoreConfigurator' => 0,
-        'Webjump_CurrencyAndLanguageSettings' => 1,
+        'Webjump_CoreConfigurator' => 1,
         'Webjump_CustomerBr' => 1,
         'Webjump_DisableRegistration' => 1,
         'Webjump_MagnoliaSettings' => 1,
@@ -432,39 +431,21 @@ return [
                 'sort_order' => '0',
                 'is_active' => '1'
             ],
-            'ModaStoreViewBR' => [
+            'ModaStoreView' => [
                 'store_id' => '2',
-                'code' => 'msvBR',
+                'code' => 'msv',
                 'website_id' => '2',
                 'group_id' => '2',
-                'name' => 'ModaStoreViewBR',
+                'name' => 'ModaStoreView',
                 'sort_order' => '0',
                 'is_active' => '1'
             ],
-            'WineStoreViewBR' => [
+            'WineStoreView' => [
                 'store_id' => '3',
-                'code' => 'wsvBR',
+                'code' => 'wsv',
                 'website_id' => '3',
                 'group_id' => '3',
-                'name' => 'WineStoreViewBR',
-                'sort_order' => '0',
-                'is_active' => '1'
-            ],
-            'ModaStoreViewEN' => [
-                'store_id' => '4',
-                'code' => 'msvEN',
-                'website_id' => '2',
-                'group_id' => '2',
-                'name' => 'ModaStoreViewEN',
-                'sort_order' => '0',
-                'is_active' => '1'
-            ],
-            'WineStoreViewEN' => [
-                'store_id' => '5',
-                'code' => 'wsvEN',
-                'website_id' => '3',
-                'group_id' => '3',
-                'name' => 'WineStoreViewEN',
+                'name' => 'WineStoreView',
                 'sort_order' => '0',
                 'is_active' => '1'
             ]
