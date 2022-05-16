@@ -1,3 +1,9 @@
+.navigation .level0.active > .level-top {
+  border-color: #fee95f;
+}
+.navigation .level0.active > a:not(.ui-state-active) {
+  border-color: #fee95f;
+}
 .section-item-content {
   background-color: #40015f;
 }
@@ -19,6 +25,9 @@
 .section-item-content li span:hover {
   color: #fee95f;
   transition: all ease-in 0.3s;
+}
+.section-item-content ul {
+  height: auto;
 }
 .navigation {
   background-color: #40015f;
@@ -93,6 +102,15 @@
   }
 }
 @media (max-width: 780px) {
+  .section-item-content ul {
+    height: auto;
+  }
+  .ui-menu-item-wrapper {
+    color: #626262;
+  }
+  .navigation .level0 .submenu a {
+    background-color: #f2f2f2;
+  }
   .nav-sections .header.links li a {
     border-top: none;
     color: #000000;
@@ -100,9 +118,6 @@
   }
   .section-item-content {
     background-color: #f2f2f2;
-  }
-  .section-item-content ul {
-    height: 50px;
   }
   .section-item-content li span {
     height: 190px;
@@ -112,6 +127,9 @@
   .section-item-content li span:hover {
     color: #6215e1 !important;
     transition: all ease-in 0.3s;
+  }
+  .section-item-content li span li li a {
+    color: red;
   }
   .section-item-content .nav-5 a span {
     font-family: 'Raleway-Regular';
