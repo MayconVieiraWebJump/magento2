@@ -1,0 +1,123 @@
+@backgroud-nav: #9a1e51;
+@color-gold: #c59c3f;
+.section-item-content {
+    background-color: @backgroud-nav;
+    .navigation {
+        background-color: @backgroud-nav;
+        .level0.active > .level-top {
+            border-color: @color-gold;
+        }
+
+        .level0.active > a:not(.ui-state-active) {
+            border-color: @color-gold;
+        }
+    }
+    ul {
+        height: 50px;
+        li {
+            a {
+                span {
+                    height: 190px;
+                    font-family: "Poppins-Regular";
+                    color: #ffffff;
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+                    /* Text style for "Vinhos" */
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        color: @color-gold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .nav-open .nav-sections {
+        background-color: #f0f0f0;
+    }
+    .section-item-content {
+        background-color: #f0f0f0;
+
+        .navigation {
+            background-color: #f0f0f0;
+
+            span {
+                color: #414042;
+                font-family: "Poppins-Regular";
+                font-size: 14px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: 0.42px;
+                line-height: 20px;
+                text-align: left;
+                /* Text style for "Vinhos" */
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+        }
+
+        ul {
+            height: auto;
+        }
+    }
+    .nav-sections-item-title {
+        background-color: #dedede;
+    }
+    .nav-sections-item-title.active {
+        background-color: #f0f0f0;
+    }
+    .nav-sections-item-switch {
+        color: @backgroud-nav;
+
+        &:active {
+            color: @backgroud-nav;
+        }
+
+        &:hover {
+            color: @backgroud-nav;
+        }
+    }
+    .nav-sections {
+        .header.links {
+            li {
+                a {
+                    color: #414042;
+                    font-family: "Poppins-Regular";
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: 0.42px;
+                    line-height: 20px;
+                    text-align: left;
+                    /* Text style for "Entrar" */
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-transform: uppercase;
+                }
+            }
+            .greet.welcome {
+                text-transform: none;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .nav-sections .header.links li.greet.welcome{
+        font-weight: normal;
+    }
+}
