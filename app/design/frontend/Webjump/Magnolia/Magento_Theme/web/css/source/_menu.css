@@ -59,7 +59,8 @@
   font-weight: 700;
 }
 .navigation .level0.parent > .level-top > .ui-menu-icon:after {
-  content: none;
+  margin-top: 1.1em;
+  margin-left: 0.5em;
 }
 .nav-sections {
   background-color: #f2f2f2;
