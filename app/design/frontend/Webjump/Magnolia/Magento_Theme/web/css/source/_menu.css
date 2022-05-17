@@ -65,6 +65,9 @@
   margin-top: 1.1em;
   margin-left: 0.5em;
 }
+.navigation .level0 .submenu .active > a {
+  border-color: #fee95f;
+}
 .nav-sections {
   background-color: #f2f2f2;
 }
