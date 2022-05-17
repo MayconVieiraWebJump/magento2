@@ -2,6 +2,7 @@
 @login-background:#eaeaea;
 @login-font:#707070;
 @purple:#6e01a5 ;
+@midWhite:#f0f0f0;
 @menuBg: #40015f;
 @yellow: #fee95f;
 @smoke: #f2f2f2;
@@ -29,7 +30,7 @@
 
 .page-header {
     .panel.wrapper {
-        background-color: #f0f0f0;
+        background-color: @midWhite;
     }
 }
 .panel, .wrapper{
@@ -57,7 +58,7 @@
 .block-search input{
     width: 261px;
     height: 32px;
-    border: 1px solid #000000;
+    border: 1px solid @black;
 
     &::placeholder{
         color: @login-font;
