@@ -38,8 +38,8 @@
 }
 .section-item-content ul li a span {
   height: 190px;
-  font-family: "Poppins-Regular";
-  color: #ffffff;
+  font-family: 'Poppins-Regular';
+  color: white;
   font-size: 18px;
   font-weight: 700;
   text-align: left;
@@ -67,7 +67,7 @@
   }
   .section-item-content .navigation span {
     color: #414042;
-    font-family: "Poppins-Regular";
+    font-family: 'Poppins-Regular';
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.42px;
@@ -111,7 +111,7 @@
   }
   .nav-sections .header.links li a {
     color: #414042;
-    font-family: "Poppins-Regular";
+    font-family: 'Poppins-Regular';
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.42px;
