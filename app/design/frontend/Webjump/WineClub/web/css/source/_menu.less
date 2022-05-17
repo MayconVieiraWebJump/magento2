@@ -1,6 +1,11 @@
 @backgroud-nav: #9a1e51;
 @backgroud-menu-response: #f0f0f0;
+@white: white;
+@text-color-grey:#414042;
+@menu-background-select: #f0f0f0;
+@menu-background-notSelect: #dedede;
 @color-gold: #c59c3f;
+@font-default: 'Poppins-Regular';
 .section-item-content {
     background-color: @backgroud-nav;
     .navigation {
@@ -45,8 +50,8 @@
             a {
                 span {
                     height: 190px;
-                    font-family: "Poppins-Regular";
-                    color: #ffffff;
+                    font-family: @font-default;
+                    color: @white;
                     font-size: 18px;
                     font-weight: 700;
                     font-style: normal;
@@ -82,8 +87,8 @@
                 background-color: @backgroud-menu-response;
             }
             span {
-                color: #414042;
-                font-family: "Poppins-Regular";
+                color: @text-color-grey;
+                font-family: @font-default;
                 font-size: 14px;
                 font-weight: 400;
                 font-style: normal;
@@ -115,10 +120,10 @@
         }
     }
     .nav-sections-item-title {
-        background-color: #dedede;
+        background-color: @menu-background-notSelect;
     }
     .nav-sections-item-title.active {
-        background-color: #f0f0f0;
+        background-color: @menu-background-select;
     }
     .nav-sections-item-switch {
         color: @backgroud-nav;
@@ -135,8 +140,8 @@
         .header.links {
             li {
                 a {
-                    color: #414042;
-                    font-family: "Poppins-Regular";
+                    color: @text-color-grey;
+                    font-family: @font-default;
                     font-size: 14px;
                     font-weight: 400;
                     font-style: normal;
