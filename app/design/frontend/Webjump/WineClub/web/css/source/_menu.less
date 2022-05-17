@@ -5,12 +5,13 @@
     background-color: @backgroud-nav;
     .navigation {
         background-color: @backgroud-nav;
+
         .level0.active > .level-top {
             border-color: @color-gold;
         }
 
         .level0.active > a:not(.ui-state-active) {
-            border-color: @backgroud-nav;
+            border-color: @color-gold;
         }
         .level0 .submenu {
             border: none;
@@ -26,10 +27,16 @@
             }
         }
         .level0.has-active > a:not(.ui-state-active){
-            border-color: @backgroud-nav;
+            border-color: @color-gold;
+        }
+        .level0.has-active > .level-top {
+            border-color: @color-gold;
+        }
+        .level0 .submenu .active > a{
+            border-color: @color-gold;
         }
         .submenu:not(:first-child) .active > a{
-            border-color: @backgroud-nav;
+            border-color: @color-gold;
         }
     }
     ul {
@@ -88,6 +95,18 @@
                 letter-spacing: normal;
                 line-height: normal;
                 text-transform: uppercase;
+            }
+            .level0.active > a:not(.ui-state-active){
+                border-color: @backgroud-nav;
+            }
+            .level0.has-active > a:not(.ui-state-active){
+                border-color: @backgroud-nav;
+            }
+            .level0.has-active > .level-top {
+                border-color: @backgroud-nav;
+            }
+            .level0 .submenu .active > a{
+                border-color: @backgroud-nav;
             }
         }
 
