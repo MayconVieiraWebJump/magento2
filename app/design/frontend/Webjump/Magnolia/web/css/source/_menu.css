@@ -85,7 +85,7 @@
   background-color: #f2f2f2;
   border: none;
 }
-@media (max-width: 780px) {
+@media (max-width: 768px) {
   .section-item-content ul {
     height: auto;
   }
@@ -111,7 +111,7 @@
     word-wrap: break-word;
   }
 }
-@media (max-width: 780px) {
+@media (max-width: 768px) {
   .section-item-content ul {
     height: auto;
   }
@@ -157,7 +157,7 @@
 .nav-toggle:before {
   color: #6e01a5;
 }
-@media (max-width: 780px) {
+@media (max-width: 768px) {
   .nav-sections .header.links li a {
     border-top: none;
     font-family: 'Raleway-Regular';
