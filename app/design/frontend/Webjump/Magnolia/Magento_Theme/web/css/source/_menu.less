@@ -83,6 +83,10 @@
   font-weight: 700;
 }
 
+.navigation .level0.has-active>.level-top  {
+  border-color: @yellow;
+}
+
 
 .navigation .level0.parent>.level-top>.ui-menu-icon:after {
   margin-top: 1.1em;
@@ -137,6 +141,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  .navigation .level0.has-active>a:not(.ui-state-active){
+    border-color: @yellow;
+  }
+
   .navigation .level0>.level-top {
     font-weight: 700;
     padding: 8px 40px 8px 15px;
