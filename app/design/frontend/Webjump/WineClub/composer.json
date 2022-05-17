@@ -1,0 +1,21 @@
+{
+    "name": "webjump/wineclub",
+    "description": "N/A",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "7.4.*",
+        "webjump/theme-frontend-carbono": "1.0.*"
+    },
+    "type": "magento2-theme",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

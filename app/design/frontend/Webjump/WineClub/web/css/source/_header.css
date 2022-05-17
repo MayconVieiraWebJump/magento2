@@ -1,0 +1,106 @@
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  min-height: 100vh;
+  margin-top: 0px;
+}
+.logo {
+  margin: 0px 0px 0px 0px;
+}
+.page-header .panel.wrapper {
+  background-color: #f0f0f0;
+}
+.page-header .panel.wrapper .switcher .options .action.toggle {
+  color: #000;
+}
+.page-header .panel.wrapper .switcher strong {
+  color: #000;
+  font-family: "Poppins-Regular";
+}
+.page-header .panel.wrapper .switcher strong:hover {
+  font-weight: bold;
+}
+.page-header li span {
+  display: none;
+}
+.block-search {
+  width: 310px;
+  margin-top: 29px;
+  margin-bottom: 29px;
+}
+.block-search input {
+  border-radius: 10px;
+  font-family: "Poppins-Regular";
+}
+.minicart-wrapper {
+  margin-top: 29px;
+  margin-bottom: 29px;
+}
+.minicart-wrapper .action.showcart {
+  display: flex;
+  position: relative;
+  /* topo | horizontal | inferior */
+  margin: 0.2em 1.4em;
+}
+.minicart-wrapper .action.showcart::before {
+  content: "";
+  display: block;
+  margin-right: 8px;
+  width: 19px;
+  height: 25px;
+  background: url(@{baseDir}images/mall.png);
+}
+.minicart-wrapper .action.showcart.active::before {
+  content: "";
+  margin-right: 5px;
+}
+.minicart-wrapper .action.showcart .counter.qty {
+  background-color: #9a1e51;
+}
+.header.content {
+  padding-bottom: 30px;
+}
+.header.panel .header.links li {
+  color: #000;
+}
+.header.panel .header.links li a {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Poppins-Regular";
+}
+.header.panel .header.links li a:hover {
+  color: #000;
+}
+@media (max-width: 780px) {
+  .logo {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    width: 120px;
+    height: 62px;
+    padding-left: 54px;
+  }
+  .nav-toggle {
+    padding-top: 20px;
+  }
+  .field.search {
+    padding-left: 70px;
+  }
+  .field.search .control {
+    border-top: none;
+  }
+  .header.content {
+    padding-bottom: 1px;
+    border-bottom: 1px solid #cccccc;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .header.content .block-search {
+    width: auto;
+    margin-bottom: 15px;
+  }
+  .page-header {
+    border-bottom: none;
+    margin-bottom: none;
+  }
+}

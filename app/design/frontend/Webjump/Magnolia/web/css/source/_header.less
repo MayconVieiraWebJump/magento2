@@ -1,0 +1,112 @@
+@login-background:#eaeaea;
+@login-font:#707070;
+@purple:#6e01a5 ;
+@midWhite:#f0f0f0;
+@menuBg: #40015f;
+@yellow: #fee95f;
+@smoke: #f2f2f2;
+@midPurple:#6e01a5;
+@cleanPurple:#6215e1;
+@black:#000000;
+@FontDefault: 'Raleway-Regular';
+
+.not-logged-in{
+    display: none;
+}
+
+.logo{
+    margin-top:5px ;
+    margin-bottom: 30px ;
+}
+
+@media (max-width: 768px)
+{
+    .logo{
+        margin-top:10px ;
+        margin-bottom: 13px ;
+    }
+}
+
+.page-header {
+    .panel.wrapper {
+        background-color: @midWhite;
+    }
+}
+.panel, .wrapper{
+        .switcher-options {
+            color: @login-font;
+        }
+};
+
+.counter {
+    background-color: @purple !important;
+    margin-left: 0.6em !important;
+}
+
+.header.panel {
+    .header.links {
+        .authorization-link:after{
+            color: @login-font;
+            font-size: 14px;
+           font-family: @FontDefault;
+           font-weight: 500;
+        }
+    }
+}
+
+.block-search input{
+    width: 261px;
+    height: 32px;
+    border: 1px solid @black;
+
+    &::placeholder{
+        color: @login-font;
+        font-size: 15px;
+         font-family: @FontDefault;
+        font-weight: 300;
+                
+    }
+}
+
+.header.panel > .header.links > li > a{
+    color: @login-font;
+    font-family: @FontDefault;
+    font-size: 14px;
+    transition: 0.2s;
+    font-weight: bold;
+
+    &:hover{
+        color:@black;
+        transition: all ease-in 0.5s;
+    }
+}
+
+.minicart-wrapper{
+    .action.showcart{
+        display: flex !important;
+        /* topo | horizontal | inferior */
+        margin:0em 1.6em ;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 19px;
+                height: 25px;
+                background: url('@{baseDir}images/mall.png');
+        }
+    }
+}
+
+.minicart-wrapper .action.showcart.active:before  {
+    content: '';
+  }
+
+  .block.block-minicart.ui-dialog-content.ui-widget-content{
+      margin: 2em;
+  }
+
+  .nav-5 a span{
+    font-family: @FontDefault;
+    color: @yellow;
+    font-weight: 700;
+}

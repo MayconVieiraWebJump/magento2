@@ -1,0 +1,137 @@
+@panel-background: #f0f0f0;
+@panel-font: #666666;
+@color-nav: #40015f;
+@text-color: #000;
+@background: #9a1e51;
+@color-border: #ccc;
+@font-default: 'Poppins-Regular';
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    min-height: 100vh;
+    margin-top: 0px;
+}
+
+.logo {
+    margin: 0px 0px 0px 0px;
+}
+
+.page-header {
+    .panel.wrapper {
+        background-color: @panel-background;
+        .switcher {
+            .options .action.toggle {
+                color: @text-color;
+            }
+            strong {
+                color: @text-color;
+                font-family: @font-default;
+
+                &:hover {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    li {
+        span {
+            display: none;
+        }
+    }
+}
+
+.block-search {
+    width: 310px;
+    margin-top: 29px;
+    margin-bottom: 29px;
+
+    input {
+        border-radius: 10px;
+        font-family: @font-default;
+    }
+}
+
+.minicart-wrapper {
+    margin-top: 29px;
+    margin-bottom: 29px;
+    .action.showcart {
+        display: flex;
+        position: relative;
+        /* topo | horizontal | inferior */
+        margin: 0.2em 1.4em;
+        &::before {
+            content: "";
+            display: block;
+            margin-right: 8px;
+            width: 19px;
+            height: 25px;
+            background: url('@{baseDir}images/mall.png');
+        }
+    }
+    .action.showcart.active {
+        &::before {
+            content: "";
+            margin-right: 5px;
+        }
+    }
+    .action.showcart .counter.qty {
+        background-color: @background;
+    }
+}
+
+.header.content {
+    padding-bottom: 30px;
+}
+
+.header.panel {
+    .header.links {
+        li {
+            color: @text-color;
+
+            a {
+                color: @text-color;
+                font-size: 14px;
+                font-weight: bold;
+                font-family: @font-default;
+                &:hover {
+                    color: @text-color;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .logo {
+        margin-top: 10px;
+        margin-bottom: 13px;
+        width: 120px;
+        height: 62px;
+        padding-left: 54px;
+    }
+    .nav-toggle {
+        padding-top: 20px;
+    }
+    .field.search {
+        padding-left: 70px;
+
+        .control {
+            border-top: none;
+        }
+    }
+    .header.content {
+        padding-bottom: 1px;
+        border-bottom: 1px solid @color-border;
+        margin-left: 10px;
+        margin-right: 10px;
+        .block-search {
+            width: auto;
+            margin-bottom: 15px;
+        }
+    }
+    .page-header {
+        border-bottom: none;
+        margin-bottom: none;
+    }
+}
