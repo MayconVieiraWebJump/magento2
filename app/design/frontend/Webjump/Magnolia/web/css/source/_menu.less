@@ -1,6 +1,10 @@
 @menuBg: #40015f;
 @yellow: #fee95f;
 @smoke: #f2f2f2;
+@midPurple:#6e01a5;
+@cleanPurple:#6215e1;
+@black:#000000;
+@FontDefault: 'Raleway-Regular';
 
 .navigation {
   .level0.active > .level-top {
@@ -22,7 +26,7 @@
   li {
     span {
       height: 190px;
-      font-family: 'Raleway-Regular';
+      font-family: @FontDefault;
       color: #ffffff;
       font-size: 16px;
       font-weight: 700;
@@ -78,8 +82,8 @@
 }
 
 .nav-5 a span {
-  font-family: 'Raleway-Regular';
-  color: #6215e1;
+  font-family: @FontDefault;
+  color: @cleanPurple;
   font-weight: 700;
 }
 
@@ -102,7 +106,7 @@
 }
 
 .nav-sections-item-switch {
-  color: #000000;
+  color: @black;
 
   &:active {
     color: @menuBg;
@@ -114,7 +118,7 @@
 }
 
 .nav-sections-item-title {
-  color: #000000;
+  color: @black;
   background-color: @smoke;
   border: none;
 }
@@ -133,7 +137,7 @@
       li {
         a {
           border-top: none;
-          color: #000000;
+          color: @black;
         }
       }
 
@@ -173,8 +177,8 @@
   }
   .nav-sections .header.links li a {
     border-top: none;
-    color: #000000;
-    font-family: 'Raleway-Regular';
+    color: @black;
+    font-family: @FontDefault;
   }
 
   .section-item-content {
@@ -183,22 +187,19 @@
     li {
       span {
         height: 190px;
-        font-family: 'Raleway-Regular';
-        color: #000000;
+        font-family: @FontDefault;
+        color: @black;
 
         &:hover {
-          color: #6215e1 !important;
+          color: @cleanPurple !important;
           transition: all ease-in 0.3s;
-        }
-        li li a {
-          color: red;
         }
       }
     }
 
     .nav-5 a span{
-  font-family: 'Raleway-Regular';
-  color: #6215e1;
+  font-family: @FontDefault;
+  color: @cleanPurple;
   font-weight: 700;
 }
   }
@@ -208,7 +209,7 @@
   .ui-widget-content,
   .ui-corner-all {
     background-color: @smoke;
-    color: #000000 !important;
+    color: @black !important;
   }
 
   .navigation .level0.active>a:not(.ui-state-active) {
@@ -217,19 +218,19 @@
 }
 
 .nav-toggle:before {
-  color: #6e01a5;
+  color: @midPurple;
 }
 
 @media (max-width: 780px) {
   .nav-sections .header.links li a {
     border-top: none;
-    font-family: 'Raleway-Regular';
+    font-family: @FontDefault;
   }
 }
 
 .nav-5 a span{
-  font-family: 'Raleway-Regular';
-  color: #fee95f;
+  font-family: @FontDefault;
+  color: @yellow;
   font-weight: 700;
 }
 
@@ -238,6 +239,6 @@
 }
 
 .nav-sections-item-switch {
-  font-family: 'Raleway-Regular';
+  font-family: @FontDefault;
   font-weight: bold;
 }

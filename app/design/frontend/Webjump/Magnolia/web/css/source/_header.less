@@ -2,6 +2,14 @@
 @login-background:#eaeaea;
 @login-font:#707070;
 @purple:#6e01a5 ;
+@midWhite:#f0f0f0;
+@menuBg: #40015f;
+@yellow: #fee95f;
+@smoke: #f2f2f2;
+@midPurple:#6e01a5;
+@cleanPurple:#6215e1;
+@black:#000000;
+@FontDefault: 'Raleway-Regular';
 
 .not-logged-in{
     display: none;
@@ -22,7 +30,7 @@
 
 .page-header {
     .panel.wrapper {
-        background-color: #f0f0f0;
+        background-color: @midWhite;
     }
 }
 .panel, .wrapper{
@@ -41,7 +49,7 @@
         .authorization-link:after{
             color: @login-font;
             font-size: 14px;
-           font-family: 'Raleway-Regular';
+           font-family: @FontDefault;
            font-weight: 500;
         }
     }
@@ -50,12 +58,12 @@
 .block-search input{
     width: 261px;
     height: 32px;
-    border: 1px solid #000000;
+    border: 1px solid @black;
 
     &::placeholder{
         color: @login-font;
         font-size: 15px;
-         font-family: 'Raleway-Regular';
+         font-family: @FontDefault;
         font-weight: 300;
                 
     }
@@ -63,13 +71,13 @@
 
 .header.panel > .header.links > li > a{
     color: @login-font;
-    font-family: 'Raleway-Regular';
+    font-family: @FontDefault;
     font-size: 14px;
     transition: 0.2s;
     font-weight: bold;
 
     &:hover{
-        color:#000000;
+        color:@black;
         transition: all ease-in 0.5s;
     }
 }
@@ -99,7 +107,7 @@
   }
 
   .nav-5 a span{
-    font-family: 'Raleway-Regular';
-    color: #fee95f;
+    font-family: @FontDefault;
+    color: @yellow;
     font-weight: 700;
 }
