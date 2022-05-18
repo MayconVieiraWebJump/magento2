@@ -18,100 +18,101 @@ Class PaymentSetAttribute {
     }
     
     
-    public function setPaymentCheckAndMoney(string $WebsiteCode)
+    public function setPaymentCheckAndMoney(string $StoreViewCode)
     {
         
-        $WebsiteGetId = $this->storeManager->getWebsite($WebsiteCode)->getId();
+        $StoreViewGetId = $this->storeManager->getStore($StoreViewCode)->getId();
         
         $this->writer->save(
             "payment/checkmo/active",
             "1",
-            "websites",
-            $WebsiteGetId
+            "stores",
+            $StoreViewGetId
         );
 
         $this->writer->save(
             "payment/checkmo/title",
             "Check / Money Order",
-            "websites",
-            $WebsiteGetId
+            "stores",
+            $StoreViewGetId
         );
 
         $this->writer->save(
             "payment/checkmo/order_status",
             "pending",
-            "websites",
-            $WebsiteGetId
+            "stores",
+            $StoreViewGetId
         );
 
         $this->writer->save(
            "payment/checkmo/allowspecific",
            "1",
-           "websites",
-           $WebsiteGetId
+           "stores",
+           $StoreViewGetId
         );
 
         $this->writer->save(
             "payment/checkmo/specificcountry",
             "BR,US",
-            "websites",
-            $WebsiteGetId
+            "stores",
+            $StoreViewGetId
         );
 
         $this->writer->save(
             "payment/checkmo/sort_order",
             "0",
-            "websites",
-            $WebsiteGetId
+            "stores",
+            $StoreViewGetId
         );
     }
 
-    public function setPaymentBankTransfer($WebsiteCode)
+    public function setPaymentBankTransfer($StoreViewCode)
     {
 
-        $WebsiteGetId = $this->storeManager->getWebsite($WebsiteCode)->getId();
-
+        $StoreViewGetId = $this->storeManager
+        ->getStore($StoreViewCode)
+        ->getId();
 
         $this->writer->save(
             "payment/banktransfer/specificcountry",
             "BR,US",
-            "websites",
-            $WebsiteGetId
+            "stores",
+            $StoreViewGetId
         );
 
         $this->writer->save(
             "payment/banktransfer/instructions",
             "Test Classe implementada",
-            "websites",
-            $WebsiteGetId
+            "stores",
+            $StoreViewGetId
         );
 
         $this->writer->save(
             "payment/banktransfer/active",
             "1",
-            "websites",
-            $WebsiteGetId
+            "stores",
+            $StoreViewGetId
         );
 
         $this->writer->save(
            "payment/banktransfer/sort_order",
            "1",
-           "websites",
-           $WebsiteGetId
+           "stores",
+           $StoreViewGetId
         );
 
         $this->writer->save(
             "payment/banktransfer/title",
             "Bank Transfer Payment",
-            "websites",
-            $WebsiteGetId
+            "stores",
+            $StoreViewGetId
         );
 
         $this->writer->save(
             "payment/banktransfer/order_status",
             "pending",
-            "websites",
-            $WebsiteGetId
+            "stores",
+            $StoreViewGetId
         );
     }
 
