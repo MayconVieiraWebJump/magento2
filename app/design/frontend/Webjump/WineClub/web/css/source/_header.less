@@ -34,10 +34,8 @@ body {
             }
         }
     }
-    li {
-        span {
-            display: none;
-        }
+    .not-logged-in{
+        display: none;
     }
 }
 
@@ -97,6 +95,14 @@ body {
                 &:hover {
                     color: @text-color;
                 }
+                &:visited{
+                    color: @text-color;
+                }
+            }
+        }
+        .customer-welcome{
+            span button{
+                color: @text-color;
             }
         }
     }
