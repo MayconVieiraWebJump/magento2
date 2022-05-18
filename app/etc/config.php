@@ -339,6 +339,7 @@ return [
         'Webjump_LanguageAndCurrency' => 1,
         'Webjump_MagnoliaSettings' => 1,
         'Webjump_OrderStatus' => 1,
+        'Webjump_PaymentMethods' => 1,
         'Webjump_PostCode' => 1,
         'Webjump_ProductIncrementButtons' => 1,
         'Webjump_ViaCep' => 0,
