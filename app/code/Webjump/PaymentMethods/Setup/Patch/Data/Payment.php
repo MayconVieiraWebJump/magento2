@@ -39,17 +39,21 @@ class Payment implements DataPatchInterface
     {
         $this->moduleDataSetup->getConnection()->startSetup();
 
-        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("msvBR");
-        $this->storeViewPaymentSetup->setPaymentBankTransfer("msvBR");
+        $this->storeViewPaymentSetup->setGlobalSettings("moda_br");
+        $this->storeViewPaymentSetup->setGlobalSettings("wine_br");
 
-        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("msvEN");
-        $this->storeViewPaymentSetup->setPaymentBankTransfer("msvEN");
 
-        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("wsvBR");
-        $this->storeViewPaymentSetup->setPaymentBankTransfer("wsvBR");
+        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("msvBR", "br");
+        $this->storeViewPaymentSetup->setPaymentBankTransfer("msvBR", "br");
 
-        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("wsvEN");
-        $this->storeViewPaymentSetup->setPaymentBankTransfer("wsvEN");
+        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("msvEN", "en");
+        $this->storeViewPaymentSetup->setPaymentBankTransfer("msvEN", "en");
+
+        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("wsvBR", "br");
+        $this->storeViewPaymentSetup->setPaymentBankTransfer("wsvBR", "br");
+
+        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("wsvEN", "en");
+        $this->storeViewPaymentSetup->setPaymentBankTransfer("wsvEN", "en");
 
 
 
