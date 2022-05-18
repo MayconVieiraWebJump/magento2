@@ -9,17 +9,17 @@ use Webjump\PaymentMethods\PaymentSetAttribute;
 class Payment implements DataPatchInterface
 {
     private $moduleDataSetup;
-    private $websitePaymentSetup;
+    private $storeViewPaymentSetup;
     
 
     public function __construct(
         ModuleDataSetupInterface $moduleDataSetup,
-        PaymentSetAttribute $websitePaymentSetup
+        PaymentSetAttribute $storeViewPaymentSetup
     )
     
     {
         $this->moduleDataSetup = $moduleDataSetup;
-        $this->websitePaymentSetup = $websitePaymentSetup;
+        $this->storeViewPaymentSetup = $storeViewPaymentSetup;
         
     }
 
@@ -39,12 +39,19 @@ class Payment implements DataPatchInterface
     {
         $this->moduleDataSetup->getConnection()->startSetup();
 
-        $this->websitePaymentSetup->setPaymentCheckAndMoney("moda_br");
-        $this->websitePaymentSetup->setPaymentBankTransfer("moda_br");
+        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("msvBR");
+        $this->storeViewPaymentSetup->setPaymentBankTransfer("msvBR");
+
+        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("msvEN");
+        $this->storeViewPaymentSetup->setPaymentBankTransfer("msvEN");
+
+        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("wsvBR");
+        $this->storeViewPaymentSetup->setPaymentBankTransfer("wsvBR");
+
+        $this->storeViewPaymentSetup->setPaymentCheckAndMoney("wsvEN");
+        $this->storeViewPaymentSetup->setPaymentBankTransfer("wsvEN");
 
 
-        $this->websitePaymentSetup->setPaymentCheckAndMoney("wine_br");
-        $this->websitePaymentSetup->setPaymentBankTransfer("wine_br");
 
         $this->moduleDataSetup->getConnection()->endSetup();
     }
