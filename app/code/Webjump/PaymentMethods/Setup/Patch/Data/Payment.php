@@ -2,27 +2,25 @@
 
 namespace Webjump\PaymentMethods\Setup\Patch\Data;
 
-use Magento\Framework\App\Config\Storage\WriterInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
-use Magento\Store\Model\StoreManagerInterface;
+use Webjump\PaymentMethods\PaymentSetAttribute;
 
 class Payment implements DataPatchInterface
 {
     private $moduleDataSetup;
-    private $writer;
-    private $storeManager;
+    private $websitePaymentSetup;
+    
 
     public function __construct(
         ModuleDataSetupInterface $moduleDataSetup,
-        WriterInterface $writer,
-        StoreManagerInterface $storeManager
+        PaymentSetAttribute $websitePaymentSetup
     )
     
     {
         $this->moduleDataSetup = $moduleDataSetup;
-        $this->writer = $writer;
-        $this->storeManager = $storeManager;
+        $this->websitePaymentSetup = $websitePaymentSetup;
+        
     }
 
     public function getAliases()
@@ -41,99 +39,13 @@ class Payment implements DataPatchInterface
     {
         $this->moduleDataSetup->getConnection()->startSetup();
 
-        $storeId = $this->storeManager
-            ->getStore("msvBR")
-            ->getId();
+        $this->websitePaymentSetup->setPaymentCheckAndMoney("moda_br");
+        $this->websitePaymentSetup->setPaymentBankTransfer("moda_br");
 
-        $this->writer->save(
-            "payment/checkmo/active",
-            "1",
-            "stores",
-            $storeId
-        );
 
-        $this->writer->save(
-            "payment/checkmo/title",
-            "Check / Money Order",
-            "stores",
-            $storeId
-        );
+        $this->websitePaymentSetup->setPaymentCheckAndMoney("wine_br");
+        $this->websitePaymentSetup->setPaymentBankTransfer("wine_br");
 
-        $this->writer->save(
-            "payment/checkmo/order_status",
-            "pending",
-            "stores",
-            $storeId
-        );
-
-        $this->writer->save(
-           "payment/checkmo/allowspecific",
-           "1",
-           "stores",
-           $storeId
-        );
-
-        $this->writer->save(
-            "payment/checkmo/specificcountry",
-            "BR,US",
-            "stores",
-            $storeId
-        );
-
-        $this->writer->save(
-            "payment/checkmo/sort_order",
-            "0",
-            "stores",
-            $storeId
-        );
-        
-       
-       
-       
-       
-       
-        $this->writer->save(
-            "payment/banktransfer/specificcountry",
-            "BR,US",
-            "stores",
-            $storeId
-        );
-
-        $this->writer->save(
-            "payment/banktransfer/instructions",
-            "Test",
-            "stores",
-            $storeId
-        );
-
-        $this->writer->save(
-            "payment/banktransfer/active",
-            "1",
-            "stores",
-            $storeId
-        );
-
-        $this->writer->save(
-           "payment/banktransfer/sort_order",
-           "1",
-           "stores",
-           $storeId
-        );
-
-        $this->writer->save(
-            "payment/banktransfer/title",
-            "Bank Transfer Payment",
-            "stores",
-            $storeId
-        );
-
-        $this->writer->save(
-            "payment/banktransfer/order_status",
-            "pending",
-            "stores",
-            $storeId
-        );
-        
         $this->moduleDataSetup->getConnection()->endSetup();
     }
 }
