@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+  #html-body [data-pb-style=B7ECQI3] {
+    background-size: contain;
+    background-position: center;
+  }
+  #html-body [data-pb-style=B7ECQI3],
+  #html-body [data-pb-style=B7ECQI3] {
+    background-size: contain !important;
+    background-position: center !important;
+  }
+}
