@@ -23,7 +23,7 @@ class CreateBannerInfoBlock implements DataPatchInterface, PatchRevertableInterf
      */
     private $blockFactory;
 
-    const IDENTIFIER_BLOCK = 'banner_moda_br';
+    const IDENTIFIER_BLOCK = 'banner_info_moda_br';
 
     /**
      * CreateBannerInfoBlock constructor.
