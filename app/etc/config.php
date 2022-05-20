@@ -338,7 +338,7 @@ return [
         'Webjump_DisableRegistration' => 1,
         'Webjump_LanguageAndCurrency' => 1,
         'Webjump_MagnoliaSettings' => 1,
-        'Webjump_OrderStatus' => 1,
+        'Webjump_OrderStatus' => 0,
         'Webjump_PaymentMethods' => 1,
         'Webjump_PostCode' => 1,
         'Webjump_PriceRules' => 1,
