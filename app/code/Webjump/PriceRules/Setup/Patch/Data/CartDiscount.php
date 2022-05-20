@@ -26,13 +26,13 @@ class CartDiscount implements DataPatchInterface
     CONST customerDescModaBR = "Usuários não logados recebem 5% de desconto em suas compras";
     CONST customerDiscountModaBR = "5.000";
     CONST groupIdModa = "0";
-    CONST websiteIdModa = "2";
+    CONST websiteIdModa = "moda_br";
 
     CONST customerNameWineBR = "Usuarios não logados no site Wine";
     CONST customerDescWineBR = "Usuários não logados recebem 10% de desconto em suas compras";
     CONST customerDiscountWineBR = "10.000";
     CONST groupIdWine = "0";
-    CONST websiteIdWine = "3";
+    CONST websiteIdWine = "wine_br";
 
 
     public function __construct(
@@ -40,7 +40,6 @@ class CartDiscount implements DataPatchInterface
         RuleFactory $ruleFactory,
         NewPriceRule $priceRuleVar,
         State $state
-        
         )
     {
         $this->moduleDataSetup = $moduleDataSetup;
@@ -77,7 +76,7 @@ class CartDiscount implements DataPatchInterface
             self::customerNameModaBR,
             self::customerDescModaBR,
             self::customerDiscountModaBR,
-            self::groupIdModa,
+            self::groupIdModa, 
             self::websiteIdModa
         );
 
