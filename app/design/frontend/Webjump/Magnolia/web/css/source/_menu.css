@@ -85,7 +85,7 @@
   background-color: #f2f2f2;
   border: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .section-item-content ul {
     height: auto;
   }
@@ -100,7 +100,7 @@
     display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .navigation .level0.has-active > a:not(.ui-state-active) {
     border-color: #fee95f;
   }
@@ -111,7 +111,7 @@
     word-wrap: break-word;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .section-item-content ul {
     height: auto;
   }
@@ -157,7 +157,7 @@
 .nav-toggle:before {
   color: #6e01a5;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .nav-sections .header.links li a {
     border-top: none;
     font-family: 'Raleway-Regular';
