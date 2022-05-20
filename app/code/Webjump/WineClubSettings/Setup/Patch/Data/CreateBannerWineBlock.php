@@ -11,7 +11,7 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
 use Magento\Framework\Setup\Patch\PatchRevertableInterface;
 
-class CreateBannerBlock implements DataPatchInterface, PatchRevertableInterface
+class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterface
 {
     /**
      * @var ModuleDataSetupInterface
@@ -23,7 +23,7 @@ class CreateBannerBlock implements DataPatchInterface, PatchRevertableInterface
      */
     private $blockFactory;
 
-    const IDENTIFIER_BLOCK = 'banner_wine_br';
+    const IDENTIFIER_BLOCK = 'banner_wineclub_br';
 
     /**
      * CreateBannerBlock constructor.
@@ -46,7 +46,7 @@ class CreateBannerBlock implements DataPatchInterface, PatchRevertableInterface
     {
         $this->moduleDataSetup->getConnection()->startSetup();
 
-        $this->createBannerBlock();
+        $this->createBannerWineBlock();
 
         $this->moduleDataSetup->getConnection()->endSetup();
     }
@@ -54,13 +54,13 @@ class CreateBannerBlock implements DataPatchInterface, PatchRevertableInterface
     /**
      *  Method to create cms landing page
      */
-    protected function createBannerBlock()
+    protected function createBannerWineBlock()
     {
         $cmsBlock = $this->blockFactory->create()->load(self::IDENTIFIER_BLOCK, 'identifier');
 
         $cmsBlockData = [
             'is_active' => 1,
-            'title' => 'Banner Wine pt-br',
+            'title' => 'Banner WineClub pt-br',
             'identifier' => self::IDENTIFIER_BLOCK,
             'stores' => [3],
             'content' => '<style>#html-body [data-pb-style=B7ECQI3],#html-body [data-pb-style=H2R5DEC]{background-size:cover;background-repeat:no-repeat;background-attachment:scroll}#html-body [data-pb-style=H2R5DEC]{justify-content:flex-start;display:flex;flex-direction:column;background-position:center center}#html-body [data-pb-style=B7ECQI3]{background-position:left top;text-align:center}#html-body [data-pb-style=T5LFTO9]{border-radius:0;min-height:550px;background-color:transparent}</style><div data-content-type="row" data-appearance="full-bleed" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="main" data-pb-style="H2R5DEC"><div data-content-type="banner" data-appearance="poster" data-show-button="never" data-show-overlay="never" data-element="main"><div data-element="empty_link"><div class="pagebuilder-banner-wrapper" data-background-images="{\&quot;desktop_image\&quot;:\&quot;{{media url=wysiwyg/WhatsApp_Image_2022-05-18_at_10.14.33_4.jpeg}}\&quot;,\&quot;mobile_image\&quot;:\&quot;{{media url=wysiwyg/6-layers_1__3.png}}\&quot;}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="wrapper" data-pb-style="B7ECQI3"><div class="pagebuilder-overlay pagebuilder-poster-overlay" data-overlay-color="" aria-label="" title="" data-element="overlay" data-pb-style="T5LFTO9"><div class="pagebuilder-poster-content"><div data-element="content"></div></div></div></div></div></div></div>'
