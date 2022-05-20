@@ -1,38 +1,37 @@
 @media only screen and (max-width: 768px) {
-  #html-body [data-pb-style=B7ECQI3] {
+  .pagebuilder-banner-wrapper {
     background-size: contain;
     background-position: center;
   }
-  #html-body [data-pb-style=B7ECQI3],
-  #html-body [data-pb-style=B7ECQI3] {
+  .pagebuilder-banner-wrapper {
     background-size: contain !important;
     background-position: center !important;
   }
-  #html-body [data-pb-style=T5LFTO9] {
+  .pagebuilder-banner-wrapper {
     margin-top: -160px;
     margin-bottom: -160px;
   }
 }
 @media only screen and (max-width: 767px) {
-  #html-body [data-pb-style=T5LFTO9] {
+  .pagebuilder-banner-wrapper {
     margin-top: 0px ;
     margin-bottom: 0px ;
   }
 }
 @media (max-width: 400px) {
-  #html-body [data-pb-style=T5LFTO9] {
+  .pagebuilder-banner-wrapper {
     margin-top: -45px;
     margin-bottom: -25px;
   }
 }
 @media (max-width: 350px) {
-  #html-body [data-pb-style=T5LFTO9] {
+  .pagebuilder-banner-wrapper {
     margin-top: -80px;
     margin-bottom: -60px;
   }
 }
 @media (max-width: 290px) {
-  #html-body [data-pb-style=T5LFTO9] {
+  .pagebuilder-banner-wrapper {
     margin-top: -100px;
     margin-bottom: -80px;
   }
