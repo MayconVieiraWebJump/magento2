@@ -52,7 +52,7 @@
 .section-item-content ul li a span:hover {
   color: #c59c3f;
 }
-@media (max-width: 780px) {
+@media (max-width: 767px) {
   .nav-open .nav-sections {
     background-color: #f0f0f0;
   }
@@ -128,7 +128,7 @@
     font-weight: normal;
   }
 }
-@media (max-width: 780px) {
+@media (max-width: 767px) {
   .nav-sections .header.links li.greet.welcome {
     font-weight: normal;
   }
