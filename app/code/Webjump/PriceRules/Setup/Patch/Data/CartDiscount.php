@@ -67,6 +67,12 @@ class CartDiscount implements DataPatchInterface
         
         $this->state->setAreaCode(\Magento\Framework\App\Area::AREA_FRONTEND);
 
+        $this->priceRuleVar->createRuleCart(
+            self::cartRuleTitleBR,
+            self::cartRuleDescBR,
+            self::cartDiscount
+        );
+        
         $this->priceRuleVar->createRuleCustomerGroup(
             self::customerNameModaBR,
             self::customerDescModaBR,
@@ -83,12 +89,6 @@ class CartDiscount implements DataPatchInterface
             self::websiteIdWine
         );
         
-        $this->priceRuleVar->createRuleCart(
-            self::cartRuleTitleBR,
-            self::cartRuleDescBR,
-            self::cartDiscount
-        );
-
         $this->moduleDataSetup->getConnection()->endSetup();
     }
 }
