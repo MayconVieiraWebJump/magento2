@@ -1,6 +1,6 @@
 <?php
 
-namespace Webjump\PaymentMethods;
+namespace Webjump\PriceRules;
 
 use Magento\SalesRule\Model\RuleFactory;
 use Magento\Framework\App\State;
@@ -93,7 +93,7 @@ Class NewPriceRule {
                     [
                         'type' => \Magento\SalesRule\Model\Rule\Condition\Address::class,
                         'attribute' => 'total_qty',
-                        'operator' => '==',
+                        'operator' => '>=',
                         'value' => '5',
                         'is_value_processed' => false,
                     ],
