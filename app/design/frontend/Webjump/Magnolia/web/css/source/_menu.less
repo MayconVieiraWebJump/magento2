@@ -1,5 +1,6 @@
 @menuBg: #40015f;
 @yellow: #fee95f;
+@login-font:#707070;
 @smoke: #f2f2f2;
 @midPurple:#6e01a5;
 @cleanPurple:#6215e1;
@@ -123,7 +124,7 @@
   border: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .section-item-content {
     ul {
       height: auto;
@@ -148,7 +149,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
   .navigation .level0.has-active>a:not(.ui-state-active){
     border-color: @yellow;
@@ -162,7 +163,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .section-item-content ul {
     height: auto;
@@ -221,7 +222,7 @@
   color: @midPurple;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .nav-sections .header.links li a {
     border-top: none;
     font-family: @FontDefault;
@@ -241,4 +242,14 @@
 .nav-sections-item-switch {
   font-family: @FontDefault;
   font-weight: bold;
+}
+
+.header.panel>.header.links>li>a:visited  {
+  color: @login-font;
+  font-family: @FontDefault;
+}
+
+.header.panel>.header.links>li.welcome {
+  color:@login-font;
+  font-family: @FontDefault;
 }

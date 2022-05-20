@@ -34,10 +34,8 @@ body {
             }
         }
     }
-    li {
-        span {
-            display: none;
-        }
+    .not-logged-in{
+        display: none;
     }
 }
 
@@ -97,12 +95,20 @@ body {
                 &:hover {
                     color: @text-color;
                 }
+                &:visited{
+                    color: @text-color;
+                }
+            }
+        }
+        .customer-welcome{
+            span button{
+                color: @text-color;
             }
         }
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 767px) {
     .logo {
         margin-top: 10px;
         margin-bottom: 13px;
@@ -114,7 +120,6 @@ body {
         padding-top: 20px;
     }
     .field.search {
-        padding-left: 70px;
 
         .control {
             border-top: none;
@@ -128,10 +133,32 @@ body {
         .block-search {
             width: auto;
             margin-bottom: 15px;
+
+            input{
+                padding-right: none;
+            }
         }
     }
     .page-header {
         border-bottom: none;
         margin-bottom: none;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo {
+        width: 100px;
+        height: 42px;
+        padding-left: 40px;
+    }
+
+    .header.content{
+        margin-left: 0px;
+        margin-right: 0px;
+        z-index: 1;
+    }
+
+    .block-search .label:before{
+        margin: 0px;
     }
 }
