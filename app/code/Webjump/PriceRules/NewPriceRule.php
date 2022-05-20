@@ -4,20 +4,30 @@ namespace Webjump\PriceRules;
 
 use Magento\SalesRule\Model\RuleFactory;
 use Magento\Framework\App\State;
+use Magento\Store\Model\StoreManagerInterface;
 
 
 Class NewPriceRule {
 
+    private StoreManagerInterface $storeManager;
+
+    
     public function __construct(
         RuleFactory $ruleFactory,
-        State $state
+        State $state,
+        StoreManagerInterface $storeManager
     )
     {
         $this->ruleFactory = $ruleFactory;
         $this->state = $state;
+        $this->storeManager = $storeManager;
     }
     
-    public function createRuleCustomerGroup(string $name, string $description, string $discount, int $customerGroupId, int $websiteId){
+    public function createRuleCustomerGroup(string $name, string $description, string $discount, int $customerGroupId, string $websiteCode){
+        
+        $websiteGetId = $this->storeManager
+        ->getWebsite($websiteCode)
+        ->getId();
         
         $ruleData = [
             "name" => $name,
@@ -42,7 +52,7 @@ Class NewPriceRule {
             "uses_per_coupon" => "0",
             "simple_free_shipping" => "0",
             "customer_group_ids" => [$customerGroupId], // 0 = Not Logged, 1 = General, 2 = Wholesale, 3 = Retailer
-            "website_ids" => [$websiteId],
+            "website_ids" => [$websiteGetId],
             "coupon_code" => null,
             "store_labels" => [],
             "conditions_serialized" => '',
@@ -79,7 +89,7 @@ Class NewPriceRule {
             "uses_per_coupon" => "0",
             "simple_free_shipping" => "0",
             "customer_group_ids" => [0, 1, 2, 3], // 0 = Not Logged, 1 = General, 2 = Wholesale, 3 = Retailer
-            "website_ids" => [1, 2, 3],
+            "website_ids" => [0, 1, 2, 3, 4, 5],
             "coupon_code" => null,
             "store_labels" => [],
             'conditions_serialized' => json_encode([
