@@ -18,6 +18,20 @@ Class SetTableRate {
     }
     
     
+    public function setAllowedCountries (string $websiteCode)
+    {
+        $websiteGetId = $this->storeManager
+        ->getWebsite($websiteCode)
+        ->getId();
+
+        $this->writer->save(
+            "general/country/allow",
+            "BR,US",
+            "websites",
+            $websiteGetId
+        ); 
+    }
+    
     public function setTableRateGlobal (string $websiteCode)
     {
 
