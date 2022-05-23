@@ -39,6 +39,10 @@ class SetShipping implements DataPatchInterface
     {
         $this->moduleDataSetup->getConnection()->startSetup();
         
+        $this->tableRate->setAllowedCountries("moda_br");
+        $this->tableRate->setAllowedCountries("wine_br");
+
+        
         $this->tableRate->setTableRateGlobal("moda_br");
         $this->tableRate->setTableRateGlobal("wine_br");
 
