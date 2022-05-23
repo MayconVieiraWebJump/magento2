@@ -93,20 +93,6 @@
 .slick-next.slick-disabled {
   opacity: 1;
 }
-.slick-prev,
-.slick-next {
-  display: none;
-}
-.slick-prev:active,
-.slick-next:active,
-.slick-prev:focus,
-.slick-next:focus,
-.slick-prev:not(.primary),
-.slick-next:not(.primary) {
-  background: none !important;
-  border: none;
-  box-shadow: none;
-}
 .product-image-wrapper {
   border: 1px solid black;
 }
@@ -118,5 +104,31 @@
 @media only screen and (max-width: 768px) {
   #html-body [data-pb-style=FORS53K] {
     margin-top: 100px !important;
+  }
+}
+.slick-prev.slick-disabled,
+.slick-next.slick-disabled {
+  background: none !important;
+}
+.slick-prev {
+  background: none !important;
+  margin-left: -90px;
+}
+.slick-next {
+  background: none !important;
+  margin-right: -65px;
+}
+@media (max-width: 500px) {
+  .slick-prev {
+    margin-left: -70px;
+  }
+  .slick-prev::before {
+    font-size: 25px;
+  }
+  .slick-next {
+    margin-right: -70px;
+  }
+  .slick-next::before {
+    font-size: 25px;
   }
 }
