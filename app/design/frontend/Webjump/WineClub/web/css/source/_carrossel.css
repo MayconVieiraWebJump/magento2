@@ -1,0 +1,82 @@
+.slick-prev.slick-disabled,
+.slick-next.slick-disabled {
+  background: none !important;
+}
+.slick-prev {
+  background: none !important;
+  margin-left: -75px;
+}
+.slick-prev::before {
+  color: #bd2967;
+}
+.slick-next {
+  background: none !important;
+  margin-right: -65px;
+}
+.slick-next::before {
+  color: #bd2967;
+}
+.slick-next::before:hover {
+  color: #9a1e51;
+}
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  color: #9a1e51;
+}
+.action.primary {
+  background: #bd2967;
+  border: 1px solid #bd2967;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 55px;
+  border-radius: 10px;
+  font-family: "Poppins-Regular";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  /* Text style for "Comprar" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.action.primary:hover {
+  background: #9a1e51;
+  border: 1px solid #bd2967;
+}
+.product-item-actions .actions-primary + .actions-secondary > .action {
+  display: none;
+}
+.product-image-wrapper {
+  border-radius: 0px 15px 0px;
+  border: 1px solid #000;
+}
+.block.newsletter .action.subscribe {
+  width: 80px;
+  height: 32px;
+}
+@media (max-width: 767px) {
+  .action.primary {
+    width: 186px;
+    height: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .action.primary {
+    width: 120px;
+    height: 45px;
+  }
+  .slick-prev {
+    margin-left: -70px;
+  }
+  .slick-prev::before {
+    font-size: 25px;
+  }
+  .slick-next {
+    margin-right: -70px;
+  }
+  .slick-next::before {
+    font-size: 25px;
+  }
+}
