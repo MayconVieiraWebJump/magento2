@@ -38,10 +38,6 @@
                     </var>
                 </var>
             </var>
-        </var>
-    </vars>
-    <vars module="Magento_PageBuilder">
-        <var name="breakpoints">
             <var name="desktop-large">
                 <var name="conditions">
                     <var name="max-width">1150px</var>
@@ -78,6 +74,7 @@
                     </var>
                 </var>
             </var>
+        </var>
         </var>
     </vars>
 </view>
