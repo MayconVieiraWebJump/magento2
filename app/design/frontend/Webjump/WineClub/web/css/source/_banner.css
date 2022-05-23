@@ -1,15 +1,17 @@
-@media only screen and (max-width: 768px) {
+@media (max-width: 970px) {
+  .pagebuilder-banner-wrapper {
+    margin-left: -300px;
+  }
+}
+@media only screen and (max-width: 767px) {
   .pagebuilder-banner-wrapper {
     background-size: contain;
     background-position: center;
-  }
-  .pagebuilder-banner-wrapper {
-    background-size: contain !important;
-    background-position: center !important;
-  }
-  .pagebuilder-banner-wrapper {
     margin-top: -160px;
     margin-bottom: -160px;
+    background-size: contain !important;
+    background-position: center !important;
+    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 767px) {
