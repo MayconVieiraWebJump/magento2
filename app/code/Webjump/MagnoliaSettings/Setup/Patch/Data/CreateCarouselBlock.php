@@ -22,12 +22,12 @@ class CreateCarouselBlock implements DataPatchInterface, PatchRevertableInterfac
      * @var ModuleDataSetupInterface
      */
 
-    /**
+    const IDENTIFIER_BLOCK = 'carrossel_moda_br';
+
+     /**
      * @var BlockFactory
      */
     private $blockFactory;
-
-    const IDENTIFIER_BLOCK = 'carrossel_moda_br';
 
     /**
      * CreateCarouselBlock constructor.
