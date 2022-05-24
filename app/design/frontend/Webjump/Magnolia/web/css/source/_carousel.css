@@ -50,7 +50,7 @@
   font-size: 17px;
   font-weight: 700;
 }
-.product-item .price-box {
+.slick-slide .product-item .price-box {
   margin-left: -25px !important;
 }
 @media only screen and (max-width: 768px) {
