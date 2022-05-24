@@ -46,19 +46,6 @@
                     </var>
                 </var>
             </var>
-
-            <!-- <var name="desktop-low">
-                <var name="conditions">
-                    <var name="max-width">320px</var>
-                </var>
-                <var name="options">
-                    <var name="products">
-                        <var name="default">
-                            <var name="slidesToShow">2</var>
-                        </var>
-                    </var>
-                </var>
-            </var> -->
         </var>
     </vars>
 </view>
