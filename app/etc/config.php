@@ -343,6 +343,7 @@ return [
         'Webjump_PostCode' => 1,
         'Webjump_PriceRules' => 1,
         'Webjump_ProductIncrementButtons' => 1,
+        'Webjump_Shipping' => 1,
         'Webjump_ViaCep' => 0,
         'Webjump_WineClubSettings' => 1
     ],
