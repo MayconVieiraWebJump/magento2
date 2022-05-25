@@ -105,8 +105,15 @@
   #html-body [data-pb-style=FORS53K] {
     margin-top: 100px !important;
   }
+  #html-body [data-pb-style=BPS6OXJ] {
+    margin-top: 100px !important;
+  }
 }
 #html-body [data-pb-style=NMQX3L7] {
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}
+#html-body [data-pb-style=H1EBW8Q] {
   margin-left: 10% !important;
   margin-right: 10% !important;
 }
@@ -115,9 +122,17 @@
     margin-left: 5% !important;
     margin-right: 5% !important;
   }
+  #html-body [data-pb-style=H1EBW8Q] {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
 }
 @media only screen and (max-width: 400px) {
   #html-body [data-pb-style=NMQX3L7] {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+  }
+  #html-body [data-pb-style=H1EBW8Q] {
     margin-left: 15% !important;
     margin-right: 15% !important;
   }
@@ -136,15 +151,15 @@
   background: none !important;
   margin-right: -65px;
 }
-@media (max-width: 500px) {
+@media (max-width: 440px) {
   .slick-prev {
-    margin-left: -20px;
+    margin-left: -65px;
   }
   .slick-prev::before {
     font-size: 25px;
   }
   .slick-next {
-    margin-right: -20px;
+    margin-right: -65px;
   }
   .slick-next::before {
     font-size: 25px;
