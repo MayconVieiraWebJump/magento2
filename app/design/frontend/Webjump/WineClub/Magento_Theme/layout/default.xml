@@ -12,5 +12,7 @@
             <argument name="logo_height" xsi:type="number">88</argument>
             <argument name="logo_file" xsi:type="string">images/wineclub.png</argument>
         </arguments>
-    </referenceBlock>   
+    </referenceBlock>
+
+    <referenceBlock name="copyright" remove="true"/>   
 </page> 
