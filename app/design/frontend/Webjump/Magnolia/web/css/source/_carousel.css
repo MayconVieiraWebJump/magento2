@@ -96,43 +96,19 @@
 .product-image-wrapper {
   border: 1px solid black;
 }
-@media only screen and (max-width: 1100px) {
-  #html-body [data-pb-style=O90M8WJ] {
-    margin-top: 100px;
-  }
-}
 @media only screen and (max-width: 768px) {
-  #html-body [data-pb-style=FORS53K] {
+  .image-header {
     margin-top: 100px !important;
   }
-  #html-body [data-pb-style=W4N20S7] {
-    margin-top: 100px !important;
-  }
-}
-#html-body [data-pb-style=NMQX3L7] {
-  margin-left: 10% !important;
-  margin-right: 10% !important;
-}
-#html-body [data-pb-style=W4N20S7] {
-  margin-left: 10% !important;
-  margin-right: 10% !important;
 }
 @media only screen and (max-width: 1025px) {
-  #html-body [data-pb-style=NMQX3L7] {
-    margin-left: 5% !important;
-    margin-right: 5% !important;
-  }
-  #html-body [data-pb-style=W4N20S7] {
+  .carousel {
     margin-left: 5% !important;
     margin-right: 5% !important;
   }
 }
 @media only screen and (max-width: 400px) {
-  #html-body [data-pb-style=NMQX3L7] {
-    margin-left: 15% !important;
-    margin-right: 15% !important;
-  }
-  #html-body [data-pb-style=W4N20S7] {
+  .carousel {
     margin-left: 15% !important;
     margin-right: 15% !important;
   }
@@ -153,13 +129,13 @@
 }
 @media (max-width: 440px) {
   .slick-prev {
-    margin-left: -40px;
+    margin-left: -61px;
   }
   .slick-prev::before {
     font-size: 25px;
   }
   .slick-next {
-    margin-right: -25px;
+    margin-right: -55px;
   }
   .slick-next::before {
     font-size: 25px;

@@ -1,0 +1,90 @@
+@login-background: #eaeaea;
+@login-font: #707070;
+@carousel-font: #666666;
+@purple: #6e01a5;
+@midWhite: #f0f0f0;
+@menuBg: #40015f;
+@yellow: #fee95f;
+@smoke: #f2f2f2;
+@midPurple: #6e01a5;
+@cleanPurple: #6215e1;
+@black: #000000;
+@border:#101821;
+@FontDefault: 'Raleway-Regular';
+
+.page-footer {
+  background-color: @smoke;
+}
+
+.main-footer {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0 40px;
+
+  .link1 {
+      flex-grow:  0;
+      flex-basis: 200px;
+  }
+
+  .link2 { 
+      flex-grow: 0;
+      flex-basis: 200px;
+  }
+
+  .link3 {
+      flex-grow: 0;
+      flex-basis: 200px;
+  }
+  
+  h3 {
+      font-family: @FontDefault;
+      font-size: 20px;
+  }
+
+  ul, a {
+      list-style: none;
+      font-family: @FontDefault;
+      font-size: 18px;
+      color: @black;
+  }
+}
+
+input[type="email"] {
+  background: @smoke;
+  border: 1px solid @border;
+  border-radius: 1px;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  height: 35px;
+  line-height: 1.42857143;
+  padding: 0 9px;
+  vertical-align: baseline;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.block.newsletter .action.subscribe{
+  background-color: @purple;
+  color: white;
+  font-family: @FontDefault;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.copyright {
+  background-color: white;
+     span{
+         color:@black;
+         font-family: @FontDefault;
+         font-weight: 300;
+         font-size: 14px;
+     }
+}
