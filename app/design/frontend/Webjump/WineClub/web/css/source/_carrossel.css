@@ -82,11 +82,6 @@
 .slick-slide {
   margin-left: 5px;
 }
-@media (max-width: 800px) {
-  .product-item-name {
-    margin-bottom: 20px;
-  }
-}
 @media (max-width: 767px) {
   .product-item .action.primary {
     width: 186px;
@@ -147,10 +142,18 @@
     line-clamp: 1;
   }
 }
+@media (max-width: 480px) {
+  .product-image-container {
+    width: 146px !important;
+  }
+}
 @media (max-width: 380px) {
   .product-item .action.primary {
     width: 90px;
     height: 35px;
     font-size: 16px;
+  }
+  .product-image-container {
+    width: 100px !important;
   }
 }
