@@ -13,6 +13,16 @@
             <argument name="logo_file" xsi:type="string">images/wineclub.png</argument>
         </arguments>
     </referenceBlock>
-
+    <referenceContainer name="footer"> 
+        <container name="footer.wine" htmlClass="footer-wine" htmlTag="div">
+            <block class="Magento\Cms\Block\Block" as='footer_links' before='-'>
+                    <arguments>
+                        <argument name='block_id' xsi:type='string'>footer_wine_br</argument>
+                    </arguments>
+            </block>
+        </container>
+    </referenceContainer>
+    <move element="form.subscribe" destination="footer" after="-"/>
+    <referenceBlock name="footer_links" remove="true"/>  
     <referenceBlock name="copyright" remove="true"/>   
 </page> 

@@ -1,0 +1,55 @@
+@color-nav-bright: #bd2967;
+@color-nav: #9a1e51;
+@white: #fff;
+@font-type: "Poppins-Regular";
+.page-footer {
+    background-color: @color-nav;
+}
+
+input[type="email"] {
+    background: @color-nav;
+    border-radius: 1px;
+    font-size: 14px;
+    height: 50px;
+    color: @white;
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid #ffffff;
+    line-height: 1.42857143;
+    padding: 0px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+    
+    &::placeholder{
+        color: @white;
+    }
+
+}
+.block.newsletter .title {
+    display: block;
+    font-family: @font-type;
+    color: @white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+.block.newsletter input {
+    padding: 0 0 0 10px !important;
+}
+.block.newsletter .action.subscribe {
+    height: 50px;
+    background-color: @white;
+    color: @color-nav;
+    font-family: @font-type;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    border: none;
+}
+.block.newsletter .field .control:before {
+    display: none;
+}
