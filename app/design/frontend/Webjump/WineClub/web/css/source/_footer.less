@@ -19,20 +19,21 @@ input[type="email"] {
     vertical-align: baseline;
     width: 100%;
     box-sizing: border-box;
-    
-    &::placeholder{
+
+    &::placeholder {
         color: @white;
     }
-
 }
 .block.newsletter .title {
     display: block;
     font-family: @font-type;
     color: @white;
-    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-  }
+    strong{
+        font-size: 20px;
+    }
+}
 .block.newsletter input {
     padding: 0 0 0 10px !important;
 }
@@ -52,4 +53,48 @@ input[type="email"] {
 }
 .block.newsletter .field .control:before {
     display: none;
+}
+
+.footer-wineclub {
+    display: flex;
+    font-family: @font-type;
+}
+.footer-links-container-left,
+.footer-links-container-middle,
+.footer-links-container-right {
+
+    h2 {
+        color: @white;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    ul li a{
+        color: @white;
+        font-size: 18px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+}
+
+.page-footer{
+    display: flex;
+    justify-content: center;
+}
+.footer.content{
+    display: flex;
+    align-items: baseline;
 }

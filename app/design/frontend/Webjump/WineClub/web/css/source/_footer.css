@@ -22,9 +22,11 @@ input[type="email"]::placeholder {
   display: block;
   font-family: "Poppins-Regular";
   color: #fff;
-  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.block.newsletter .title strong {
+  font-size: 20px;
 }
 .block.newsletter input {
   padding: 0 0 0 10px !important;
@@ -45,4 +47,39 @@ input[type="email"]::placeholder {
 }
 .block.newsletter .field .control:before {
   display: none;
+}
+.footer-wineclub {
+  display: flex;
+  font-family: "Poppins-Regular";
+}
+.footer-links-container-left h2,
+.footer-links-container-middle h2,
+.footer-links-container-right h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.footer-links-container-left ul li a,
+.footer-links-container-middle ul li a,
+.footer-links-container-right ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.page-footer {
+  display: flex;
+  justify-content: center;
+}
+.footer.content {
+  display: flex;
+  align-items: baseline;
 }
