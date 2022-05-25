@@ -3,6 +3,7 @@
   border: 1px solid #bd2967;
   color: #fff;
   border-radius: 10px;
+  font-family: "Poppins-Regular";
 }
 .action.primary:hover {
   background: #9a1e51;
