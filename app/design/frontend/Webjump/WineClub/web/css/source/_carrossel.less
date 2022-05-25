@@ -32,30 +32,24 @@
 .slick-next:hover:before {
     color: @color-nav;
 }
-
-.action.primary {
-    background: @color-nav-bright;
-    border: 1px solid @color-nav-bright;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 210px;
-    height: 55px;
-    border-radius: 10px;
-    font-family: "Poppins-Regular";
-    font-size: 18px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-
-    &:hover {
-        background: @color-nav;
-        border: 1px solid @color-nav-bright;
+.product-item {
+    .action.primary {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 210px;
+        height: 55px;
+        border-radius: 10px;
+        font-family: "Poppins-Regular";
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
     }
 }
 
@@ -64,16 +58,11 @@
         display: none;
     }
 }
+    .product-image-wrapper {
+        border-radius: 0px 15px 0px;
+        border: 1px solid @black;
+    }
 
-.product-image-wrapper {
-    border-radius: 0px 15px 0px;
-    border: 1px solid @black;
-}
-
-.block.newsletter .action.subscribe {
-    width: 80px;
-    height: 32px;
-}
 
 .product-item-name {
     color: @color-text-product;
@@ -105,10 +94,13 @@
 }
 
 @media (max-width: 767px) {
-    .action.primary {
-        width: 186px;
-        height: 50px;
+    .product-item {
+        .action.primary {
+            width: 186px;
+            height: 50px;
+        }
     }
+
     .price-box .price-final_price {
         font-size: 20px;
     }
@@ -128,16 +120,20 @@
 }
 
 @media (max-width: 680px) {
-    .action.primary {
-        width: 146px;
-        height: 50px;
+    .product-item {
+        .action.primary {
+            width: 146px;
+            height: 50px;
+        }
     }
 }
 
 @media (max-width: 500px) {
-    .action.primary {
-        width: 120px;
-        height: 45px;
+    .product-item {
+        .action.primary {
+            width: 120px;
+            height: 45px;
+        }
     }
 
     .slick-prev {
@@ -156,14 +152,16 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 380px) {
     .column.main .block:last-child {
         margin-left: -20px;
     }
 
-    .action.primary {
-        width: 90px;
-        height: 35px;
-        font-size: 16px;
+    .product-item {
+        .action.primary {
+            width: 90px;
+            height: 35px;
+            font-size: 16px;
+        }
     }
 }
