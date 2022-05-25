@@ -183,3 +183,12 @@
   color: #707070;
   font-family: 'Raleway-Regular';
 }
+div[data-content-type='text'] {
+  font-family: 'Raleway-Regular';
+  color: #101821;
+}
+@media (max-width: 1350px) {
+  div[data-content-type='text'] {
+    margin: 0px 20px;
+  }
+}

@@ -5,6 +5,7 @@
 @midPurple:#6e01a5;
 @cleanPurple:#6215e1;
 @black:#000000;
+@descritiveText:#101821;
 @FontDefault: 'Raleway-Regular';
 
 .navigation {
@@ -252,4 +253,15 @@
 .header.panel>.header.links>li.welcome {
   color:@login-font;
   font-family: @FontDefault;
+}
+
+div[data-content-type='text'] {
+  font-family: @FontDefault;
+  color: @descritiveText;
+}
+
+@media (max-width: 1350px) {
+  div[data-content-type='text'] {
+    margin: 0px 20px;
+  }
 }
