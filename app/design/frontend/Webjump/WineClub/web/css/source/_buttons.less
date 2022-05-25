@@ -1,0 +1,38 @@
+@color-nav-bright: #bd2967;
+@color-nav: #9a1e51;
+@font-color: #fff;
+.action.primary{
+    background: @color-nav-bright;
+    border: 1px solid @color-nav-bright;
+    color: @font-color;
+    border-radius: 10px;
+    &:hover{
+        background: @color-nav;
+        border: 1px solid @color-nav-bright;
+    }
+}
+
+.cart-discount {
+    .actions-toolbar{
+        .action.primary:not(:focus){
+            box-shadow: none;
+        }
+        .action.primary{
+            background: @color-nav-bright;
+            border: 1px solid @color-nav-bright;
+            color: @font-color;
+            border-radius: 0px 10px 10px 0px;
+            
+            &:hover{
+                background: @color-nav;
+                border: 1px solid @color-nav-bright;
+                color: @font-color;
+            }
+        }
+    } 
+}
+
+// .block.newsletter .action.subscribe {
+//     width: 80px;
+//     height: 32px;
+// }

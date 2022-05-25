@@ -1,0 +1,24 @@
+.action.primary {
+  background: #bd2967;
+  border: 1px solid #bd2967;
+  color: #fff;
+  border-radius: 10px;
+}
+.action.primary:hover {
+  background: #9a1e51;
+  border: 1px solid #bd2967;
+}
+.cart-discount .actions-toolbar .action.primary:not(:focus) {
+  box-shadow: none;
+}
+.cart-discount .actions-toolbar .action.primary {
+  background: #bd2967;
+  border: 1px solid #bd2967;
+  color: #fff;
+  border-radius: 0px 10px 10px 0px;
+}
+.cart-discount .actions-toolbar .action.primary:hover {
+  background: #9a1e51;
+  border: 1px solid #bd2967;
+  color: #fff;
+}
