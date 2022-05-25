@@ -13,4 +13,14 @@
             <argument name="logo_file" xsi:type="string">images/logo.png</argument>
         </arguments>
     </referenceBlock>
+    <referenceContainer name="footer">
+        <container name="footer.moda" htmlClass="footer-moda" htmlTag="div">
+            <block class="Magento\Cms\Block\Block" as='footer_links' before='-'>
+                    <arguments>
+                        <argument name='block_id' xsi:type='string'>magnolia-footer-links</argument>
+                    </arguments>
+            </block>
+        </container>
+    </referenceContainer>
+    <move element="form.subscribe" destination="footer" after="-"/>
     </page>

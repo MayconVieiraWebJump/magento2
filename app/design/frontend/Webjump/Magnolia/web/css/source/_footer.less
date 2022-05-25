@@ -60,10 +60,22 @@ input[type="email"] {
   font-size: 14px;
   height: 35px;
   line-height: 1.42857143;
-  padding: 0 9px;
+  padding: 0px;
   vertical-align: baseline;
   width: 100%;
   box-sizing: border-box;
+}
+
+.block.newsletter input {
+  padding: 0 0 0 5px !important;
+}
+
+.block.newsletter .title {
+  display: block;
+  font-family: @FontDefault;
+  font-weight: 700;
+  color: @border;
+  text-transform: uppercase;
 }
 
 .block.newsletter .action.subscribe{
@@ -79,6 +91,10 @@ input[type="email"] {
   text-transform: uppercase;
 }
 
+.block.newsletter .field .control:before {
+  display: none;
+}
+
 .copyright {
   background-color: white;
      span{
@@ -88,3 +104,4 @@ input[type="email"] {
          font-size: 14px;
      }
 }
+
