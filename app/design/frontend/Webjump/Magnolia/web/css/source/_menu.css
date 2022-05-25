@@ -189,6 +189,6 @@ div[data-content-type='text'] {
 }
 @media (max-width: 1350px) {
   div[data-content-type='text'] {
-    margin: 0px 20px;
+    margin: 0px 40px;
   }
 }
