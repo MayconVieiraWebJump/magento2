@@ -21,6 +21,19 @@
                     </arguments>
             </block>
         </container>
+         <container name='footer.newsletter.social' htmlTag='div' htmlClass='social-media-magnolia'>
+                <block class="Magento\Cms\Block\Block" as='NewsLetterParagraph' before='form.subscribe'>
+                    <arguments>
+                        <argument name='block_id' xsi:type='string'>NewsLetter-Text</argument>
+                    </arguments>
+                </block>
+                <block class="Magento\Cms\Block\Block" as='social-media-icons' after='-'>
+                    <arguments>
+                        <argument name='block_id' xsi:type='string'>MediaLinksMagnolia</argument>
+                    </arguments>
+                </block>
+            </container>
     </referenceContainer>
-    <move element="form.subscribe" destination="footer" after="-"/>
+    <referenceBlock name="footer_links" remove="true"/>
+    <move element="form.subscribe" destination="footer.newsletter.social" before="-"/>
     </page>
