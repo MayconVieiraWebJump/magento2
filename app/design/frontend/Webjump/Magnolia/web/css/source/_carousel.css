@@ -138,13 +138,13 @@
 }
 @media (max-width: 500px) {
   .slick-prev {
-    margin-left: -70px;
+    margin-left: -20px;
   }
   .slick-prev::before {
     font-size: 25px;
   }
   .slick-next {
-    margin-right: -70px;
+    margin-right: -20px;
   }
   .slick-next::before {
     font-size: 25px;
