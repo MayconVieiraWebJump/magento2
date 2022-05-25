@@ -1,6 +1,7 @@
 @login-background: #eaeaea;
 @login-font: #707070;
 @carousel-font: #666666;
+@oldPrice: #a7a6a6;
 @purple: #6e01a5;
 @midWhite: #f0f0f0;
 @menuBg: #40015f;
@@ -15,16 +16,41 @@
   display: none;
 }
 
+.old-price.price-container.price-final_price.tax.weee{
+  font-size: 16px !important;
+  color: @oldPrice!important;
+}
+
+.product-item .price-box .price-label{
+  font-size: 16px !important;
+  color: @carousel-font !important;
+}
+
+.product-item .price-box .price-label{
+  font-size: 16px !important;
+  color: @oldPrice;
+}
+
+.old-price{
+  color: @oldPrice !important;
+  font-weight: 300 !important;
+}
+
+.old-price.price-label{
+  color: @oldPrice !important;
+  font-weight: 300 !important;
+}
+
 .abs-product-link>a:visited,
 .product-item-name>a:visited,
 .product-item-name>a,
 .product.name a>a:visited {
-  color: @carousel-font  !important;
+  color: @carousel-font ;
   font-family: @FontDefault  !important;
 }
 
 .product-item-name {
-  color: @carousel-font  !important;
+  color: @carousel-font;
   font-family: @FontDefault  !important;
   font-size: 16px !important;
   font-weight: 700 !important;
@@ -94,12 +120,14 @@
 }
 
 
+
+
 [data-content-type='row'] li.product-item {
   text-align: center;
   margin-top: 3em;
 }
 
-.product-item .price-box .price-label {
+ .special-price{
   /* Text style for "Por:" */
   color: @carousel-font;
   font-weight: 300;
@@ -111,9 +139,7 @@
 
 .product-item .price-box .price {
   /* Style for "Por: R$ 95" */
-  color: @carousel-font;
   font-size: 16px;
-  font-weight: 700;
 }
 
 .slick-prev.slick-disabled,
@@ -141,8 +167,8 @@
 
 @media only screen and (max-width: 400px) {
   .carousel {
-    margin-left: 15% !important;
-    margin-right: 15% !important;
+    margin-left: 13% !important;
+    margin-right: 13% !important;
   }
 }
 
@@ -162,15 +188,19 @@
 }
 @media (max-width: 440px) {
     .slick-prev {
-        margin-left: -61px;
+        margin-left: -70px;
         &::before {
             font-size: 25px;
         }
     }
     .slick-next {
-        margin-right: -65px;
+        margin-right: -70px;
         &::before {
             font-size: 25px;
         }
+    }
+
+    .price-container .price-final_price {
+      margin-left: 10px;
     }
 }

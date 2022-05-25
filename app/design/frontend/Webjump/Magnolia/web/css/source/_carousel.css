@@ -1,15 +1,35 @@
 .product-item-actions .actions-primary + .actions-secondary {
   display: none;
 }
+.old-price.price-container.price-final_price.tax.weee {
+  font-size: 16px !important;
+  color: #a7a6a6 !important;
+}
+.product-item .price-box .price-label {
+  font-size: 16px !important;
+  color: #666666 !important;
+}
+.product-item .price-box .price-label {
+  font-size: 16px !important;
+  color: #a7a6a6;
+}
+.old-price {
+  color: #a7a6a6 !important;
+  font-weight: 300 !important;
+}
+.old-price.price-label {
+  color: #a7a6a6 !important;
+  font-weight: 300 !important;
+}
 .abs-product-link > a:visited,
 .product-item-name > a:visited,
 .product-item-name > a,
 .product.name a > a:visited {
-  color: #666666 !important;
+  color: #666666;
   font-family: 'Raleway-Regular' !important;
 }
 .product-item-name {
-  color: #666666 !important;
+  color: #666666;
   font-family: 'Raleway-Regular' !important;
   font-size: 16px !important;
   font-weight: 700 !important;
@@ -74,7 +94,7 @@
   text-align: center;
   margin-top: 3em;
 }
-.product-item .price-box .price-label {
+.special-price {
   /* Text style for "Por:" */
   color: #666666;
   font-weight: 300;
@@ -85,9 +105,7 @@
 }
 .product-item .price-box .price {
   /* Style for "Por: R$ 95" */
-  color: #666666;
   font-size: 16px;
-  font-weight: 700;
 }
 .slick-prev.slick-disabled,
 .slick-next.slick-disabled {
@@ -109,8 +127,8 @@
 }
 @media only screen and (max-width: 400px) {
   .carousel {
-    margin-left: 15% !important;
-    margin-right: 15% !important;
+    margin-left: 13% !important;
+    margin-right: 13% !important;
   }
 }
 .slick-prev.slick-disabled,
@@ -129,15 +147,18 @@
 }
 @media (max-width: 440px) {
   .slick-prev {
-    margin-left: -61px;
+    margin-left: -70px;
   }
   .slick-prev::before {
     font-size: 25px;
   }
   .slick-next {
-    margin-right: -65px;
+    margin-right: -70px;
   }
   .slick-next::before {
     font-size: 25px;
+  }
+  .price-container .price-final_price {
+    margin-left: 10px;
   }
 }
