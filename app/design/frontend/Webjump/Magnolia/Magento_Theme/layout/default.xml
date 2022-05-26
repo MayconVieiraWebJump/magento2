@@ -22,7 +22,7 @@
             </block>
         </container>
          <container name='footer.newsletter.social' htmlTag='div' htmlClass='social-media-magnolia'>
-                <block class="Magento\Cms\Block\Block" as='NewsLetterParagraph' before='form.subscribe'>
+                <block class="Magento\Cms\Block\Block" as='NewsLetterParagraph' before="-">
                     <arguments>
                         <argument name='block_id' xsi:type='string'>NewsLetter-Text</argument>
                     </arguments>
@@ -35,5 +35,5 @@
             </container>
     </referenceContainer>
     <referenceBlock name="footer_links" remove="true"/>
-    <move element="form.subscribe" destination="footer.newsletter.social" before="-"/>
+    <move element="form.subscribe" destination="footer.newsletter.social" after="NewsLetterParagraph"/>
     </page>
