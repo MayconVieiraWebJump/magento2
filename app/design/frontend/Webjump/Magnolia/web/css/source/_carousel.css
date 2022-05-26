@@ -37,6 +37,10 @@
   font-style: normal !important;
   letter-spacing: normal !important;
   line-height: normal !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .action.primary,
 .action-primary {
