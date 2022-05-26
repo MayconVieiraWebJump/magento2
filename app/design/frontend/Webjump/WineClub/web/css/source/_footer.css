@@ -98,7 +98,7 @@ input[type="email"]::placeholder {
   }
   .footer.content .block {
     position: absolute;
-    width: 80vw;
+    display: -webkit-inline-box;
   }
   .footer-wineclub {
     margin-top: 80px;
@@ -113,9 +113,16 @@ input[type="email"]::placeholder {
     max-width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 20px;
   }
   .block.newsletter .title {
+    display: flex;
     text-align: center;
+    margin-top: -5px;
+    margin-right: 25px;
+  }
+  .block.newsletter .content {
+    margin-left: 25px;
   }
   .block.newsletter .field.newsletter {
     max-width: 100%;
@@ -128,7 +135,7 @@ input[type="email"]::placeholder {
 @media (max-width: 767px) {
   .footer-wineclub {
     display: grid;
-    margin-top: 80px;
+    margin-top: 100px;
     text-align: center;
   }
   .footer-wineclub .footer-links-container-left h2,
@@ -137,6 +144,13 @@ input[type="email"]::placeholder {
     text-align: center;
     margin-bottom: 5px;
   }
+  .footer.content ul {
+    padding-right: 0px;
+  }
+  .footer.content .block {
+    position: absolute;
+    display: grid;
+  }
   .block.newsletter {
     position: absolute;
     margin-left: 20px;
@@ -144,6 +158,11 @@ input[type="email"]::placeholder {
   }
   .block.newsletter .title {
     text-align: center;
+    display: block;
+    margin-right: 0px;
+  }
+  .block.newsletter .content {
+    margin-left: 0px;
   }
   .block.newsletter .field.newsletter {
     max-width: 100%;
