@@ -1,6 +1,7 @@
 @login-background: #eaeaea;
 @login-font: #707070;
 @carousel-font: #666666;
+@placeholdercolor:#7f8c8d;
 @purple: #6e01a5;
 @midWhite: #f0f0f0;
 @menuBg: #40015f;
@@ -34,13 +35,16 @@
       font-size: 18px
   }
 
-  ul, a {
+  ul {
+    margin-left: -5% !important;
+    a {
       list-style: none;
       font-family: @FontDefault;
       font-size: 18px;
       color: @black;
       padding-top: 5px;
       padding-bottom: 5px;
+    }
   }
 }
 
@@ -54,15 +58,8 @@
   width: max-content;
 }
 
-.footer-links-container .links-left ul {
-  margin-left: -5% !important;
-}
-
 .footer-links-container .links-middle {
   width: max-content;
-  ul {
-    margin-left: -5%;
-  }
 }
 
 input[type="email"] {
@@ -77,6 +74,11 @@ input[type="email"] {
   vertical-align: baseline;
   width: 100%;
   box-sizing: border-box;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+  font-size: 16px;
+  color:@placeholdercolor;
 }
 
 .footer.content .block {
@@ -154,6 +156,45 @@ input[type="email"] {
      }
 }
 
+@media only screen and (max-width: 1024px){
+  .footer-moda {
+    gap: 60px;
+    margin-left: -5%;
+  }
+}
+
+@media only screen and (max-width: 1023px){
+  .social-media-magnolia {
+    margin-left: -17%;
+  }
+}
+
+
+@media only screen and (max-width: 769px){
+  .footer-moda {
+    gap: 40px;
+    margin-left: -5%;
+  }
+  .block.newsletter input{
+    text-align: center;
+  }
+  .block.newsletter .action.subscribe {
+    width: 220px;
+    text-align: center;
+  }
+  .social-media-magnolia {
+    margin-left: -17%;
+  }
+  .block.newsletter .form.subscribe {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+
+//Mobil-Display
 @media only screen and (max-width: 767px){
   
   .footer.content {
@@ -170,7 +211,12 @@ input[type="email"] {
 
   .footer-moda {
     display: block;
+    margin-left: -0%;
   }
+
+  .social-media-magnolia {
+    margin-left: -0%;
+}
 
 .footer-moda {
   h2 {
