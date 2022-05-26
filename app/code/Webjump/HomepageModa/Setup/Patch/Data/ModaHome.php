@@ -45,15 +45,15 @@ public function createPage()
     ->getId();
 
     $pageData = [
-        'title' => 'moda', // cms page title
+        'title' => 'Moda', // cms page title
         'page_layout' => 'cms-full-width', // cms page layout
         'meta_keywords' => '', // cms page meta keywords
         'meta_description' => '', // cms page meta description
-        'identifier' => 'moda', // cms page identifier
+        'identifier' => 'modabr', // cms page identifier
         'content_heading' => '', // cms page content heading
-        'content' => '<div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="3" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="4" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="5" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="9" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="10" type_name="CMS Static Block"}}</div>', // cms page content
+        'content' => '<div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="banner_moda_br" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="banner_info_moda_br" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="grid_moda_br" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="carrossel_moda_br" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="text-magnolia-ptbr" type_name="CMS Static Block"}}</div>', // cms page content
         'layout_update_xml' => '', // cms page layout xml
-        'url_key' => 'modabr2', // cms page url key
+        'url_key' => 'modabr', // cms page url key
         'is_active' => 1, // status enabled or disabled
         'stores' => [$StoreViewGetIdBR, $StoreViewGetIdEN], // You can set store id single or multiple values in array.
         'sort_order' => 0, // cms page sort order
