@@ -13,4 +13,27 @@
             <argument name="logo_file" xsi:type="string">images/logo.png</argument>
         </arguments>
     </referenceBlock>
+    <referenceContainer name="footer">
+        <container name="footer.moda" htmlClass="footer-moda" htmlTag="div">
+            <block class="Magento\Cms\Block\Block" as='footer_links' before='-'>
+                    <arguments>
+                        <argument name='block_id' xsi:type='string'>magnolia-footer-links</argument>
+                    </arguments>
+            </block>
+        </container>
+         <container name='footer.newsletter.social' htmlTag='div' htmlClass='social-media-magnolia'>
+                <block class="Magento\Cms\Block\Block" as='NewsLetterParagraph' before="-">
+                    <arguments>
+                        <argument name='block_id' xsi:type='string'>NewsLetter-Text</argument>
+                    </arguments>
+                </block>
+                <block class="Magento\Cms\Block\Block" as='social-media-icons' after='-'>
+                    <arguments>
+                        <argument name='block_id' xsi:type='string'>MediaLinksMagnolia</argument>
+                    </arguments>
+                </block>
+            </container>
+    </referenceContainer>
+    <referenceBlock name="footer_links" remove="true"/>
+    <move element="form.subscribe" destination="footer.newsletter.social" after="NewsLetterParagraph"/>
     </page>

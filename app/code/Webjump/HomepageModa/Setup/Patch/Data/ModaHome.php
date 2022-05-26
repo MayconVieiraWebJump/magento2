@@ -45,6 +45,7 @@ public function createPage()
     ->getId();
 
     $pageData = [
+
         'title' => 'Moda', // cms page title
         'page_layout' => 'cms-full-width', // cms page layout
         'meta_keywords' => '', // cms page meta keywords
