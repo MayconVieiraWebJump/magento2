@@ -34,29 +34,53 @@ public static function getDependencies()
     ];
 }
 
-public function createPage()
+public function createPageBR()
 {
     $StoreViewGetIdBR = $this->storeManager
     ->getStore("wsvBR")
     ->getId();
 
+
+    $pageData = [
+
+        'title' => 'Wine Club BR', // cms page title
+        'page_layout' => 'cms-full-width', // cms page layout
+        'meta_keywords' => '', // cms page meta keywords
+        'meta_description' => '', // cms page meta description
+        'identifier' => 'wineclubbr', // cms page identifier
+        'content_heading' => '', // cms page content heading
+        'content' => '<div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="6" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="7" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="11" type_name="CMS Static Block"}}</div>', // cms page content
+        'layout_update_xml' => '', // cms page layout xml
+        'url_key' => 'winebr', // cms page url key
+        'is_active' => 1, // status enabled or disabled
+        'stores' => [$StoreViewGetIdBR], // You can set store id single or multiple values in array.
+        'sort_order' => 0, // cms page sort order
+    ];
+    $this->moduleDataSetup->startSetup();
+    $this->pageFactory->create()->setData($pageData)->save();
+    $this->moduleDataSetup->endSetup();
+}
+
+public function createPageEN()
+{
+    
     $StoreViewGetIdEN = $this->storeManager
     ->getStore("wsvEN")
     ->getId();
 
     $pageData = [
 
-        'title' => 'Woda', // cms page title
+        'title' => 'Wine Club EN', // cms page title
         'page_layout' => 'cms-full-width', // cms page layout
         'meta_keywords' => '', // cms page meta keywords
         'meta_description' => '', // cms page meta description
-        'identifier' => 'winebr', // cms page identifier
+        'identifier' => 'winecluben', // cms page identifier
         'content_heading' => '', // cms page content heading
-        'content' => '', // cms page content
+        'content' => '<div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="6" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="7" type_name="CMS Static Block"}}</div><div data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="11" type_name="CMS Static Block"}}</div>', // cms page content
         'layout_update_xml' => '', // cms page layout xml
-        'url_key' => 'winebr', // cms page url key
+        'url_key' => 'wineen', // cms page url key
         'is_active' => 1, // status enabled or disabled
-        'stores' => [$StoreViewGetIdBR, $StoreViewGetIdEN], // You can set store id single or multiple values in array.
+        'stores' => [$StoreViewGetIdEN], // You can set store id single or multiple values in array.
         'sort_order' => 0, // cms page sort order
     ];
     $this->moduleDataSetup->startSetup();
@@ -69,7 +93,8 @@ public function apply()
 {
     $this->moduleDataSetup->getConnection()->startSetup(); 
     
-    $this->createPage();
+    $this->createPageBR();
+    $this->createPageEN();
 
     $this->moduleDataSetup->getConnection()->endSetup();
 }

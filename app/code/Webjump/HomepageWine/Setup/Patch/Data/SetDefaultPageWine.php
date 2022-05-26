@@ -55,8 +55,8 @@ public function apply()
     $this->moduleDataSetup->startSetup();
 
 
-    $this->setDefaultCmsPage("wsvBR", "winebr");
-    $this->setDefaultCmsPage("wsvEN", "winebr");
+    $this->setDefaultCmsPage("wsvBR", "wineclubbr");
+    $this->setDefaultCmsPage("wsvEN", "winecluben");
 
     $this->moduleDataSetup->endSetup();
 }
