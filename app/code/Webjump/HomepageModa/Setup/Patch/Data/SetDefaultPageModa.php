@@ -54,8 +54,9 @@ public function apply()
 {
     $this->moduleDataSetup->startSetup();
 
-    $this->setDefaultCmsPage("msvBR", "moda");
-    $this->setDefaultCmsPage("msvEN", "moda");
+
+    $this->setDefaultCmsPage("msvBR", "modabr");
+    $this->setDefaultCmsPage("msvEN", "modabr");
 
     $this->moduleDataSetup->endSetup();
 }
