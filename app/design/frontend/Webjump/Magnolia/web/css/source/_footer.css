@@ -122,18 +122,21 @@ input[type="email"]::-webkit-input-placeholder {
   background-color: white;
 }
 .copyright span {
-  color: #000000;
+  color: #101821;
   font-family: 'Raleway-Regular';
   font-weight: 300;
   font-size: 14px;
 }
 @media only screen and (max-width: 1024px) {
   .footer-moda {
-    gap: 60px;
-    margin-left: -5%;
+    gap: 72px;
+    margin-left: 2%;
   }
   .footer-links-container .links-left {
     margin-left: 5%;
+  }
+  .social-media-magnolia {
+    margin-left: -4rem;
   }
 }
 @media only screen and (max-width: 1023px) {
