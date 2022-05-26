@@ -23,7 +23,7 @@ class CreateFooterLinksBlock implements DataPatchInterface, PatchRevertableInter
      */
     private $blockFactory;
 
-    const IDENTIFIER_BLOCK = 'footer-links-ptbr';
+    const IDENTIFIER_BLOCK = 'magnolia-footer-links';
 
     /**
      * CreateFooterLinksBlock constructor.

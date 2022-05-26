@@ -23,7 +23,7 @@ class CreateSocialMediaLinksBlock implements DataPatchInterface, PatchRevertable
      */
     private $blockFactory;
 
-    const IDENTIFIER_BLOCK = 'magnolia-footer-links';
+    const IDENTIFIER_BLOCK = 'MediaLinksMagnolia';
 
     /**
      * CreateSocialMediaLinksBlock constructor.

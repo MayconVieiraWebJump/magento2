@@ -23,7 +23,7 @@ class CreateNewsletterTextBlock implements DataPatchInterface, PatchRevertableIn
      */
     private $blockFactory;
 
-    const IDENTIFIER_BLOCK = 'footer-links-ptbr';
+    const IDENTIFIER_BLOCK = 'NewsLetter-Text';
 
     /**
      * CreateNewsletterTextBlock constructor.
