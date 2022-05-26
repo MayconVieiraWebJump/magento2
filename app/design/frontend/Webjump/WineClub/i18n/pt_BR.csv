@@ -1,3 +1,4 @@
 "Sign In","Entre",module,Magento_Customer
 "Create an Account","Cadastre-se",module,Magento_Customer
 "Search entire store here...","Qual vinho você está buscando?",module,Magento_Search
+"Enter your email address", Insira seu e-mail aqui, module, Magento_Newsletter
