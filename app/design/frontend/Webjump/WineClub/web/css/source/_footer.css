@@ -76,10 +76,84 @@ input[type="email"]::placeholder {
   line-height: normal;
 }
 .page-footer {
-  display: flex;
+  display: revert;
   justify-content: center;
 }
 .footer.content {
   display: flex;
   align-items: baseline;
+  justify-content: center;
+}
+@media (max-width: 950px) {
+  .footer.content ul {
+    padding-right: 20px;
+  }
+  .block.newsletter .field.newsletter {
+    max-width: 165px;
+  }
+}
+@media (max-width: 821px) {
+  .footer.content ul {
+    padding-right: 0px;
+  }
+  .footer.content .block {
+    position: absolute;
+    width: 80vw;
+  }
+  .footer-wineclub {
+    margin-top: 80px;
+  }
+  .footer-wineclub .footer-links-container-left,
+  .footer-wineclub .footer-links-container-middle,
+  .footer-wineclub .footer-links-container-right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .block.newsletter {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .block.newsletter .title {
+    text-align: center;
+  }
+  .block.newsletter .field.newsletter {
+    max-width: 100%;
+  }
+  .block.newsletter .form.subscribe > .field,
+  .block.newsletter .form.subscribe > .actions {
+    float: none;
+  }
+}
+@media (max-width: 767px) {
+  .footer-wineclub {
+    display: grid;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .footer-wineclub .footer-links-container-left h2,
+  .footer-wineclub .footer-links-container-middle h2,
+  .footer-wineclub .footer-links-container-right h2 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .block.newsletter {
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .block.newsletter .title {
+    text-align: center;
+  }
+  .block.newsletter .field.newsletter {
+    max-width: 100%;
+  }
+  .img-footer-wine {
+    margin-top: 35px;
+  }
+}
+@media (max-width: 350px) {
+  .footer-wineclub {
+    margin-top: 110px;
+  }
 }

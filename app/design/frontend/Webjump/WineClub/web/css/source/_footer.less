@@ -24,35 +24,37 @@ input[type="email"] {
         color: @white;
     }
 }
-.block.newsletter .title {
-    display: block;
-    font-family: @font-type;
-    color: @white;
-    font-weight: 700;
-    text-transform: uppercase;
-    strong{
-        font-size: 20px;
+.block.newsletter {
+    .title {
+        display: block;
+        font-family: @font-type;
+        color: @white;
+        font-weight: 700;
+        text-transform: uppercase;
+        strong {
+            font-size: 20px;
+        }
     }
-}
-.block.newsletter input {
-    padding: 0 0 0 10px !important;
-}
-.block.newsletter .action.subscribe {
-    height: 50px;
-    background-color: @white;
-    color: @color-nav;
-    font-family: @font-type;
-    font-size: 16px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-    text-transform: uppercase;
-    border: none;
-}
-.block.newsletter .field .control:before {
-    display: none;
+    input {
+        padding: 0 0 0 10px !important;
+    }
+    .action.subscribe {
+        height: 50px;
+        background-color: @white;
+        color: @color-nav;
+        font-family: @font-type;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        text-transform: uppercase;
+        border: none;
+    }
+    .field .control:before {
+        display: none;
+    }
 }
 
 .footer-wineclub {
@@ -62,7 +64,6 @@ input[type="email"] {
 .footer-links-container-left,
 .footer-links-container-middle,
 .footer-links-container-right {
-
     h2 {
         color: @white;
         font-size: 20px;
@@ -76,7 +77,7 @@ input[type="email"] {
         line-height: normal;
         text-transform: uppercase;
     }
-    ul li a{
+    ul li a {
         color: @white;
         font-size: 18px;
         font-weight: 300;
@@ -90,11 +91,95 @@ input[type="email"] {
     }
 }
 
-.page-footer{
-    display: flex;
+.page-footer {
+    display: revert;
     justify-content: center;
 }
-.footer.content{
+.footer.content {
     display: flex;
     align-items: baseline;
+    justify-content: center;
+}
+
+@media (max-width: 950px) {
+    .footer.content ul {
+        padding-right: 20px;
+    }
+    .block.newsletter .field.newsletter {
+        max-width: 165px;
+    }
+}
+
+@media (max-width: 821px) {
+    .footer.content {
+        ul {
+            padding-right: 0px;
+        }
+        .block {
+            position: absolute;
+            width: 80vw;
+        }
+    }
+
+    .footer-wineclub {
+        margin-top: 80px;
+        .footer-links-container-left,
+        .footer-links-container-middle,
+        .footer-links-container-right {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .block.newsletter {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        .title {
+            text-align: center;
+        }
+        .field.newsletter {
+            max-width: 100%;
+        }
+        .form.subscribe > .field,
+        .form.subscribe > .actions {
+            float: none;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-wineclub {
+        display: grid;
+        margin-top: 80px;
+        text-align: center;
+        .footer-links-container-left,
+        .footer-links-container-middle,
+        .footer-links-container-right {
+            h2 {
+                text-align: center;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .block.newsletter {
+        position: absolute;
+        margin-left: 20px;
+        margin-right: 20px;
+        .title {
+            text-align: center;
+        }
+        .field.newsletter {
+            max-width: 100%;
+        }
+    }
+    .img-footer-wine {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 350px) {
+    .footer-wineclub {
+        margin-top: 110px;
+    }
 }

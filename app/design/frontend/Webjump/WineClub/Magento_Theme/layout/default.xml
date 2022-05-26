@@ -22,6 +22,15 @@
             </block>
         </container>
     </referenceContainer>
+    <referenceContainer name="footer-container"> 
+        <container name="footer.wine.down" htmlClass="footer-wine-down" htmlTag="div">
+            <block class="Magento\Cms\Block\Block" as='footer_img' after='-'>
+                    <arguments>
+                        <argument name='block_id' xsi:type='string'>footer_img</argument>
+                    </arguments>
+            </block>
+        </container>
+    </referenceContainer>
     <move element="form.subscribe" destination="footer" after="-"/>
     <referenceBlock name="footer_links" remove="true"/>  
     <referenceBlock name="copyright" remove="true"/>   
