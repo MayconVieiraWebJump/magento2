@@ -66,6 +66,10 @@
   font-weight: 700;
   border-radius: 2px;
 }
+.action.primary:disabled,
+.action-primary:disabled {
+  background: #40015f;
+}
 .action.primary:hover,
 .action-primary:hover {
   background-image: none;
@@ -81,7 +85,6 @@
   color: #ffffff;
   font-size: 17px;
   font-weight: 700;
-  transform: scale(1.1);
   transition: all ease-in 0.5s;
 }
 .box-tocart .action.tocart {
