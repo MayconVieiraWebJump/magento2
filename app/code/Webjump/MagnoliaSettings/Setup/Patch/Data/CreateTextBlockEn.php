@@ -28,7 +28,6 @@ class CreateTextBlockEn implements DataPatchInterface, PatchRevertableInterface
 
     private StoreManagerInterface $storeManager;
 
-
     /**
      * CreateBannerBlock constructor.
      * @param ModuleDataSetupInterface $moduleDataSetup
