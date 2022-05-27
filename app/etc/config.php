@@ -336,6 +336,8 @@ return [
         'Webjump_CoreConfigurator' => 1,
         'Webjump_CustomerBr' => 1,
         'Webjump_DisableRegistration' => 1,
+        'Webjump_HomepageModa' => 1,
+        'Webjump_HomepageWine' => 1,
         'Webjump_LanguageAndCurrency' => 1,
         'Webjump_MagnoliaSettings' => 1,
         'Webjump_OrderStatus' => 0,

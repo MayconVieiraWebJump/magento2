@@ -1,13 +1,13 @@
 <?php
 
-namespace Webjump\HomePageModa\Setup\Patch\Data;
+namespace Webjump\HomePageWine\Setup\Patch\Data;
 
 use Magento\Store\Model\StoreManagerInterface;
 use Magento\Framework\App\Config\Storage\WriterInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
 
-class SetDefaultPageModa implements DataPatchInterface
+class SetDefaultPageWine implements DataPatchInterface
 {
     private ModuleDataSetupInterface $moduleDataSetup;
     private StoreManagerInterface $storeManager;
@@ -55,8 +55,8 @@ public function apply()
     $this->moduleDataSetup->startSetup();
 
 
-    $this->setDefaultCmsPage("msvBR", "modabr");
-    $this->setDefaultCmsPage("msvEN", "modaen");
+    $this->setDefaultCmsPage("wsvBR", "wineclubbr");
+    $this->setDefaultCmsPage("wsvEN", "winecluben");
 
     $this->moduleDataSetup->endSetup();
 }
