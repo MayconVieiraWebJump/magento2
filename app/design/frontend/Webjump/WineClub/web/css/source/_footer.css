@@ -1,7 +1,7 @@
 .page-footer {
   background-color: #9a1e51;
 }
-input[type="email"] {
+.field.newsletter input[type="email"] {
   background: #9a1e51;
   border-radius: 1px;
   font-size: 14px;
@@ -15,7 +15,7 @@ input[type="email"] {
   width: 100%;
   box-sizing: border-box;
 }
-input[type="email"]::placeholder {
+.field.newsletter input[type="email"]::placeholder {
   color: #fff;
 }
 .block.newsletter .title {
