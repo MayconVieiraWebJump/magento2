@@ -40,10 +40,9 @@ public function createPageBR()
     ->getStore("msvBR")
     ->getId();
 
-
     $pageData = [
 
-        'title' => 'Magnolia', // cms page title
+        'title' => 'Magnolia BR', // cms page title
         'page_layout' => 'cms-full-width', // cms page layout
         'meta_keywords' => '', // cms page meta keywords
         'meta_description' => '', // cms page meta description
@@ -63,14 +62,14 @@ public function createPageBR()
 
 public function createPageEN()
 {
-    
+
     $StoreViewGetIdEN = $this->storeManager
     ->getStore("msvEN")
     ->getId();
 
     $pageData = [
 
-        'title' => 'Magnolia', // cms page title
+        'title' => 'Magnolia EN', // cms page title
         'page_layout' => 'cms-full-width', // cms page layout
         'meta_keywords' => '', // cms page meta keywords
         'meta_description' => '', // cms page meta description
@@ -87,7 +86,6 @@ public function createPageEN()
     $this->pageFactory->create()->setData($pageData)->save();
     $this->moduleDataSetup->endSetup();
 }
-
 
 
 public function apply()

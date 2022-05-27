@@ -7,7 +7,6 @@
 @menuBg: #40015f;
 @yellow: #fee95f;
 @smoke: #f2f2f2;
-@midPurple: #6e01a5;
 @cleanPurple: #6215e1;
 @black: #000000;
 @FontDefault: 'Raleway-Regular';
@@ -47,6 +46,7 @@
 .product.name a>a:visited {
   color: @carousel-font ;
   font-family: @FontDefault  !important;
+  margin-left: 0.6em;
 }
 
 .product-item-name {
@@ -82,10 +82,11 @@
   color: #ffffff;
   font-size: 17px;
   font-weight: 700;
+  border-radius: 2px;
 
   &:hover {
     background-image: none;
-    background: @midPurple;
+    background: @purple;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -98,6 +99,12 @@
     font-size: 17px;
     font-weight: 700;
   }
+}
+
+.box-tocart .action.tocart {
+  font-size: 18px;
+  padding: 14px 2px;
+  border-radius: 2px
 }
 
 .slick-slide .product-item .price-box {
@@ -149,7 +156,9 @@
 }
 
 .product-image-wrapper {
-  border: 1px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.155);
+  border-radius: 5px;
+  padding: 45px;
 }
 
 

@@ -1,0 +1,41 @@
+@purple: #6e01a5;
+@yellow: #fee95f;
+@FontDefault: 'Raleway-Regular';
+
+.product-info-main {
+  font-family: @FontDefault !important;
+}
+
+.product-info-price {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.product-reviews-summary .reviews-actions .action.add {
+  color: @purple;
+}
+
+.block-collapsible-nav .item.current>strong {
+  border-color: @yellow;;
+}
+
+.product-item-name {
+  margin-left: -0.4em;
+}
+
+
+@media only screen and (max-width: 630px){
+  .column.main .product-item {
+    margin-bottom: 2.5em;
+    .tocart {
+      padding: 8px 9px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .column.main .product-item .tocart {
+    padding: 8px 3px;
+    font-size: 13px;
+  }
+}
