@@ -27,6 +27,7 @@
 .product.name a > a:visited {
   color: #666666;
   font-family: 'Raleway-Regular' !important;
+  margin-left: 0.6em;
 }
 .product-item-name {
   color: #666666;
@@ -57,6 +58,7 @@
   color: #ffffff;
   font-size: 17px;
   font-weight: 700;
+  border-radius: 2px;
 }
 .action.primary:hover,
 .action-primary:hover {
@@ -73,6 +75,11 @@
   color: #ffffff;
   font-size: 17px;
   font-weight: 700;
+}
+.box-tocart .action.tocart {
+  font-size: 18px;
+  padding: 14px 2px;
+  border-radius: 2px;
 }
 .slick-slide .product-item .price-box {
   margin-left: -25px !important;
@@ -116,7 +123,9 @@
   opacity: 1;
 }
 .product-image-wrapper {
-  border: 1px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.155);
+  border-radius: 5px;
+  padding: 45px;
 }
 @media only screen and (max-width: 768px) {
   .image-header {
