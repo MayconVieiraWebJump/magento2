@@ -13,6 +13,62 @@
 .product-item-name {
   margin-left: -0.4em;
 }
+.page-layout-2columns-left .sidebar-additional {
+  font-family: 'Raleway-Regular';
+}
+.page-main > .page-title-wrapper .page-title {
+  font-family: 'Raleway-Regular';
+}
+.sidebar .product-items .price-box {
+  display: block;
+  margin: 90px 0;
+}
+.sidebar .product-items .product-item-actions {
+  display: block;
+  margin-top: 8px;
+}
+.block-wishlist .counter,
+.block-compare .counter {
+  color: black;
+  font-size: 1.2rem;
+  background-color: white !important;
+}
+.link.wishlist .counter {
+  color: black;
+  font-size: 1.2rem;
+  background-color: white !important;
+}
+.special-price {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.sidebar .product-items .price-box {
+  display: block;
+  margin: 7px 0;
+}
+.sidebar .product-items .product-item-name {
+  margin-top: 7em;
+}
+@media only screen and (max-width: 2200px) {
+  .sidebar .product-items .product-item-details {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .sidebar .product-items .price-box {
+    display: block;
+    margin: 0px 0;
+  }
+  .block-wishlist .action.primary {
+    font-size: 15px;
+    padding: 8px 8px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .block-wishlist .action.primary {
+    font-size: 12px;
+    padding: 4px 4px;
+  }
+}
 @media only screen and (max-width: 630px) {
   .column.main .product-item {
     margin-bottom: 2.5em;
@@ -20,6 +76,13 @@
   .column.main .product-item .tocart {
     padding: 8px 9px;
     font-size: 14px;
+  }
+  #calculate-shipping {
+    margin-left: 5px;
+    height: 45px !important;
+    padding: 7px 15px;
+    margin-top: 1.5em !important;
+    font-size: 1.4rem;
   }
 }
 @media only screen and (max-width: 320px) {

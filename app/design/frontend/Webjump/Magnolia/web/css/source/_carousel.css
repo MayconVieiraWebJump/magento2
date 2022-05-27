@@ -29,6 +29,12 @@
   font-family: 'Raleway-Regular' !important;
   margin-left: 0.6em;
 }
+.product-carousel .slick-slide .product-item .price-box {
+  margin-left: 0px !important;
+}
+.product-carousel .product-item-name {
+  text-align: center !important;
+}
 .product-item-name {
   color: #666666;
   font-family: 'Raleway-Regular' !important;
@@ -63,7 +69,7 @@
 .action.primary:hover,
 .action-primary:hover {
   background-image: none;
-  background: #6e01a5;
+  background: #40015f;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -75,6 +81,8 @@
   color: #ffffff;
   font-size: 17px;
   font-weight: 700;
+  transform: scale(1.1);
+  transition: all ease-in 0.5s;
 }
 .box-tocart .action.tocart {
   font-size: 18px;
