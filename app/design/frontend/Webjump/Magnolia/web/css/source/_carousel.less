@@ -94,6 +94,10 @@
   font-weight: 700;
   border-radius: 2px;
 
+  &:disabled {
+    background: @menuBg;
+  }
+
   &:hover {
     background-image: none;
     background: @menuBg;
@@ -108,7 +112,6 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 700;
-    transform: scale(1.1);
     transition: all ease-in 0.5s;
   }
 }
