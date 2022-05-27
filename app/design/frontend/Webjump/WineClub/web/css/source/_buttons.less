@@ -2,39 +2,59 @@
 @color-nav: #9a1e51;
 @font-color: #fff;
 @font-type: "Poppins-Regular";
-.action.primary{
+
+.login-container {
+    .actions-toolbar > .primary .action:last-child,
+    .actions-toolbar > .secondary .action:last-child {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.action.primary,
+.review-form .action.submit.primary {
     background: @color-nav-bright;
     border: 1px solid @color-nav-bright;
     color: @font-color;
     border-radius: 10px;
     font-family: @font-type;
-    &:hover{
+    &:hover {
         background: @color-nav;
         border: 1px solid @color-nav-bright;
+        color: @font-color;
     }
 }
 
 .cart-discount {
-    .actions-toolbar{
-        .action.primary:not(:focus){
+    .actions-toolbar {
+        .action.primary:not(:focus) {
             box-shadow: none;
         }
-        .action.primary{
+        .action.primary {
             background: @color-nav-bright;
             border: 1px solid @color-nav-bright;
             color: @font-color;
             border-radius: 0px 10px 10px 0px;
-            
-            &:hover{
+
+            &:hover {
                 background: @color-nav;
                 border: 1px solid @color-nav-bright;
                 color: @font-color;
             }
         }
-    } 
+    }
 }
 
-// .block.newsletter .action.subscribe {
-//     width: 80px;
-//     height: 32px;
-// }
+@media (max-width: 767px) {
+    .login-container {
+        .actions-toolbar > .primary .action:last-child,
+        .actions-toolbar > .secondary .action:last-child {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+}
