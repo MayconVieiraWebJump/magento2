@@ -13,6 +13,7 @@
         font-size: 14px;
         height: 50px;
         color: @white;
+        box-shadow: none;
         border-radius: 10px 0px 0px 10px;
         border: 2px solid #ffffff;
         line-height: 1.42857143;
@@ -24,6 +25,10 @@
         &::placeholder {
             color: @white;
         }
+    }
+    div.mage-error{
+        color: @white;
+        font-weight: bold;
     }
 }
 
@@ -206,5 +211,11 @@
 @media (max-width: 350px) {
     .footer-wineclub {
         margin-top: 110px;
+    }
+    input[type="email"] {
+
+        &::placeholder {
+            font-size: 12px;
+        }
     }
 }

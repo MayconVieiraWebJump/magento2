@@ -7,6 +7,7 @@
   font-size: 14px;
   height: 50px;
   color: #fff;
+  box-shadow: none;
   border-radius: 10px 0px 0px 10px;
   border: 2px solid #ffffff;
   line-height: 1.42857143;
@@ -17,6 +18,10 @@
 }
 .field.newsletter input[type="email"]::placeholder {
   color: #fff;
+}
+.field.newsletter div.mage-error {
+  color: #fff;
+  font-weight: bold;
 }
 .block.newsletter .title {
   display: block;
@@ -174,5 +179,8 @@
 @media (max-width: 350px) {
   .footer-wineclub {
     margin-top: 110px;
+  }
+  input[type="email"]::placeholder {
+    font-size: 12px;
   }
 }
