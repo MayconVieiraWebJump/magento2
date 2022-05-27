@@ -12,7 +12,7 @@ use Magento\Framework\Setup\Patch\DataPatchInterface;
 use Magento\Framework\Setup\Patch\PatchRevertableInterface;
 use Magento\Store\Model\StoreManagerInterface;
 
-class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterface
+class CreateFooterImageBlockEN implements DataPatchInterface, PatchRevertableInterface
 {
     /**
      * @var ModuleDataSetupInterface
@@ -24,7 +24,7 @@ class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterf
      */
     private $blockFactory;
 
-    const IDENTIFIER_BLOCK = 'banner_wineclub_br';
+    const IDENTIFIER_BLOCK = 'footer_img_en';
 
     private StoreManagerInterface $storeManager;
 
@@ -52,7 +52,7 @@ class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterf
     {
         $this->moduleDataSetup->getConnection()->startSetup();
 
-        $this->createBannerWineBlock("wsvBR");
+        $this->createFooterImageBlockEN("wsvEN");
 
         $this->moduleDataSetup->getConnection()->endSetup();
     }
@@ -60,7 +60,7 @@ class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterf
     /**
      *  Method to create cms landing page
      */
-    protected function createBannerWineBlock(string $storeCode)
+    protected function createFooterImageBlockEN(string $storeCode)
     {
         $storeGetId = $this->storeManager->getStore($storeCode)->getId();
 
@@ -68,10 +68,10 @@ class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterf
 
         $cmsBlockData = [
             'is_active' => 1,
-            'title' => 'Banner WineClub pt-br',
+            'title' => 'Footer Image Wine en',
             'identifier' => self::IDENTIFIER_BLOCK,
             'stores' => [$storeGetId],
-            'content' => '<style>#html-body [data-pb-style=B7ECQI3],#html-body [data-pb-style=H2R5DEC]{background-size:cover;background-repeat:no-repeat;background-attachment:scroll}#html-body [data-pb-style=H2R5DEC]{justify-content:flex-start;display:flex;flex-direction:column;background-position:center center}#html-body [data-pb-style=B7ECQI3]{background-position:left top;text-align:center}#html-body [data-pb-style=T5LFTO9]{border-radius:0;min-height:550px;background-color:transparent}</style><div data-content-type="row" data-appearance="full-bleed" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="main" data-pb-style="H2R5DEC"><div data-content-type="banner" data-appearance="poster" data-show-button="never" data-show-overlay="never" data-element="main"><div data-element="empty_link"><div class="pagebuilder-banner-wrapper" data-background-images="{\&quot;desktop_image\&quot;:\&quot;{{media url=wysiwyg/WhatsApp_Image_2022-05-18_at_10.14.33_4.jpeg}}\&quot;,\&quot;mobile_image\&quot;:\&quot;{{media url=wysiwyg/6-layers_1__3.png}}\&quot;}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="wrapper" data-pb-style="B7ECQI3"><div class="pagebuilder-overlay pagebuilder-poster-overlay" data-overlay-color="" aria-label="" title="" data-element="overlay" data-pb-style="T5LFTO9"><div class="pagebuilder-poster-content"><div data-element="content"></div></div></div></div></div></div></div>'
+            'content' => '<style>#html-body [data-pb-style=EELJJOP]{justify-content:flex-start;display:flex;flex-direction:column;background-position:center center;background-size:cover;background-repeat:no-repeat;background-attachment:scroll}#html-body [data-pb-style=CKJOB41]{text-align:center;border-style:none}#html-body [data-pb-style=J0JSYK7],#html-body [data-pb-style=VYKQJ17]{max-width:100%;height:auto}@media only screen and (max-width: 768px) { #html-body [data-pb-style=CKJOB41]{border-style:none} }</style><div data-content-type="row" data-appearance="contained" data-element="main"><div data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="inner" data-pb-style="EELJJOP"><figure class="img-footer-wine" data-content-type="image" data-appearance="full-width" data-element="main" data-pb-style="CKJOB41"><img class="pagebuilder-mobile-hidden" src="{{media url=wysiwyg/Grupo_3_5.png}}" alt="" title="" data-element="desktop_image" data-pb-style="VYKQJ17"><img class="pagebuilder-mobile-only" src="{{media url=wysiwyg/Grupo_de_m_scara_10_5.png}}" alt="" title="" data-element="mobile_image" data-pb-style="J0JSYK7"></figure></div></div>'
         ];
 
         if (!$cmsBlock->getId()) {

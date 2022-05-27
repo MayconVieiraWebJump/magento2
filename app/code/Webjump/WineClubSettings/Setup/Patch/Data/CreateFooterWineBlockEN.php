@@ -12,7 +12,7 @@ use Magento\Framework\Setup\Patch\DataPatchInterface;
 use Magento\Framework\Setup\Patch\PatchRevertableInterface;
 use Magento\Store\Model\StoreManagerInterface;
 
-class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterface
+class CreateFooterWineBlockEN implements DataPatchInterface, PatchRevertableInterface
 {
     /**
      * @var ModuleDataSetupInterface
@@ -24,7 +24,7 @@ class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterf
      */
     private $blockFactory;
 
-    const IDENTIFIER_BLOCK = 'banner_wineclub_br';
+    const IDENTIFIER_BLOCK = 'footer_wine_en';
 
     private StoreManagerInterface $storeManager;
 
@@ -52,7 +52,7 @@ class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterf
     {
         $this->moduleDataSetup->getConnection()->startSetup();
 
-        $this->createBannerWineBlock("wsvBR");
+        $this->createFooterWineBlockEN("wsvEN");
 
         $this->moduleDataSetup->getConnection()->endSetup();
     }
@@ -60,7 +60,7 @@ class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterf
     /**
      *  Method to create cms landing page
      */
-    protected function createBannerWineBlock(string $storeCode)
+    protected function createFooterWineBlockEN(string $storeCode)
     {
         $storeGetId = $this->storeManager->getStore($storeCode)->getId();
 
@@ -68,10 +68,46 @@ class CreateBannerWineBlock implements DataPatchInterface, PatchRevertableInterf
 
         $cmsBlockData = [
             'is_active' => 1,
-            'title' => 'Banner WineClub pt-br',
+            'title' => 'Footer Wine Block en',
             'identifier' => self::IDENTIFIER_BLOCK,
             'stores' => [$storeGetId],
-            'content' => '<style>#html-body [data-pb-style=B7ECQI3],#html-body [data-pb-style=H2R5DEC]{background-size:cover;background-repeat:no-repeat;background-attachment:scroll}#html-body [data-pb-style=H2R5DEC]{justify-content:flex-start;display:flex;flex-direction:column;background-position:center center}#html-body [data-pb-style=B7ECQI3]{background-position:left top;text-align:center}#html-body [data-pb-style=T5LFTO9]{border-radius:0;min-height:550px;background-color:transparent}</style><div data-content-type="row" data-appearance="full-bleed" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="main" data-pb-style="H2R5DEC"><div data-content-type="banner" data-appearance="poster" data-show-button="never" data-show-overlay="never" data-element="main"><div data-element="empty_link"><div class="pagebuilder-banner-wrapper" data-background-images="{\&quot;desktop_image\&quot;:\&quot;{{media url=wysiwyg/WhatsApp_Image_2022-05-18_at_10.14.33_4.jpeg}}\&quot;,\&quot;mobile_image\&quot;:\&quot;{{media url=wysiwyg/6-layers_1__3.png}}\&quot;}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="wrapper" data-pb-style="B7ECQI3"><div class="pagebuilder-overlay pagebuilder-poster-overlay" data-overlay-color="" aria-label="" title="" data-element="overlay" data-pb-style="T5LFTO9"><div class="pagebuilder-poster-content"><div data-element="content"></div></div></div></div></div></div></div>'
+            'content' => '<div data-content-type="html" data-appearance="default" data-element="main">&lt;div class="footer-wineclub"&gt;
+            &lt;div class="footer-links-container-left"&gt;
+                &lt;h2&gt;Wineclub&lt;/h2&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Work with us&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Inquiry Center&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;h2&gt;account&lt;/h2&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;My account&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Requests&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div class="footer-links-container-middle"&gt;
+                &lt;h2&gt;wines&lt;/h2&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;All Wines&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Reds&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;whites&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;rosé&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;sparkling wines&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;frizzers&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Dessert&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Other products&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div class="footer-links-container-right"&gt;
+                &lt;h2&gt;Support&lt;/h2&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Shipping Policy&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Privacy Policye&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Terms and conditions&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            
+     &lt;/div&gt;</div>'
         ];
 
         if (!$cmsBlock->getId()) {
