@@ -49,6 +49,16 @@
   margin-left: 0.6em;
 }
 
+.product-carousel {
+  .slick-slide .product-item .price-box {
+    margin-left: 0px !important;
+  }
+
+  .product-item-name {
+    text-align: center !important;
+  }
+}
+
 .product-item-name {
   color: @carousel-font;
   font-family: @FontDefault  !important;
@@ -86,7 +96,7 @@
 
   &:hover {
     background-image: none;
-    background: @purple;
+    background: @menuBg;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -98,6 +108,8 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 700;
+    transform: scale(1.1);
+    transition: all ease-in 0.5s;
   }
 }
 
