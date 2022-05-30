@@ -15,6 +15,12 @@
     }
 }
 
+.action-primary{
+    background: @color-nav-bright;
+    border: 1px solid @color-nav-bright;
+    color: @font-color;
+}
+
 .action.primary,
 .review-form .action.submit.primary {
     background: @color-nav-bright;
@@ -49,6 +55,19 @@
     }
 }
 
+.block-authentication .actions-toolbar > .primary .action{
+    background: @color-nav-bright;
+    border: 1px solid @color-nav-bright;
+    color: @font-color;
+    border-radius: 5px;
+    font-family: @font-type;
+    &:hover {
+        background: @color-nav;
+        border: 1px solid @color-nav-bright;
+        color: @font-color;
+    }
+}
+
 @media (max-width: 880px) {
     .page-main{
         .product-item .action.primary{
@@ -57,7 +76,7 @@
         }
         .products-grid .product-item-info:hover .product-item-inner{
             display: flex;
-            justify-content: center;
+            // justify-content: center;
         }
     }
 }

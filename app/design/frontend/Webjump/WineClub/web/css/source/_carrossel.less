@@ -65,26 +65,31 @@
     padding: 45px;
 }
 
-.product-item-name {
-    height: 60px;
-    color: @color-text-product;
-    font-family: @font-type;
-    font-size: 18px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 22px;
-    text-align: left;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* number of lines to show */
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
+.slick-slide{
+    .product-item-name {
+        height: 55px;
+        width: 250px;
+        color: @color-text-product;
+        font-family: @font-type;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 22px;
+        text-align: left;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
 }
+
+
 
 .product-item .price-box {
     margin: none;
@@ -126,6 +131,7 @@
     }
     .product-item-name {
         height: 40px;
+        width: 190px;
         font-size: 14px;
     }
 
@@ -143,10 +149,6 @@
         &::before {
             font-size: 30px;
         }
-    }
-    
-    .slick-slide{
-        margin-left: 0px;
     }
 
     .column.main .product-items{
@@ -168,6 +170,9 @@
             height: 50px;
         }
     }
+    .product-item-name {
+       width: 150px;
+    }
 }
 
 @media (max-width: 580px) {
@@ -179,6 +184,12 @@
             width: 120px;
             height: 45px;
         }
+    }
+}
+
+@media (max-width: 520px) {
+    .slick-slider .slick-track {
+        margin-left: 25px;
     }
 }
 
@@ -205,15 +216,28 @@
 
     .product-item-name {
         height: 25px;
-        -webkit-line-clamp: 1; /* number of lines to show */
+        width: 120px;
+        -webkit-line-clamp: 1; 
         line-clamp: 1;
     }
+    
 }
 
 @media (max-width: 480px) {
 
     .product-image-container{
         width: 146px !important;
+    }
+
+    .slick-slider .slick-track {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .slick-slider .slick-track {
+        margin-left: 10px;
     }
 }
 
