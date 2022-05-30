@@ -1,3 +1,9 @@
+.cart-summary .checkout-methods-items .item:last-child a {
+  color: #9a1e51;
+}
+.cart-discount .block > .title strong {
+  color: #9a1e51;
+}
 @media (max-width: 900px) {
   .cart-container .cart.table-wrapper .col.price .price-excluding-tax .price,
   .cart-container .cart.table-wrapper .col.subtotal .price-excluding-tax .price {
