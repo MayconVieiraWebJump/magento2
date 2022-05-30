@@ -1,6 +1,6 @@
 "Sign In","Entre",module,Magento_Customer
 "Create an Account","Cadastre-se",module,Magento_Customer
-"Search entire store here...","Qual vinho você está buscando?",module,Magento_Search
+"What wine are you looking for?","Qual vinho você está buscando?",module,Magento_Search
 "Enter your email address", Insira seu e-mail aqui, module, Magento_Newsletter
 "Installment in up to 10 installments with a minimum installment of $300.00.", Parcele em até 10x com parcela mínima de R$ 300,00, module, Magento_Catalog
 "purchase", "Comprar" module, Magento_PageBuilder
