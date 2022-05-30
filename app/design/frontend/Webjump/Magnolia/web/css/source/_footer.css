@@ -186,6 +186,9 @@ input[type="email"]::-webkit-input-placeholder {
   }
   .social-media-magnolia {
     margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .footer-moda h2 {
     text-align: center;
@@ -217,6 +220,6 @@ input[type="email"]::-webkit-input-placeholder {
     align-items: stretch;
   }
   .social-media-footer {
-    margin-left: 10%;
+    margin-left: 0%;
   }
 }
