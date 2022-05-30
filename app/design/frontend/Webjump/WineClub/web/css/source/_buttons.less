@@ -15,10 +15,18 @@
     }
 }
 
-.action-primary{
-    background: @color-nav-bright;
-    border: 1px solid @color-nav-bright;
-    color: @font-color;
+.modal-footer{
+    .action-primary{
+        background: @color-nav-bright;
+        border: 1px solid @color-nav-bright;
+        color: @font-color;
+    
+        &:hover {
+            background: @color-nav;
+            border: 1px solid @color-nav-bright;
+            color: @font-color;
+        }
+    }
 }
 
 .action.primary,

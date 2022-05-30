@@ -7,8 +7,13 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.action-primary {
+.modal-footer .action-primary {
   background: #bd2967;
+  border: 1px solid #bd2967;
+  color: #fff;
+}
+.modal-footer .action-primary:hover {
+  background: #9a1e51;
   border: 1px solid #bd2967;
   color: #fff;
 }
