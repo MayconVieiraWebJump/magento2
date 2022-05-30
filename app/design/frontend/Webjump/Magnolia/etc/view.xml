@@ -2,9 +2,76 @@
 <view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
     <vars module="Magento_PageBuilder">
         <var name="breakpoints">
+            <var name="desktop-large">
+                <var name="conditions">
+                    <var name="max-width">1150px</var>
+                </var>
+                <var name="options">
+                    <var name="products">
+                        <var name="default">
+                            <var name="slidesToShow">5</var>
+                        </var>
+                    </var>
+                </var>
+            </var>
+            <var name="desktop-medium">
+                <var name="conditions">
+                    <var name="max-width">1100px</var>
+                </var>
+                <var name="options">
+                    <var name="products">
+                        <var name="default">
+                            <var name="slidesToShow">4</var>
+                        </var>
+                    </var>
+                </var>
+            </var>
+            <var name="tablet">
+                <var name="conditions">
+                    <var name="max-width">917px</var>
+                </var>
+                <var name="options">
+                    <var name="products">
+                        <var name="default">
+                            <var name="slidesToShow">3</var>
+                        </var>
+                    </var>
+                </var>
+            </var>
             <var name="mobile">
                 <var name="conditions">
                     <var name="max-width">767px</var>
+                </var>
+                <var name="options">
+                    <var name="products">
+                        <var name="default">
+                            <var name="slidesToShow">1</var>
+                        </var>
+                    </var>
+                </var>
+            </var>
+            <var name="transition-mobile-tablet">
+                <var name="conditions">
+                    <var name="max-width">640px</var>
+                </var>
+                <var name="options">
+                    <var name="products">
+                        <var name="default">
+                            <var name="slidesToShow">1</var>
+                        </var>
+                    </var>
+                </var>
+            </var>
+            <var name="mobile-scoped">
+                <var name="conditions">
+                    <var name="max-width">320px</var>
+                </var>
+                <var name="options">
+                    <var name="products">
+                        <var name="default">
+                            <var name="slidesToShow">1</var>
+                        </var>
+                    </var>
                 </var>
             </var>
         </var>

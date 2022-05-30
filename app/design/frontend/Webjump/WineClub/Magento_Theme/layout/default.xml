@@ -12,5 +12,42 @@
             <argument name="logo_height" xsi:type="number">88</argument>
             <argument name="logo_file" xsi:type="string">images/wineclub.png</argument>
         </arguments>
-    </referenceBlock>   
+    </referenceBlock>
+
+    <referenceContainer name="footer"> 
+        <container name="footer.wine" htmlClass="footer-wine" htmlTag="div">
+            <block class="Magento\Cms\Block\Block" as='footer_links_br' before='-'>
+                <arguments>
+                    <argument name='block_id' xsi:type='string'>footer_wine_br</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Cms\Block\Block" as='footer_links_en' before='-'>
+                <arguments>
+                    <argument name='block_id' xsi:type='string'>footer_wine_en</argument>
+                </arguments>
+            </block>
+        </container>
+    </referenceContainer>
+
+    <referenceContainer name="footer-container"> 
+        <container name="footer.wine.down" htmlClass="footer-wine-down" htmlTag="div">
+            <block class="Magento\Cms\Block\Block" as='footer_img' after='-'>
+                <arguments>
+                    <argument name='block_id' xsi:type='string'>footer_img</argument>
+                </arguments>
+            </block>
+            <block class="Magento\Cms\Block\Block" as='footer_img_en' after='-'>
+                <arguments>
+                    <argument name='block_id' xsi:type='string'>footer_img_en</argument>
+                </arguments>
+            </block>
+        </container>
+    </referenceContainer>
+
+    <move element="form.subscribe" destination="footer" after="-"/>
+
+    <referenceBlock name="footer_links" remove="true"/>  
+
+    <referenceBlock name="copyright" remove="true"/>   
+
 </page> 
