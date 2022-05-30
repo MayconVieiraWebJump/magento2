@@ -18,6 +18,9 @@
 .sidebar .product-items .product-item-name {
   margin-top: 7em;
 }
+.breadcrumbs a:visited {
+  color: #9a1e51;
+}
 @media only screen and (max-width: 2200px) {
   .sidebar .product-items .product-item-details {
     margin-left: 0px;
