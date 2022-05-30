@@ -52,6 +52,7 @@
 .product-carousel {
   .slick-slide .product-item .price-box {
     margin-left: 0px !important;
+    height: 32px;
   }
 
   .product-item-name {
@@ -67,14 +68,15 @@
   font-style: normal !important;
   letter-spacing: normal !important;
   line-height: normal !important;
-  text-align: left !important;
+  text-align: center !important;
   font-style: normal !important;
   letter-spacing: normal !important;
   line-height: normal !important;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  height: 40px;
 }
 
 .action.primary,
@@ -188,6 +190,18 @@
 @media only screen and (max-width: 768px) {
   .image-header {
     margin-top: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col.price {
+    margin-left: -10em;
+  }
+  .col.qty {
+    margin-left: -3em;
+  }
+  .col.subtotal {
+    margin-left: 2em;
   }
 }
 
