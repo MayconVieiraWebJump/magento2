@@ -65,8 +65,8 @@ class ConfigAttributeColor implements DataPatchInterface
                 'Blue',
                 'Yellow',
                 'Green',
-                'Orange',
-                'Pink'
+                'Pink',
+                'Beige'
             ]
         ];
 
