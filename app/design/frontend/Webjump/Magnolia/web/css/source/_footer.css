@@ -55,6 +55,7 @@
 input[type="email"]::-webkit-input-placeholder {
   font-size: 16px;
   color: #7f8c8d;
+  font-family: 'Raleway-Regular';
 }
 .footer.content .block {
   float: none;

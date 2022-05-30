@@ -1,5 +1,6 @@
 @purple: #6e01a5;
 @yellow: #fee95f;
+@cleanPurple:#6215e1;
 @FontDefault: 'Raleway-Regular';
 
 .product-info-main {
@@ -84,6 +85,91 @@
   background-color: @purple;
   color: white;
 }
+
+.cart-discount.action.apply.primary {
+  padding: 7px 26px;
+}
+
+.cart.table-wrapper .actions-toolbar {
+  color: @cleanPurple !important;
+}
+
+.cart-discount .block>.title strong{
+  color:@cleanPurple !important;
+}
+
+.action.multicheckout {
+  color:@cleanPurple !important;
+}
+
+.actions-toolbar a {
+  color:@cleanPurple !important;
+}
+
+.opc-progress-bar-item._active:before {
+  background: @yellow;
+  border-color: @yellow;
+}
+
+.opc-progress-bar-item._active>span:before {
+  background: @yellow;
+  border-color: @yellow;
+}
+
+.opc-progress-bar-item._active>span:after {
+  border-color: @yellow;
+  color: @purple;
+}
+
+.action .action-auth-toggle {
+  color:@cleanPurple !important;
+}
+
+.checkout-payment-method .payment-option-title .action-toggle{
+  color:@cleanPurple !important;
+}
+
+.shipping-information-content a {
+  color:@cleanPurple !important;
+}
+
+.opc-progress-bar-item._complete>span {
+  color:@cleanPurple !important;
+}
+
+a.action.primary.continue span{
+  color: white !important;
+}
+
+.order-number {
+  color:@cleanPurple !important;
+}
+
+.action .print a {
+  color:@cleanPurple !important;
+}
+
+a:visited, .alink:visited {
+  color: @cleanPurple;
+}
+
+a, .alink {
+  color: @cleanPurple;
+}
+
+.opc-wrapper .shipping-address-item.selected-item:after {
+  background: @yellow;
+}
+
+.opc-wrapper .shipping-address-item.selected-item {
+  border-color: @yellow;
+}
+
+.opc-wrapper .action-show-popup {
+  background-color: @purple;
+  color: white;
+}
+
 
 @media only screen and (max-width: 2200px){
   .sidebar .product-items .product-item-details {
