@@ -1,4 +1,5 @@
 @color-default: #9a1e51;
+@font-color: #fff;
 .column.main .product-item {
     margin-bottom: 2em;
 }
@@ -23,7 +24,7 @@
     margin-top: 7em;
 }
 
-.breadcrumbs a:visited{
+.breadcrumbs a:visited {
     color: @color-default;
 }
 
@@ -48,19 +49,18 @@
 }
 
 @media (max-width: 767px) {
-    .sidebar .product-items .product-item-details{
+    .sidebar .product-items .product-item-details {
         margin-left: 14em;
         margin-top: 135px;
     }
 
     .products {
-
         .product-item-name {
             height: 45px;
             overflow: hidden;
             text-overflow: ellipsis;
             display: -webkit-box;
-            -webkit-line-clamp: 3; 
+            -webkit-line-clamp: 3;
             line-clamp: 3;
             -webkit-box-orient: vertical;
         }
@@ -68,21 +68,21 @@
 }
 
 @media (max-width: 680px) {
-    .sidebar .product-items .product-item-details{
+    .sidebar .product-items .product-item-details {
         margin-left: 13em;
         margin-top: 105px;
     }
 }
 
 @media (max-width: 580px) {
-    .sidebar .product-items .product-item-details{
+    .sidebar .product-items .product-item-details {
         margin-left: 11em;
         margin-top: -1em;
     }
 }
 
 @media (max-width: 500px) {
-    .sidebar .product-items .product-item-details{
+    .sidebar .product-items .product-item-details {
         margin-top: 108px;
     }
 }
@@ -98,22 +98,22 @@
 
 @media (max-width: 400px) {
     .products {
-        .product-item-name{
+        .product-item-name {
             width: 120px;
         }
-        .product-item .price-box .price{
+        .product-item .price-box .price {
             font-size: 16px;
         }
     }
 }
 
 @media (max-width: 380px) {
-    .sidebar .product-items .product-item-details{
+    .sidebar .product-items .product-item-details {
         margin-top: -35px;
         margin-left: 8em;
     }
     .products {
-        .product-item-name{
+        .product-item-name {
             width: 100px;
         }
 
@@ -121,5 +121,25 @@
             width: 110px !important;
             font-size: 8px;
         }
+    }
+    .toolbar {
+        select {
+            width: 28vw;
+            font-size: 12px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 1;
+            line-clamp: 1;
+            -webkit-box-orient: vertical;
+            option {
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 351px) {
+    .page-products .columns {
+        z-index: 0;
     }
 }
