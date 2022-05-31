@@ -4,7 +4,7 @@
 @text-color: #000;
 @background: #9a1e51;
 @color-border: #ccc;
-@font-default: 'Poppins-Regular';
+@font-default: "Poppins-Regular";
 
 body {
     overflow-x: hidden;
@@ -34,7 +34,7 @@ body {
             }
         }
     }
-    .not-logged-in{
+    .not-logged-in {
         display: none;
     }
 }
@@ -48,6 +48,9 @@ body {
         border-radius: 10px;
         font-family: @font-default;
     }
+    input:not([disabled]):focus {
+        box-shadow: 0 0 3px 1px @background;
+    }
 }
 
 .minicart-wrapper {
@@ -56,7 +59,6 @@ body {
     .action.showcart {
         display: flex;
         position: relative;
-        /* topo | horizontal | inferior */
         margin: 0.2em 1.4em;
         &::before {
             content: "";
@@ -64,7 +66,7 @@ body {
             margin-right: 8px;
             width: 19px;
             height: 25px;
-            background: url('@{baseDir}images/mall.png');
+            background: url("@{baseDir}images/mall.png");
         }
     }
     .action.showcart.active {
@@ -95,13 +97,13 @@ body {
                 &:hover {
                     color: @text-color;
                 }
-                &:visited{
+                &:visited {
                     color: @text-color;
                 }
             }
         }
-        .customer-welcome{
-            span button{
+        .customer-welcome {
+            span button {
                 color: @text-color;
             }
         }
@@ -120,7 +122,6 @@ body {
         padding-top: 20px;
     }
     .field.search {
-
         .control {
             border-top: none;
         }
@@ -134,7 +135,7 @@ body {
             width: auto;
             margin-bottom: 15px;
 
-            input{
+            input {
                 padding-right: none;
             }
         }
@@ -152,13 +153,13 @@ body {
         padding-left: 40px;
     }
 
-    .header.content{
+    .header.content {
         margin-left: 0px;
         margin-right: 0px;
         z-index: 1;
     }
 
-    .block-search .label:before{
+    .block-search .label:before {
         margin: 0px;
     }
 }
