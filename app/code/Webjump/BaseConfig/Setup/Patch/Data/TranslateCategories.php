@@ -53,8 +53,8 @@ class TranslateCategories implements DataPatchInterface
     public function translate(string $categoryName, string $newName, int $storeId)
     {
 
-  $category = $this->categoryFactory->create()->getCollection()
-              ->addAttributeToFilter('name',$categoryName)->setPageSize(1)->getFirstItem();
+    $category = $this->categoryFactory->create()->getCollection()
+                ->addAttributeToFilter('name',$categoryName)->setPageSize(1)->getFirstItem();
                 $category->setName($newName);
                 $category->setStoreId($storeId);
                 $category->save();  
