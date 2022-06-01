@@ -18,7 +18,16 @@
         border: @color-nav;
     }
 }
+.column.main .block:last-child .actions-toolbar > .primary .action:last-child {
+    padding: 7px;
+}
 
+.cart-empty a,
+.checkout-success a,
+.page-title-wrapper a,
+.billing-address-details a,
+.shipping-information-content a,
+.authentication-wrapper .action-auth-toggle:not(:focus),
 .checkout-payment-method .payment-option-title .action-toggle,
 .opc-progress-bar-item._complete > span,
 .cart.table-wrapper .action {
@@ -30,6 +39,9 @@
         border: 2px solid @color-nav;
         &::after {
             background: @color-nav;
+        }
+        a {
+            color: @color-nav;
         }
     }
     .action-show-popup {

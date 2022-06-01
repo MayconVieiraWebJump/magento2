@@ -1,5 +1,6 @@
 @color-default: #9a1e51;
 @font-color: #fff;
+
 .column.main .product-item {
     margin-bottom: 2em;
 }
@@ -19,6 +20,9 @@
         line-clamp: 4;
         -webkit-box-orient: vertical;
     }
+    .product-item-description a{
+        color: @color-default;
+    }
 }
 
 .sidebar .product-items .price-box {
@@ -30,8 +34,13 @@
     margin-top: 110px;
 }
 
+.search .block .item a,
 .breadcrumbs a:visited {
     color: @color-default;
+}
+
+form .product-items li .product-item-name{
+    margin-top: 0px !important;
 }
 
 @media only screen and (max-width: 2200px) {
@@ -86,9 +95,15 @@
 }
 
 @media (max-width: 767px) {
-    .sidebar .product-items .product-item-details {
-        margin-left: 14em;
-        margin-top: 135px;
+    .sidebar .product-items {
+        .product-item-name {
+            margin-top: 40px;
+        }
+        .product-item-details {
+            margin-left: 14em;
+            margin-top: -30px;
+            margin-bottom: 140px;
+        }
     }
 
     .products {
@@ -107,20 +122,23 @@
 @media (max-width: 680px) {
     .sidebar .product-items .product-item-details {
         margin-left: 13em;
-        margin-top: 105px;
+        margin-top: -30px;
+        margin-bottom: 90px;
     }
 }
 
 @media (max-width: 580px) {
     .sidebar .product-items .product-item-details {
         margin-left: 11em;
-        margin-top: -1em;
+        margin-top: -30px;
+        margin-bottom: 80px;
     }
 }
 
 @media (max-width: 500px) {
     .sidebar .product-items .product-item-details {
-        margin-top: 108px;
+        margin-top: -30px;
+        margin-bottom: 70px;
     }
 }
 

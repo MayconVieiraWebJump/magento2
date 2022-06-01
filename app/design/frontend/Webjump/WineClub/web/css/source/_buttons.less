@@ -3,15 +3,30 @@
 @font-color: #fff;
 @font-type: "Poppins-Regular";
 
+input:not([disabled]):focus,
+textarea:not([disabled]):focus,
+select:not([disabled]):focus {
+    box-shadow: 0 0 3px 1px @color-nav;
+}
+
 .login-container {
     .actions-toolbar > .primary .action:last-child,
     .actions-toolbar > .secondary .action:last-child {
-        height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
         padding-left: 10px;
         padding-right: 10px;
+
+    }
+    .actions-toolbar{
+        .secondary{
+            a.action{
+                color: @color-nav;
+                margin-top: 0px;
+            }
+            
+        }
     }
 }
 
@@ -29,6 +44,7 @@
     }
 }
 
+.control.captcha-image button,
 .action.primary,
 .review-form .action.submit.primary {
     background: @color-nav-bright;
