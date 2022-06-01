@@ -130,6 +130,7 @@ class CreateCategories implements DataPatchInterface
         $this->createCategories($this->subCategories('Espumantes', 'espumantes', 'wine'));
         $this->createCategories($this->subCategories('Premium', 'premium', 'wine'));
         $this->createCategories($this->subCategories('Kits', 'kits', 'wine'));
+        $this->createCategories($this->subCategories('Coleção NFT', 'nft', 'wine'));
 
         $this->createCategories($this->subCategories('Vinhos Brancos', 'vinhos-brancos', 'vinhos'));
         $this->createCategories($this->subCategories('Vinhos Rose', 'vinhos-rose', 'vinhos'));
@@ -138,7 +139,7 @@ class CreateCategories implements DataPatchInterface
         $this->createCategories($this->subCategories('Frisantes', 'frisantes', 'espumantes'));
 
         $this->createCategories($this->subCategories('Acessórios', 'acessorios-wine', 'kits'));
-        $this->createCategories($this->subCategories('sobremesa', 'sobremesa', 'kits'));
+
 
         $this->moduleDataSetup->getConnection()->endSetup();
     }

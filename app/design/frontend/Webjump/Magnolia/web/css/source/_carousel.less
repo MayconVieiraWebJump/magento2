@@ -11,6 +11,10 @@
 @black: #000000;
 @FontDefault: 'Raleway-Regular';
 
+.image-header {
+  margin-top: 3em;
+}
+
 .product-item-actions .actions-primary+.actions-secondary {
   display: none;
 }
@@ -49,6 +53,17 @@
   margin-left: 0.6em;
 }
 
+.product-carousel {
+  .slick-slide .product-item .price-box {
+    margin-left: 0px !important;
+    height: 32px;
+  }
+
+  .product-item-name {
+    text-align: center !important;
+  }
+}
+
 .product-item-name {
   color: @carousel-font;
   font-family: @FontDefault  !important;
@@ -57,14 +72,15 @@
   font-style: normal !important;
   letter-spacing: normal !important;
   line-height: normal !important;
-  text-align: left !important;
+  text-align: center !important;
   font-style: normal !important;
   letter-spacing: normal !important;
   line-height: normal !important;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  height: 40px;
 }
 
 .action.primary,
@@ -84,9 +100,13 @@
   font-weight: 700;
   border-radius: 2px;
 
+  &:disabled {
+    background: @menuBg;
+  }
+
   &:hover {
     background-image: none;
-    background: @purple;
+    background: @menuBg;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -98,6 +118,15 @@
     color: #ffffff;
     font-size: 17px;
     font-weight: 700;
+    transition: all ease-in 0.5s;
+  }
+
+  &:active {
+    background: @menuBg;
+  }
+
+  &:focus{
+    background: @menuBg;
   }
 }
 
@@ -168,6 +197,18 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .col.price {
+    margin-left: -10em;
+  }
+  .col.qty {
+    margin-left: -3em;
+  }
+  .col.subtotal {
+    margin-left: 2em;
+  }
+}
+
 @media only screen and (max-width: 1025px) {
   .carousel {
     margin-left: 5% !important;
@@ -189,12 +230,18 @@
 .slick-prev {
     background: none !important;
     margin-top: 5% !important;
-    margin-left: -70px;
+    margin-left: -50px;
+    &::before {
+      font-size: 28px;
+  }
 }
 .slick-next {
     margin-top: 5% !important;
     background: none !important;
-    margin-right: -65px;
+    margin-right: -51px;
+    &::before {
+      font-size: 28px;
+  }
 }
 @media (max-width: 440px) {
     .slick-prev {
