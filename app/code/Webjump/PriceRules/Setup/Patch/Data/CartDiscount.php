@@ -22,6 +22,7 @@ class CartDiscount implements DataPatchInterface
     CONST cartRuleDescEN = "Buy 5 items or more and receive 10% off in cart!";
     CONST cartDiscount = "10.000";
 
+
     CONST customerNameModaBR = "Usuarios logados no site Moda";
     CONST customerDescModaBR = "Usuários logados recebem 5% de desconto em suas compras";
     CONST customerDiscountModaBR = "5.000";
@@ -87,6 +88,8 @@ class CartDiscount implements DataPatchInterface
             self::groupIdWine,
             self::websiteIdWine
         );
+
+        $this->priceRuleVar->createCouponRule();
         
         $this->moduleDataSetup->getConnection()->endSetup();
     }
