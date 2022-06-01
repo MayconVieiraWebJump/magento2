@@ -133,6 +133,12 @@ a,
 a.action.create.primary {
   color: white !important;
 }
+.box-tocart .fieldset .product-item-actions .actions-primary button.action.tocart.primary {
+  margin-left: -4.5em;
+}
+strong.product-item-name {
+  margin-bottom: 1.5em;
+}
 @media only screen and (max-width: 2200px) {
   .sidebar .product-items .product-item-details {
     margin-left: 0px;
@@ -148,10 +154,20 @@ a.action.create.primary {
     padding: 8px 8px;
   }
 }
+@media only screen and (max-width: 850px) {
+  .products-grid.wishlist .product-item .price-box {
+    margin-top: 4em;
+  }
+}
 @media only screen and (max-width: 780px) {
   .block-wishlist .action.primary {
     font-size: 12px;
     padding: 4px 4px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .box-tocart .fieldset .product-item-actions .actions-primary button.action.tocart.primary {
+    margin-left: 0em;
   }
 }
 @media only screen and (max-width: 630px) {
@@ -168,6 +184,17 @@ a.action.create.primary {
     padding: 7px 15px;
     margin-top: 1.5em !important;
     font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 347px) {
+  strong.product-item-name {
+    margin-bottom: 2.5em;
+  }
+  .product-item .price-box {
+    height: 30px;
+  }
+  select#sorter {
+    width: 40%;
   }
 }
 @media only screen and (max-width: 320px) {
