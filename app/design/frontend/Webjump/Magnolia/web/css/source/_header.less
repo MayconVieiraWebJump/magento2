@@ -164,6 +164,13 @@
     }
 }
 
+@media only screen and (max-width: 500px){
+    .block-search input {
+        width: 98% !important;
+    }
+}
+
+
 @media only screen and (max-width: 321px){
     #html-body [data-pb-style=A6A1YYF], #html-body [data-pb-style=U91K2IR] {
         background-size: contain !important;
@@ -172,7 +179,9 @@
     }
 }
 
-
+input:not([disabled]):focus, select:not([disabled]):focus, textarea:not([disabled]):focus {
+    box-shadow: 0 0 3px 1px @purple;
+}
 
 .page-header {
     .panel.wrapper {
