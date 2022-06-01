@@ -35,16 +35,13 @@ select:not([disabled]):focus {
         background: @color-nav-bright;
         border: 1px solid @color-nav-bright;
         color: @font-color;
-        font-size: 11px;
         &:hover {
             background: @color-nav;
             border: 1px solid @color-nav-bright;
             color: @font-color;
         }
     }
-    .action-secondary{
-        font-size: 10px;
-    }
+
 }
 
 .control.captcha-image button,
@@ -133,6 +130,17 @@ select:not([disabled]):focus {
         .product-item .action.primary {
             font-size: 10px;
             width: 120px;
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .modal-footer {
+        .action-primary {
+            font-size: 11px;
+        }
+        .action-secondary{
+            font-size: 10px;
         }
     }
 }
