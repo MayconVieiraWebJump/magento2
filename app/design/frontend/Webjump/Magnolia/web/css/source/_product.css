@@ -1,6 +1,16 @@
 .authentication-wrapper .action-auth-toggle:not(:focus) {
   color: #6e01a5;
 }
+.checkout-payment-method .payment-option-content .form-discount .actions-toolbar .primary .action:not(:focus) {
+  background: #6215e1;
+  color: #fff;
+  font-family: 'Raleway-Regular';
+  box-shadow: none;
+}
+.checkout-payment-method .payment-option-content .form-discount .actions-toolbar .primary .action:not(:focus):hover {
+  background: #6e01a5;
+  color: #fff;
+}
 .product-info-main {
   font-family: 'Raleway-Regular' !important;
 }
