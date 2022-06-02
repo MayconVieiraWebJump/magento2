@@ -145,7 +145,7 @@ input[type="email"]::-webkit-input-placeholder {
     margin-left: -17%;
   }
 }
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 850px) {
   .footer-moda {
     gap: 40px;
     margin-left: -1%;
