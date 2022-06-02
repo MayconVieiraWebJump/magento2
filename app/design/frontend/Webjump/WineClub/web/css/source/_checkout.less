@@ -59,17 +59,18 @@
 
 .checkout-payment-method {
     .payment-option-content 
-    .form-discount .actions-toolbar .primary .action:not(:focus){
+    .form-discount .actions-toolbar .primary .action{
         background: @color-nav-bright;
         border: 1px solid @color-nav-bright;
         color: @font-color;
         border-radius: 0px 10px 10px 0px;
         font-family: @font-type;
-        box-shadow: none;
-        &:hover {
+        box-shadow: none !important;
+        &:hover, &:active, &:focus {
             background: @color-nav;
             border: 1px solid @color-nav-bright;
             color: @font-color;
+            box-shadow: none;
         }
     }
     .payment-option-inner .field .control input[type="text"]{
