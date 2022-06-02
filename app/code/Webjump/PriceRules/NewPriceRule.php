@@ -2,33 +2,30 @@
 
 namespace Webjump\PriceRules;
 
-use Magento\SalesRule\Model\RuleFactory;
 use Magento\Framework\App\State;
+use Magento\SalesRule\Model\RuleFactory;
 use Magento\Store\Model\StoreManagerInterface;
 
-
-Class NewPriceRule {
-
+class NewPriceRule
+{
     private StoreManagerInterface $storeManager;
 
-    
     public function __construct(
         RuleFactory $ruleFactory,
         State $state,
         StoreManagerInterface $storeManager
-    )
-    {
+    ) {
         $this->ruleFactory = $ruleFactory;
         $this->state = $state;
         $this->storeManager = $storeManager;
     }
-    
-    public function createRuleCustomerGroup(string $name, string $description, string $discount, int $customerGroupId, string $websiteCode){
-        
+
+    public function createRuleCustomerGroup(string $name, string $description, string $discount, int $customerGroupId, string $websiteCode)
+    {
         $websiteGetId = $this->storeManager
         ->getWebsite($websiteCode)
         ->getId();
-        
+
         $ruleData = [
             "name" => $name,
             "description" => $description,
@@ -59,13 +56,13 @@ Class NewPriceRule {
             "actions_serialized" => ''
         ];
 
-         $ruleModel = $this->ruleFactory->create();
-         $ruleModel->setData($ruleData);
-         $ruleModel->save();
+        $ruleModel = $this->ruleFactory->create();
+        $ruleModel->setData($ruleData);
+        $ruleModel->save();
     }
 
-    public function createRuleCart(string $name, string $description, string $discount){
-        
+    public function createRuleCart(string $name, string $description, string $discount)
+    {
         $ruleData = [
             "name" => $name,
             "description" => $description,
@@ -112,16 +109,8 @@ Class NewPriceRule {
             "actions_serialized" => ''
         ];
 
-         $ruleModel = $this->ruleFactory->create();
-         $ruleModel->setData($ruleData);
-         $ruleModel->save();
+        $ruleModel = $this->ruleFactory->create();
+        $ruleModel->setData($ruleData);
+        $ruleModel->save();
     }
-
-    
-    
-    
-
-    
-
-
 }
