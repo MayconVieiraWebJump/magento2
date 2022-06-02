@@ -7,15 +7,17 @@
   color: @purple;
 }
 .checkout-payment-method .payment-option-content 
-.form-discount .actions-toolbar .primary .action:not(:focus){
+.form-discount .actions-toolbar .primary .action{
   background: @cleanPurple;
   color: #fff;
   font-family: @FontDefault;
-  box-shadow: none;
-  &:hover{
-    background: @purple;
-    color: #fff;
+  box-shadow: none !important;
+  &:hover, &:active, &:focus{
+    background: @purple !important;
+    color: #fff !important;
+    box-shadow: none;
   }
+
 }
 .product-info-main {
   font-family: @FontDefault !important;
