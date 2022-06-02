@@ -287,3 +287,68 @@ input:not([disabled]):focus, select:not([disabled]):focus, textarea:not([disable
     color: @yellow;
     font-weight: 700;
 }
+
+.switcher {
+    .options {
+        .action.toggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .view-msvBR,
+        .view-msvEN {
+            span {
+                line-height: 0;
+                font-size: 0;
+                color: transparent;
+                text-align: center;
+                &::before {
+                    display: inline-block;
+                }
+            }
+        }
+        .view-msvBR {
+            span {
+                &::before {
+                    content: url("@{baseDir}images/brasil.png");
+                }
+            }
+        }
+        .view-msvEN {
+            span {
+                &::before {
+                    content: url("@{baseDir}images/usa.png");
+                }
+            }
+        }
+        .dropdown.switcher-dropdown {
+            min-width: 80px;
+            .view-msvEN,
+            .view-msvBR {
+                a {
+                    line-height: 0;
+                    font-size: 0;
+                    color: transparent;
+                    text-align: center;
+                    &::before {
+                        display: inline-block;
+                    }
+                }
+            }
+            .view-msvBR {
+                a {
+                    &::before {
+                        content: url("@{baseDir}images/brasil.png");
+                    }
+                }
+            }
+            .view-msvEN {
+                a {
+                    &::before {
+                        content: url("@{baseDir}images/usa.png");
+                    }
+                }
+            }
+        }
+    }
+}
