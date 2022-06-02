@@ -107,6 +107,71 @@ body {
     }
 }
 
+.switcher {
+    .options {
+        .action.toggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .view-wsvBR,
+        .view-wsvEN{
+            span {
+                line-height: 0;
+                font-size: 0;
+                color: transparent;
+                text-align: center;
+                &::before {
+                    display: inline-block;
+                }
+            }
+        }
+        .view-wsvBR {
+            span {
+                &::before {
+                    content: url("@{baseDir}images/brasil.png");
+                }
+            }
+        }
+        .view-wsvEN{
+            span {
+                &::before {
+                    content: url("@{baseDir}images/usa.png");
+                }
+            }
+        }
+        .dropdown.switcher-dropdown {
+            min-width: 80px;
+            .view-wsvEN,
+            .view-wsvBR{
+                a {
+                    line-height: 0;
+                    font-size: 0;
+                    color: transparent;
+                    text-align: center;
+                    &::before {
+                        display: inline-block;
+                    }
+                }
+            }
+            .view-wsvBR {
+                a {
+                    &::before {
+                        content: url("@{baseDir}images/brasil.png");
+                    }
+                }
+            }
+            .view-wsvEN{
+                a {
+                    &::before {
+                        content: url("@{baseDir}images/usa.png");
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 767px) {
     .logo {
         margin-top: 10px;
