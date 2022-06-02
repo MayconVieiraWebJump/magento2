@@ -115,6 +115,7 @@ input[type="email"]::-webkit-input-placeholder {
   line-height: normal;
   text-align: left;
   text-transform: uppercase;
+  padding: 8px 26px;
 }
 .block.newsletter .field .control:before {
   display: none;
