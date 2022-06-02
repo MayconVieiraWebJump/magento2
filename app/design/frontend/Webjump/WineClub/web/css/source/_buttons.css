@@ -1,0 +1,107 @@
+input:not([disabled]):focus,
+textarea:not([disabled]):focus,
+select:not([disabled]):focus {
+  box-shadow: 0 0 3px 1px #9a1e51;
+}
+.login-container .actions-toolbar > .primary .action:last-child,
+.login-container .actions-toolbar > .secondary .action:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.login-container .actions-toolbar .secondary a.action {
+  color: #9a1e51;
+  margin-top: 0px;
+}
+.modal-footer .action-primary {
+  background: #bd2967;
+  border: 1px solid #bd2967;
+  color: #fff;
+}
+.modal-footer .action-primary:hover {
+  background: #9a1e51;
+  border: 1px solid #bd2967;
+  color: #fff;
+}
+.control.captcha-image button,
+.action.primary,
+.review-form .action.submit.primary {
+  background: #bd2967;
+  border: 1px solid #bd2967;
+  color: #fff;
+  border-radius: 10px;
+  font-family: "Poppins-Regular";
+}
+.control.captcha-image button:hover,
+.action.primary:hover,
+.review-form .action.submit.primary:hover {
+  background: #9a1e51;
+  border: 1px solid #bd2967;
+  color: #fff;
+}
+.cart-discount .actions-toolbar .action.primary:not(:focus) {
+  box-shadow: none;
+}
+.cart-discount .actions-toolbar .action.primary {
+  background: #bd2967;
+  border: 1px solid #bd2967;
+  color: #fff;
+  border-radius: 0px 10px 10px 0px;
+}
+.cart-discount .actions-toolbar .action.primary:hover {
+  background: #9a1e51;
+  border: 1px solid #bd2967;
+  color: #fff;
+}
+.block-authentication .actions-toolbar > .primary .action {
+  background: #bd2967;
+  border: 1px solid #bd2967;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Poppins-Regular";
+}
+.block-authentication .actions-toolbar > .primary .action:hover {
+  background: #9a1e51;
+  border: 1px solid #bd2967;
+  color: #fff;
+}
+.cart-container .form-cart .actions.main button {
+  background: #bd2967;
+  border: 1px solid #bd2967;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Poppins-Regular";
+}
+.cart-container .form-cart .actions.main button:hover {
+  background: #9a1e51;
+  border: 1px solid #bd2967;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .login-container .actions-toolbar > .primary .action:last-child,
+  .login-container .actions-toolbar > .secondary .action:last-child {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (max-width: 639px) {
+  .page-main .product-item .action.primary {
+    font-size: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .page-main .product-item .action.primary {
+    font-size: 10px;
+    width: 120px;
+  }
+}
+@media (max-width: 370px) {
+  .modal-footer .action-primary {
+    font-size: 11px;
+  }
+  .modal-footer .action-secondary {
+    font-size: 10px;
+  }
+}

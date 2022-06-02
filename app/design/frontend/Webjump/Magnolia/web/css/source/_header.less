@@ -174,11 +174,16 @@
     .minicart-wrapper {
         margin-left: -23px !important;
     }
-
-    .modal-footer button.action-primary.action-accept {
-        font-size: 11px !important;
-        padding: 5px 12px;
+    .modal-footer {
+        .action-primary {
+            font-size: 11px;
+            padding: 8px 12px 8px 12px;
+        }
+        .action-secondary{
+            font-size: 10px;
+        }
     }
+
 }
 
 @media only screen and (max-width: 353px){
@@ -267,10 +272,6 @@ input:not([disabled]):focus, select:not([disabled]):focus, textarea:not([disable
                 background: url('@{baseDir}images/mall.png');
         }
     }
-}
-
-.modal-footer button.action-primary.action-accept {
-    font-size: 14px;
 }
 
 .minicart-wrapper .action.showcart.active:before  {
