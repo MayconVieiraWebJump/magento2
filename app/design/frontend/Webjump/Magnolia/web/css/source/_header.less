@@ -164,6 +164,34 @@
     }
 }
 
+@media only screen and (max-width: 500px){
+    .block-search input {
+        width: 98% !important;
+    }
+}
+
+@media only screen and (max-width: 387px){
+    .minicart-wrapper {
+        margin-left: -23px !important;
+    }
+    .modal-footer {
+        .action-primary {
+            font-size: 11px;
+            padding: 8px 12px 8px 12px;
+        }
+        .action-secondary{
+            font-size: 10px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 353px){
+    .minicart-wrapper {
+        margin-left: -23px !important;
+    }
+}
+
 @media only screen and (max-width: 321px){
     #html-body [data-pb-style=A6A1YYF], #html-body [data-pb-style=U91K2IR] {
         background-size: contain !important;
@@ -172,7 +200,9 @@
     }
 }
 
-
+input:not([disabled]):focus, select:not([disabled]):focus, textarea:not([disabled]):focus {
+    box-shadow: 0 0 3px 1px @purple;
+}
 
 .page-header {
     .panel.wrapper {

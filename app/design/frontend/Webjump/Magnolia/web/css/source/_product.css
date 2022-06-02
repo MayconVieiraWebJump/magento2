@@ -1,3 +1,16 @@
+.authentication-wrapper .action-auth-toggle:not(:focus) {
+  color: #6e01a5;
+}
+.checkout-payment-method .payment-option-content .form-discount .actions-toolbar .primary .action:not(:focus) {
+  background: #6215e1;
+  color: #fff;
+  font-family: 'Raleway-Regular';
+  box-shadow: none;
+}
+.checkout-payment-method .payment-option-content .form-discount .actions-toolbar .primary .action:not(:focus):hover {
+  background: #6e01a5;
+  color: #fff;
+}
 .product-info-main {
   font-family: 'Raleway-Regular' !important;
 }
@@ -136,6 +149,13 @@ a.action.create.primary {
 .box-tocart .fieldset .product-item-actions .actions-primary button.action.tocart.primary {
   margin-left: -4.5em;
 }
+.swatch-option.selected {
+  outline: 2px solid #6215e1;
+}
+.swatch-option.color:not(.disabled):hover {
+  border: 1px solid #fff;
+  outline: 2px solid #6e01a5;
+}
 strong.product-item-name {
   margin-bottom: 1.5em;
 }
@@ -186,7 +206,7 @@ strong.product-item-name {
     font-size: 1.4rem;
   }
 }
-@media only screen and (max-width: 347px) {
+@media only screen and (max-width: 360px) {
   strong.product-item-name {
     margin-bottom: 2.5em;
   }
@@ -195,6 +215,11 @@ strong.product-item-name {
   }
   select#sorter {
     width: 40%;
+  }
+}
+@media only screen and (max-width: 330px) {
+  label.sorter-label {
+    font-size: 11px;
   }
 }
 @media only screen and (max-width: 320px) {

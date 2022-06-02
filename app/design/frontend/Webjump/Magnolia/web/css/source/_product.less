@@ -3,6 +3,20 @@
 @cleanPurple:#6215e1;
 @FontDefault: 'Raleway-Regular';
 
+.authentication-wrapper .action-auth-toggle:not(:focus){
+  color: @purple;
+}
+.checkout-payment-method .payment-option-content 
+.form-discount .actions-toolbar .primary .action:not(:focus){
+  background: @cleanPurple;
+  color: #fff;
+  font-family: @FontDefault;
+  box-shadow: none;
+  &:hover{
+    background: @purple;
+    color: #fff;
+  }
+}
 .product-info-main {
   font-family: @FontDefault !important;
 }
@@ -178,6 +192,15 @@ a.action.create.primary {
   margin-left: -4.5em;
 }
 
+.swatch-option.selected {
+  outline: 2px solid @cleanPurple;
+}
+
+.swatch-option.color:not(.disabled):hover {
+  border: 1px solid #fff;
+  outline: 2px solid @purple;
+}
+
 strong.product-item-name {
   margin-bottom: 1.5em;
 }
@@ -243,7 +266,7 @@ strong.product-item-name {
 }
 }
 
-@media only screen and (max-width: 347px){
+@media only screen and (max-width: 360px){
   strong.product-item-name {
     margin-bottom: 2.5em;
   }
@@ -252,7 +275,13 @@ strong.product-item-name {
   }
   select#sorter {
     width: 40%;
+  }
 }
+
+@media only screen and (max-width: 330px){
+  label.sorter-label {
+    font-size: 11px;
+  }
 }
 
 @media only screen and (max-width: 320px){
@@ -261,4 +290,6 @@ strong.product-item-name {
     font-size: 13px;
   }
 }
+
+
 
