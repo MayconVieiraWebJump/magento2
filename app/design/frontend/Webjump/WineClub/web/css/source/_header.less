@@ -18,9 +18,41 @@ body {
 }
 
 .page-header {
+    .header.panel {
+        display: flex;
+        align-items: center;
+        .header.links {
+            .customer-welcome span button {
+                margin-top: -2px;
+            }
+            li {
+
+                color: @text-color;
+    
+                a {
+                    color: @text-color;
+                    font-size: 14px;
+                    font-weight: bold;
+                    font-family: @font-default;
+                    &:hover {
+                        color: @text-color;
+                    }
+                    &:visited {
+                        color: @text-color;
+                    }
+                }
+            }
+            .customer-welcome {
+                span button {
+                    color: @text-color;
+                }
+            }
+        }
+    }
     .panel.wrapper {
         background-color: @panel-background;
         .switcher {
+            margin-top: 5px;
             .options .action.toggle {
                 color: @text-color;
             }
@@ -81,31 +113,7 @@ body {
     padding-bottom: 30px;
 }
 
-.header.panel {
-    .header.links {
-        li {
-            color: @text-color;
 
-            a {
-                color: @text-color;
-                font-size: 14px;
-                font-weight: bold;
-                font-family: @font-default;
-                &:hover {
-                    color: @text-color;
-                }
-                &:visited {
-                    color: @text-color;
-                }
-            }
-        }
-        .customer-welcome {
-            span button {
-                color: @text-color;
-            }
-        }
-    }
-}
 
 .switcher {
     .options {
