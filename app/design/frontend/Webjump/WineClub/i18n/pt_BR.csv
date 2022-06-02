@@ -7,4 +7,4 @@
 "SUBSCRIBE TO OUR NEWSLETTER", "ASSINE A NOSSA NEWSLETTER", module, Magento_Newsletter
 "Show Password", "Mostrar senha", module, Magento_Customer
 "Allow remote shopping assistance", "Permitir assistência remota para compras", module, Magento_Customer
-"This allows merchants to see what you see and take actions on your behalf in order to provide better assistance.","Isso permite que os comerciantes vejam o que você vê e realizem ações em seu nome para fornecer uma melhor assistência.", module, Magento_LoginAsCustomerAssistance
+This allows merchants to "see what you see" and take actions on your behalf in order to provide better assistance.,Isso permite que os comerciantes "vejam o que você vê" e realizem ações em seu nome para fornecer uma melhor assistência., module, Magento_LoginAsCustomerAssistance
