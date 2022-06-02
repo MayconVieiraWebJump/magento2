@@ -56,6 +56,26 @@
     }
 }
 
+.checkout-payment-method {
+    .payment-option-content 
+    .form-discount .actions-toolbar .primary .action:not(:focus){
+        background: @color-nav-bright;
+        border: 1px solid @color-nav-bright;
+        color: @font-color;
+        border-radius: 0px 10px 10px 0px;
+        font-family: @font-type;
+        box-shadow: none;
+        &:hover {
+            background: @color-nav;
+            border: 1px solid @color-nav-bright;
+            color: @font-color;
+        }
+    }
+    .payment-option-inner .field .control input[type="text"]{
+        height: 38px;
+    }
+}
+
 .actions-toolbar > .primary .action:last-child,
 .actions-toolbar > .secondary .action:last-child {
     padding: 10px;
