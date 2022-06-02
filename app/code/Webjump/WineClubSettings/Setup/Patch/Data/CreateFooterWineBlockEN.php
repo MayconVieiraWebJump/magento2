@@ -102,7 +102,7 @@ class CreateFooterWineBlockEN implements DataPatchInterface, PatchRevertableInte
                 &lt;h2&gt;Support&lt;/h2&gt;
                 &lt;ul&gt;
                     &lt;li&gt;&lt;a href="#"&gt;Shipping Policy&lt;/a&gt;&lt;/li&gt;
-                    &lt;li&gt;&lt;a href="#"&gt;Privacy Policye&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
                     &lt;li&gt;&lt;a href="#"&gt;Terms and conditions&lt;/a&gt;&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/div&gt;
