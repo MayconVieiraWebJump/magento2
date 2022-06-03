@@ -77,6 +77,7 @@ html {
 .action.primary:disabled,
 .action-primary:disabled {
   background: #40015f;
+  padding: 15px 25px;
 }
 .action.primary:hover,
 .action-primary:hover {
@@ -102,6 +103,9 @@ html {
   font-size: 18px;
   padding: 14px 2px;
   border-radius: 2px;
+}
+.message.success a {
+  color: #6215e1;
 }
 @media only screen and (max-width: 768px) {
   #html-body [data-pb-style=CXOYCRO] {

@@ -106,6 +106,7 @@ html {
 
   &:disabled {
     background: @menuBg;
+    padding: 15px 25px;
   }
 
   &:hover {
@@ -115,7 +116,7 @@ html {
     color: #fff;
     font-family: @FontDefault;
     padding: 15px 25px;
-    -webkit-box-shadow: 5px 5px 45px -10px #6E01A5; 
+    -webkit-box-shadow: 5px 5px 45px -10px #6E01A5;
     box-shadow: 5px 5px 45px -10px #6E01A5;
     transition: all ease-in 0.3s;
   }
@@ -133,6 +134,10 @@ html {
   font-size: 18px;
   padding: 14px 2px;
   border-radius: 2px
+}
+
+.message.success a {
+    color:@cleanPurple;
 }
 
 @media only screen and (max-width: 768px) {
