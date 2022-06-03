@@ -13,6 +13,29 @@ body {
     margin-top: 0px;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: @background #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: @background;
+    border-radius: 15px;
+    border: 3px solid #ffffff;
+  }
+
+
 .logo {
     margin: 0px 0px 0px 0px;
 }
