@@ -137,8 +137,9 @@ class CreateCategories implements DataPatchInterface
 
         $this->createCategories($this->subCategories('Frisantes', 'frisantes', 'espumantes'));
 
-        $this->createCategories($this->subCategories('Acessórios', 'acessorios-wine', 'kits'));
-        $this->createCategories($this->subCategories('sobremesa', 'sobremesa', 'kits'));
+        $this->createCategories($this->subCategories('Utensílios', 'acessorios-wine', 'vinhos'));
+        $this->createCategories($this->subCategories('Coleção NFT', 'nft-collection', 'vinhos'));
+
 
         $this->moduleDataSetup->getConnection()->endSetup();
     }

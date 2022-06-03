@@ -7,6 +7,7 @@ use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
 use Magento\Framework\Api\SearchCriteriaBuilder;
 use Magento\Catalog\Api\CategoryListInterface;
+use Magento\Catalog\Block\Adminhtml\Product\Edit\Button\CreateCategory;
 use Magento\Catalog\Model\CategoryFactory;
 use Magento\Store\Model\StoreManagerInterface;
 
@@ -46,6 +47,7 @@ class TranslateCategories implements DataPatchInterface
     public static function getDependencies()
     {
         return [
+            CreateCategories::class
         ];
     }
 
@@ -101,6 +103,8 @@ class TranslateCategories implements DataPatchInterface
         $this->translate("Espumantes", "Sparkling Wines", $wineStoreId);
         $this->translate("Frisantes", "Frisants", $wineStoreId);
         $this->translate("Coleção NFT", "NFT Collection", $wineStoreId);
+        $this->translate("Utensílios", "Utensils", $wineStoreId);
+
         
 
         $this->moduleDataSetup->getConnection()->endSetup();
