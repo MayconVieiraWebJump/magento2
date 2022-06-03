@@ -63,6 +63,11 @@
   background-color: white !important;
 }
 
+.block-wishlist .product-item-name {
+  margin-right: 25px;
+  margin-top: 7em !important;
+}
+
 .link.wishlist .counter {
   color: black;
   font-size: 1.2rem;
@@ -76,10 +81,6 @@
 .sidebar .product-items .price-box {
   display: block;
   margin: 7px 0;
-}
-
-.sidebar .product-items .product-item-name {
-  margin-top: 7em;
 }
 
 .review-form .action.submit.primary {
@@ -227,12 +228,25 @@ strong.product-item-name {
   }
 }
 
+@media only screen and (max-width: 907px){
+  .block-wishlist .product-item-name {
+    margin-right: 25px;
+    margin-top: 8em !important;
+  }
+  
+  ol#cart-sidebar-reorder {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+}
+
+
 @media only screen and (max-width: 850px){
   .products-grid.wishlist .product-item .price-box {
     margin-top: 4em;
   }
 }
-
 
 @media only screen and (max-width: 780px){
 
