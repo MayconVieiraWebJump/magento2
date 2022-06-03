@@ -3,6 +3,28 @@
 @cleanPurple:#6215e1;
 @FontDefault: 'Raleway-Regular';
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: @purple #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: @purple;
+    border-radius: 15px;
+    border: 3px solid #ffffff;
+  }
+
 .authentication-wrapper .action-auth-toggle:not(:focus){
   color: @purple;
 }
