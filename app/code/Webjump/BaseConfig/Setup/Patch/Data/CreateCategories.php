@@ -51,8 +51,8 @@ class CreateCategories implements DataPatchInterface
     public function categoryRoot(string $name, string $urlKey): array
     {
         $categories = [];
-        
-        $categories [] = [
+
+        $categories[] = [
             'name' => $name,
             'url_key' => $urlKey,
             'is_active' => true,
@@ -62,8 +62,10 @@ class CreateCategories implements DataPatchInterface
             'parent_id' => '1'
         ];
 
-        return $categories
+        return $categories;
     }
+
+    // Atualizando
 
     /**
      * Method for create subcategorie for Moda
@@ -137,9 +139,9 @@ class CreateCategories implements DataPatchInterface
 
         $this->createCategories($this->subCategories('Frisantes', 'frisantes', 'espumantes'));
 
-
         $this->createCategories($this->subCategories('Utensílios', 'acessorios-wine', 'wine'));
         $this->createCategories($this->subCategories('Coleção NFT', 'nft-collection', 'wine'));
+
 
         $this->moduleDataSetup->getConnection()->endSetup();
     }
