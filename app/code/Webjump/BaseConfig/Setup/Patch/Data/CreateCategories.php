@@ -50,7 +50,9 @@ class CreateCategories implements DataPatchInterface
 
     public function categoryRoot(string $name, string $urlKey): array
     {
-        return [
+        $categories = [];
+        
+        $categories [] = [
             'name' => $name,
             'url_key' => $urlKey,
             'is_active' => true,
@@ -59,6 +61,8 @@ class CreateCategories implements DataPatchInterface
             'display_mode' => 'PRODUCTS_AND_PAGE',
             'parent_id' => '1'
         ];
+
+        return $categories
     }
 
     /**
