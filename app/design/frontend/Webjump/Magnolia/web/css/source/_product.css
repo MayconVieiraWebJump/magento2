@@ -87,6 +87,10 @@
   background-color: #6e01a5;
   color: white;
 }
+.review-form .action.submit.primary:hover {
+  background-color: #40015f;
+  color: white;
+}
 .action.update {
   background-color: #6e01a5;
   color: white;
@@ -177,6 +181,9 @@ a.action.create.primary {
 .swatch-option.color:not(.disabled):hover {
   border: 1px solid #fff;
   outline: 2px solid #6e01a5;
+}
+.fotorama__thumb-border {
+  border: 1px solid #6215e1;
 }
 strong.product-item-name {
   margin-bottom: 1.5em;

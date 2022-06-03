@@ -1,6 +1,7 @@
 @purple: #6e01a5;
 @yellow: #fee95f;
 @cleanPurple:#6215e1;
+@menuBg: #40015f;
 @FontDefault: 'Raleway-Regular';
 
 /* ===== Scrollbar CSS ===== */
@@ -108,6 +109,11 @@
 .review-form .action.submit.primary {
   background-color: @purple;
   color: white;
+
+  &:hover {
+    background-color: @menuBg;
+    color: white;
+  }
 }
 
 .action.update {
@@ -224,6 +230,10 @@ a.action.create.primary {
 .swatch-option.color:not(.disabled):hover {
   border: 1px solid #fff;
   outline: 2px solid @purple;
+}
+
+.fotorama__thumb-border {
+  border: 1px solid @cleanPurple;
 }
 
 strong.product-item-name {
