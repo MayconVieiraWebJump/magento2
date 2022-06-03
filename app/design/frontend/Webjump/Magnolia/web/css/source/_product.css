@@ -46,6 +46,10 @@
   font-size: 1.2rem;
   background-color: white !important;
 }
+.block-wishlist .product-item-name {
+  margin-right: 25px;
+  margin-top: 7em !important;
+}
 .link.wishlist .counter {
   color: black;
   font-size: 1.2rem;
@@ -57,9 +61,6 @@
 .sidebar .product-items .price-box {
   display: block;
   margin: 7px 0;
-}
-.sidebar .product-items .product-item-name {
-  margin-top: 7em;
 }
 .review-form .action.submit.primary {
   background-color: #6e01a5;
@@ -172,6 +173,17 @@ strong.product-item-name {
   .block-wishlist .action.primary {
     font-size: 15px;
     padding: 8px 8px;
+  }
+}
+@media only screen and (max-width: 907px) {
+  .block-wishlist .product-item-name {
+    margin-right: 25px;
+    margin-top: 8em !important;
+  }
+  ol#cart-sidebar-reorder {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }
 }
 @media only screen and (max-width: 850px) {
