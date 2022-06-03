@@ -126,7 +126,6 @@ class CreateCategories implements DataPatchInterface
         $this->createCategories($this->subCategories('Espumantes', 'espumantes', 'wine'));
         $this->createCategories($this->subCategories('Premium', 'premium', 'wine'));
         $this->createCategories($this->subCategories('Kits', 'kits', 'wine'));
-        $this->createCategories($this->subCategories('Coleção NFT', 'nft', 'wine'));
 
         $this->createCategories($this->subCategories('Vinhos Brancos', 'vinhos-brancos', 'vinhos'));
         $this->createCategories($this->subCategories('Vinhos Rose', 'vinhos-rose', 'vinhos'));
