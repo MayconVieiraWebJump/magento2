@@ -50,6 +50,23 @@
     }
 }
 
+@media only screen and (max-width: 960px){
+    #html-body [data-pb-style=A6A1YYF], #html-body [data-pb-style=U91K2IR] {
+        background-size: contain !important;
+        margin-bottom: -150px;
+        margin-top: -85px;
+    }
+    #html-body [data-pb-style=F62JGXN], #html-body [data-pb-style=R9K294C], #html-body [data-pb-style=RP02UGY], #html-body [data-pb-style=X1MX3XF] {
+        background-size: contain !important;
+        margin-top: -120px !important;
+        margin-bottom: -31px !important;
+    }
+
+    #html-body [data-pb-style=X11VD1X] {
+        min-height: 651px !important;
+    }
+}
+
 
 @media only screen and (max-width: 912px){
     #html-body [data-pb-style=A6A1YYF], #html-body [data-pb-style=U91K2IR] {
@@ -147,6 +164,34 @@
     }
 }
 
+@media only screen and (max-width: 500px){
+    .block-search input {
+        width: 98% !important;
+    }
+}
+
+@media only screen and (max-width: 387px){
+    .minicart-wrapper {
+        margin-left: -23px !important;
+    }
+    .modal-footer {
+        .action-primary {
+            font-size: 11px;
+            padding: 8px 12px 8px 12px;
+        }
+        .action-secondary{
+            font-size: 10px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 353px){
+    .minicart-wrapper {
+        margin-left: -23px !important;
+    }
+}
+
 @media only screen and (max-width: 321px){
     #html-body [data-pb-style=A6A1YYF], #html-body [data-pb-style=U91K2IR] {
         background-size: contain !important;
@@ -155,7 +200,9 @@
     }
 }
 
-
+input:not([disabled]):focus, select:not([disabled]):focus, textarea:not([disabled]):focus {
+    box-shadow: 0 0 3px 1px @purple;
+}
 
 .page-header {
     .panel.wrapper {
@@ -231,6 +278,10 @@
     content: '';
   }
 
+  .minicart-wrapper .action.showcart .counter.qty {
+      border-radius: 4px;
+  }
+
   .block.block-minicart.ui-dialog-content.ui-widget-content{
       margin: 2em;
   }
@@ -239,4 +290,69 @@
     font-family: @FontDefault;
     color: @yellow;
     font-weight: 700;
+}
+
+.switcher {
+    .options {
+        .action.toggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .view-msvBR,
+        .view-msvEN {
+            span {
+                line-height: 0;
+                font-size: 0;
+                color: transparent;
+                text-align: center;
+                &::before {
+                    display: inline-block;
+                }
+            }
+        }
+        .view-msvBR {
+            span {
+                &::before {
+                    content: url("@{baseDir}images/brasil.png");
+                }
+            }
+        }
+        .view-msvEN {
+            span {
+                &::before {
+                    content: url("@{baseDir}images/usa.png");
+                }
+            }
+        }
+        .dropdown.switcher-dropdown {
+            min-width: 80px;
+            .view-msvEN,
+            .view-msvBR {
+                a {
+                    line-height: 0;
+                    font-size: 0;
+                    color: transparent;
+                    text-align: center;
+                    &::before {
+                        display: inline-block;
+                    }
+                }
+            }
+            .view-msvBR {
+                a {
+                    &::before {
+                        content: url("@{baseDir}images/brasil.png");
+                    }
+                }
+            }
+            .view-msvEN {
+                a {
+                    &::before {
+                        content: url("@{baseDir}images/usa.png");
+                    }
+                }
+            }
+        }
+    }
 }

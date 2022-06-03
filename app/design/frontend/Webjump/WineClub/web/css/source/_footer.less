@@ -6,13 +6,14 @@
     background-color: @color-nav;
 }
 
-.field.newsletter{
+.field.newsletter {
     input[type="email"] {
         background: @color-nav;
         border-radius: 1px;
         font-size: 14px;
         height: 50px;
         color: @white;
+        box-shadow: none;
         border-radius: 10px 0px 0px 10px;
         border: 2px solid #ffffff;
         line-height: 1.42857143;
@@ -20,10 +21,14 @@
         vertical-align: baseline;
         width: 100%;
         box-sizing: border-box;
-    
+
         &::placeholder {
             color: @white;
         }
+    }
+    div.mage-error {
+        color: @white;
+        font-weight: bold;
     }
 }
 
@@ -47,10 +52,6 @@
         color: @color-nav;
         font-family: @font-type;
         font-size: 16px;
-        font-weight: 700;
-        font-style: normal;
-        letter-spacing: normal;
-        line-height: normal;
         text-align: left;
         text-transform: uppercase;
         border: none;
@@ -70,27 +71,13 @@
     h2 {
         color: @white;
         font-size: 20px;
-        font-weight: 700;
-        font-style: normal;
-        letter-spacing: normal;
-        line-height: normal;
         text-align: left;
-        font-style: normal;
-        letter-spacing: normal;
-        line-height: normal;
         text-transform: uppercase;
     }
     ul li a {
         color: @white;
         font-size: 18px;
-        font-weight: 300;
-        font-style: normal;
-        letter-spacing: normal;
-        line-height: normal;
         text-align: left;
-        font-style: normal;
-        letter-spacing: normal;
-        line-height: normal;
     }
 }
 
@@ -118,7 +105,7 @@
         ul {
             padding-right: 0px;
         }
-        .block{
+        .block {
             position: absolute;
             display: -webkit-inline-box;
         }
@@ -145,7 +132,7 @@
             margin-top: -5px;
             margin-right: 25px;
         }
-        .content{
+        .content {
             margin-left: 25px;
         }
         .field.newsletter {
@@ -177,21 +164,21 @@
         ul {
             padding-right: 0px;
         }
-        .block{
+        .block {
             position: absolute;
             display: grid;
         }
     }
     .block.newsletter {
         position: absolute;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         .title {
             text-align: center;
             display: block;
             margin-right: 0px;
         }
-        .content{
+        .content {
             margin-left: 0px;
         }
         .field.newsletter {
@@ -206,5 +193,14 @@
 @media (max-width: 350px) {
     .footer-wineclub {
         margin-top: 110px;
+    }
+    .block.newsletter {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    input[type="email"] {
+        &::placeholder {
+            font-size: 12px;
+        }
     }
 }

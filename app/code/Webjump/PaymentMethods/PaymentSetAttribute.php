@@ -5,19 +5,16 @@ namespace Webjump\PaymentMethods;
 use Magento\Framework\App\Config\Storage\WriterInterface;
 use Magento\Store\Model\StoreManagerInterface;
 
-
-Class PaymentSetAttribute {
-
+class PaymentSetAttribute
+{
     public function __construct(
         WriterInterface $writer,
         StoreManagerInterface $storeManager
-    )
-    {
+    ) {
         $this->writer = $writer;
         $this->storeManager = $storeManager;
     }
-    
-    
+
     public function setGlobalSettings(string $websiteCode)
     {
         $websiteGetId = $this->storeManager
@@ -43,22 +40,22 @@ Class PaymentSetAttribute {
             "1",
             "websites",
             $websiteGetId
-         );
- 
-         $this->writer->save(
-             "payment/checkmo/specificcountry",
-             "BR,US",
-             "websites",
-             $websiteGetId
-         );
+        );
 
-         $this->writer->save(
+        $this->writer->save(
+            "payment/checkmo/specificcountry",
+            "BR,US",
+            "websites",
+            $websiteGetId
+        );
+
+        $this->writer->save(
             "payment/checkmo/sort_order",
             "0",
             "websites",
             $websiteGetId
         );
-        
+
         $this->writer->save(
             "payment/banktransfer/specificcountry",
             "BR,US",
@@ -74,10 +71,10 @@ Class PaymentSetAttribute {
         );
 
         $this->writer->save(
-           "payment/banktransfer/sort_order",
-           "1",
-           "websites",
-           $websiteGetId
+            "payment/banktransfer/sort_order",
+            "1",
+            "websites",
+            $websiteGetId
         );
 
         $this->writer->save(
@@ -86,36 +83,30 @@ Class PaymentSetAttribute {
             "websites",
             $websiteGetId
         );
-
     }
-    
+
     public function setPaymentCheckAndMoney(string $storeViewCode, string $language)
     {
-        
         $StoreViewGetId = $this->storeManager
         ->getStore($storeViewCode)
         ->getId();
-        
-        if ($language == 'br'){
 
+        if ($language == 'br') {
             $this->writer->save(
                 "payment/checkmo/title",
                 "Pagamento em cheque ou dinheiro",
                 "stores",
                 $StoreViewGetId
-            ); 
-
-        } else if ($language == "en") {
-
+            );
+        } elseif ($language == "en") {
             $this->writer->save(
                 "payment/checkmo/title",
                 "Check / money order",
                 "stores",
                 $StoreViewGetId
-            ); 
+            );
         }
-        
-        
+
         $this->writer->save(
             "payment/checkmo/active",
             "1",
@@ -123,7 +114,6 @@ Class PaymentSetAttribute {
             $StoreViewGetId
         );
 
-        
         $this->writer->save(
             "payment/checkmo/order_status",
             "pending",
@@ -132,10 +122,10 @@ Class PaymentSetAttribute {
         );
 
         $this->writer->save(
-           "payment/checkmo/allowspecific",
-           "1",
-           "stores",
-           $StoreViewGetId
+            "payment/checkmo/allowspecific",
+            "1",
+            "stores",
+            $StoreViewGetId
         );
 
         $this->writer->save(
@@ -155,13 +145,11 @@ Class PaymentSetAttribute {
 
     public function setPaymentBankTransfer(string $storeViewCode, string $language)
     {
-
         $StoreViewGetId = $this->storeManager
         ->getStore($storeViewCode)
         ->getId();
 
-        if ($language == "br")
-        {
+        if ($language == "br") {
             $this->writer->save(
                 "payment/banktransfer/instructions",
                 "Proprietário: Grupo 1 \nConta 000-01 \nBanco Webjump \nEndereço: Rua A \nnúmero 123",
@@ -175,9 +163,7 @@ Class PaymentSetAttribute {
                 "stores",
                 $StoreViewGetId
             );
-
-        } else if ($language == "en") 
-        {
+        } elseif ($language == "en") {
             $this->writer->save(
                 "payment/banktransfer/instructions",
                 "Owner: Group 1 \nAccount: 000-01 \nWebjump Bank \nAddress: A street, number 123",
@@ -192,7 +178,7 @@ Class PaymentSetAttribute {
                 $StoreViewGetId
             );
         }
-        
+
         $this->writer->save(
             "payment/banktransfer/specificcountry",
             "BR,US",
@@ -208,10 +194,10 @@ Class PaymentSetAttribute {
         );
 
         $this->writer->save(
-           "payment/banktransfer/sort_order",
-           "1",
-           "stores",
-           $StoreViewGetId
+            "payment/banktransfer/sort_order",
+            "1",
+            "stores",
+            $StoreViewGetId
         );
 
         $this->writer->save(
@@ -221,6 +207,4 @@ Class PaymentSetAttribute {
             $StoreViewGetId
         );
     }
-
-
 }

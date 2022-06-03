@@ -1,23 +1,16 @@
 @backgroud-nav: #9a1e51;
 @backgroud-menu-response: #f0f0f0;
 @white: white;
-@text-color-grey:#414042;
+@text-color-grey: #414042;
 @menu-background-select: #f0f0f0;
 @menu-background-notSelect: #dedede;
-@color-gold: #c59c3f;
-@font-default: 'Poppins-Regular';
+@color-effect: #c59c3f;
+@font-default: "Poppins-Regular";
 .section-item-content {
     background-color: @backgroud-nav;
     .navigation {
         background-color: @backgroud-nav;
 
-        .level0.active > .level-top {
-            border-color: @color-gold;
-        }
-
-        .level0.active > a:not(.ui-state-active) {
-            border-color: @color-gold;
-        }
         .level0 .submenu {
             border: none;
             box-shadow: none;
@@ -25,23 +18,13 @@
                 background-color: @backgroud-nav;
             }
         }
-        .level0.parent > .level-top > .ui-menu-icon {
-            &::after {
-                margin-top: 1.1em;
-                margin-left: 0.5em;
-            }
-        }
-        .level0.has-active > a:not(.ui-state-active){
-            border-color: @color-gold;
-        }
-        .level0.has-active > .level-top {
-            border-color: @color-gold;
-        }
-        .level0 .submenu .active > a{
-            border-color: @color-gold;
-        }
-        .submenu:not(:first-child) .active > a{
-            border-color: @color-gold;
+        .level0.active > .level-top,
+        .level0.active > a:not(.ui-state-active),
+        .level0.has-active > a:not(.ui-state-active),
+        .level0.has-active > .level-top,
+        .level0 .submenu .active > a,
+        .submenu:not(:first-child) .active > a {
+            border-color: @color-effect;
         }
     }
     ul {
@@ -53,19 +36,11 @@
                     font-family: @font-default;
                     color: @white;
                     font-size: 18px;
-                    font-weight: 700;
-                    font-style: normal;
-                    letter-spacing: normal;
-                    line-height: normal;
                     text-align: left;
-                    /* Text style for "Vinhos" */
-                    font-style: normal;
-                    letter-spacing: normal;
-                    line-height: normal;
                     text-transform: uppercase;
 
                     &:hover {
-                        color: @color-gold;
+                        color: @color-effect;
                     }
                 }
             }
@@ -74,9 +49,7 @@
 }
 
 @media (max-width: 767px) {
-    .nav-open .nav-sections {
-        background-color: @backgroud-menu-response;
-    }
+    .nav-open .nav-sections,
     .section-item-content {
         background-color: @backgroud-menu-response;
 
@@ -90,27 +63,15 @@
                 color: @text-color-grey;
                 font-family: @font-default;
                 font-size: 14px;
-                font-weight: 400;
-                font-style: normal;
                 letter-spacing: 0.42px;
                 line-height: 20px;
                 text-align: left;
-                /* Text style for "Vinhos" */
-                font-style: normal;
-                letter-spacing: normal;
-                line-height: normal;
                 text-transform: uppercase;
             }
-            .level0.active > a:not(.ui-state-active){
-                border-color: @backgroud-nav;
-            }
-            .level0.has-active > a:not(.ui-state-active){
-                border-color: @backgroud-nav;
-            }
-            .level0.has-active > .level-top {
-                border-color: @backgroud-nav;
-            }
-            .level0 .submenu .active > a{
+            .level0.active > a:not(.ui-state-active),
+            .level0.has-active > a:not(.ui-state-active),
+            .level0.has-active > .level-top,
+            .level0 .submenu .active > a {
                 border-color: @backgroud-nav;
             }
         }
@@ -128,10 +89,7 @@
     .nav-sections-item-switch {
         color: @backgroud-nav;
 
-        &:active {
-            color: @backgroud-nav;
-        }
-
+        &:active,
         &:hover {
             color: @backgroud-nav;
         }
@@ -143,15 +101,9 @@
                     color: @text-color-grey;
                     font-family: @font-default;
                     font-size: 14px;
-                    font-weight: 400;
-                    font-style: normal;
                     letter-spacing: 0.42px;
                     line-height: 20px;
                     text-align: left;
-                    /* Text style for "Entrar" */
-                    font-style: normal;
-                    letter-spacing: normal;
-                    line-height: normal;
                     text-transform: uppercase;
                 }
             }
@@ -163,8 +115,11 @@
     }
 }
 
+
+//Luiz fez modificações aqui :P
 @media (max-width: 767px) {
     .nav-sections .header.links li.greet.welcome {
-        font-weight: normal;
+        display: none;
     }
 }
+

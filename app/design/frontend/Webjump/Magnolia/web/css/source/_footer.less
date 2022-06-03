@@ -79,6 +79,7 @@
 input[type="email"]::-webkit-input-placeholder {
   font-size: 16px;
   color:@placeholdercolor;
+  font-family: @FontDefault;
 }
 
 .footer.content .block {
@@ -149,6 +150,7 @@ input[type="email"]::-webkit-input-placeholder {
   line-height: normal;
   text-align: left;
   text-transform: uppercase;
+  padding: 8px 26px;
 }
 
 .block.newsletter .field .control:before {
@@ -185,7 +187,7 @@ input[type="email"]::-webkit-input-placeholder {
 }
 
 
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 850px){
   .footer-moda {
     gap: 40px;
     margin-left: -1%;
@@ -234,6 +236,9 @@ input[type="email"]::-webkit-input-placeholder {
 
   .social-media-magnolia {
     margin-left: -0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-moda {
@@ -271,6 +276,6 @@ input[type="email"]::-webkit-input-placeholder {
 }
 
 .social-media-footer {
-  margin-left: 10%;
+  margin-left: 0%;
 }
 }

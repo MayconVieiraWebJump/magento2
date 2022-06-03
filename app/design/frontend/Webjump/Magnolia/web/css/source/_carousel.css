@@ -1,3 +1,9 @@
+html {
+  scroll-behavior: smooth !important;
+}
+.image-header {
+  margin-top: 3em;
+}
 .product-item-actions .actions-primary + .actions-secondary {
   display: none;
 }
@@ -29,19 +35,27 @@
   font-family: 'Raleway-Regular' !important;
   margin-left: 0.6em;
 }
+.product-carousel .slick-slide .product-item .price-box {
+  margin-left: 0px !important;
+  height: 32px;
+}
+.product-carousel .product-item-name {
+  text-align: center !important;
+}
 .product-item-name {
   color: #666666;
   font-family: 'Raleway-Regular' !important;
   font-size: 16px !important;
   font-weight: 700 !important;
-  text-align: left !important;
+  text-align: center !important;
   font-style: normal !important;
   letter-spacing: normal !important;
   line-height: normal !important;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  height: 40px;
 }
 .action.primary,
 .action-primary {
@@ -52,37 +66,46 @@
   cursor: pointer;
   display: inline-block;
   font-family: 'Raleway-Regular';
-  padding: 8px 26px;
+  padding: 15px 25px;
   box-sizing: border-box;
   vertical-align: middle;
   color: #ffffff;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 700;
-  border-radius: 2px;
+  border-radius: 5px;
+}
+.action.primary:disabled,
+.action-primary:disabled {
+  background: #40015f;
+  padding: 15px 25px;
 }
 .action.primary:hover,
 .action-primary:hover {
   background-image: none;
-  background: #6e01a5;
+  background: #40015f;
   border: none;
   color: #fff;
-  cursor: pointer;
-  display: inline-block;
   font-family: 'Raleway-Regular';
-  padding: 8px 26px;
-  box-sizing: border-box;
-  vertical-align: middle;
-  color: #ffffff;
-  font-size: 17px;
-  font-weight: 700;
+  padding: 15px 25px;
+  -webkit-box-shadow: 5px 5px 45px -10px #6E01A5;
+  box-shadow: 5px 5px 45px -10px #6E01A5;
+  transition: all ease-in 0.3s;
+}
+.action.primary:active,
+.action-primary:active {
+  background: #40015f;
+}
+.action.primary:focus,
+.action-primary:focus {
+  background: #40015f;
 }
 .box-tocart .action.tocart {
   font-size: 18px;
   padding: 14px 2px;
   border-radius: 2px;
 }
-.slick-slide .product-item .price-box {
-  margin-left: -25px !important;
+.message.success a {
+  color: #6215e1;
 }
 @media only screen and (max-width: 768px) {
   #html-body [data-pb-style=CXOYCRO] {
@@ -132,6 +155,17 @@
     margin-top: 100px !important;
   }
 }
+@media only screen and (max-width: 767px) {
+  .col.price {
+    margin-left: -10em;
+  }
+  .col.qty {
+    margin-left: -3em;
+  }
+  .col.subtotal {
+    margin-left: 2em;
+  }
+}
 @media only screen and (max-width: 1025px) {
   .carousel {
     margin-left: 5% !important;
@@ -151,12 +185,18 @@
 .slick-prev {
   background: none !important;
   margin-top: 5% !important;
-  margin-left: -70px;
+  margin-left: -50px;
+}
+.slick-prev::before {
+  font-size: 28px;
 }
 .slick-next {
   margin-top: 5% !important;
   background: none !important;
-  margin-right: -65px;
+  margin-right: -51px;
+}
+.slick-next::before {
+  font-size: 28px;
 }
 @media (max-width: 440px) {
   .slick-prev {
