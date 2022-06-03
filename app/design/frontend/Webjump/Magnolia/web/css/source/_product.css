@@ -1,15 +1,18 @@
 .authentication-wrapper .action-auth-toggle:not(:focus) {
   color: #6e01a5;
 }
-.checkout-payment-method .payment-option-content .form-discount .actions-toolbar .primary .action:not(:focus) {
+.checkout-payment-method .payment-option-content .form-discount .actions-toolbar .primary .action {
   background: #6215e1;
   color: #fff;
   font-family: 'Raleway-Regular';
-  box-shadow: none;
+  box-shadow: none !important;
 }
-.checkout-payment-method .payment-option-content .form-discount .actions-toolbar .primary .action:not(:focus):hover {
-  background: #6e01a5;
-  color: #fff;
+.checkout-payment-method .payment-option-content .form-discount .actions-toolbar .primary .action:hover,
+.checkout-payment-method .payment-option-content .form-discount .actions-toolbar .primary .action:active,
+.checkout-payment-method .payment-option-content .form-discount .actions-toolbar .primary .action:focus {
+  background: #6e01a5 !important;
+  color: #fff !important;
+  box-shadow: none;
 }
 .product-info-main {
   font-family: 'Raleway-Regular' !important;
