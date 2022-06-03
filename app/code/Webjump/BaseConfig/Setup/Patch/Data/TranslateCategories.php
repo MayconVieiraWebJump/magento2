@@ -74,17 +74,22 @@ class TranslateCategories implements DataPatchInterface
 
         // Moda
         $this->translate("Roupas", "Clothes", $modaStoreId);
+
         $this->translate("Inverno", "Winter", $modaStoreId);
         $this->translate("Verão", "Summer", $modaStoreId);
         $this->translate("Primavera", "Spring", $modaStoreId);
         $this->translate("Outono", "Autumn", $modaStoreId);
+
         $this->translate("Pijamas", "Pajamas", $modaStoreId);
         $this->translate("Renda", "Laces", $modaStoreId);
+
         $this->translate("Calçados", "Shoes", $modaStoreId);
         $this->translate("Botas", "Boots", $modaStoreId);
         $this->translate("Sandálias", "Sandals", $modaStoreId);
         $this->translate("Tênis", "Sneakers", $modaStoreId);
+
         $this->translate("Acessórios", "Accessories", $modaStoreId);
+
         $this->translate("Promoções", "Sales", $modaStoreId);
 
 
@@ -95,6 +100,7 @@ class TranslateCategories implements DataPatchInterface
         $this->translate("Vinhos Tinto", "Red Wines", $wineStoreId);
         $this->translate("Espumantes", "Sparkling Wines", $wineStoreId);
         $this->translate("Frisantes", "Frisants", $wineStoreId);
+        $this->translate("Coleção NFT", "NFT Collection", $wineStoreId);
         
 
         $this->moduleDataSetup->getConnection()->endSetup();
