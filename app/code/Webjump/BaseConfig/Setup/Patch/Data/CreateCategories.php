@@ -50,7 +50,9 @@ class CreateCategories implements DataPatchInterface
 
     public function categoryRoot(string $name, string $urlKey): array
     {
-        return [
+        $categories = [];
+        
+        $categories [] = [
             'name' => $name,
             'url_key' => $urlKey,
             'is_active' => true,
@@ -59,6 +61,8 @@ class CreateCategories implements DataPatchInterface
             'display_mode' => 'PRODUCTS_AND_PAGE',
             'parent_id' => '1'
         ];
+
+        return $categories
     }
 
     /**
@@ -126,7 +130,6 @@ class CreateCategories implements DataPatchInterface
         $this->createCategories($this->subCategories('Espumantes', 'espumantes', 'wine'));
         $this->createCategories($this->subCategories('Premium', 'premium', 'wine'));
         $this->createCategories($this->subCategories('Kits', 'kits', 'wine'));
-        $this->createCategories($this->subCategories('Coleção NFT', 'nft', 'wine'));
 
         $this->createCategories($this->subCategories('Vinhos Brancos', 'vinhos-brancos', 'vinhos'));
         $this->createCategories($this->subCategories('Vinhos Rose', 'vinhos-rose', 'vinhos'));
@@ -137,9 +140,6 @@ class CreateCategories implements DataPatchInterface
 
         $this->createCategories($this->subCategories('Utensílios', 'acessorios-wine', 'wine'));
         $this->createCategories($this->subCategories('Coleção NFT', 'nft-collection', 'wine'));
-
-        $this->createCategories($this->subCategories('Acessórios', 'acessorios-wine', 'kits'));
-
 
         $this->moduleDataSetup->getConnection()->endSetup();
     }
