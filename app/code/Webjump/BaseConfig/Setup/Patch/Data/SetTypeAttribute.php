@@ -43,7 +43,7 @@ class SetTypeAttribute implements DataPatchInterface
                 'type' => 'varchar',
                 'backend' => '',
                 'frontend' => '',
-                'label' => 'Fabric Type',
+                'label' => 'Fabric',
                 'input' => 'text',
                 'class' => '',
                 'source' => '',

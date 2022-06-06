@@ -41,7 +41,7 @@ class SetTamanhoAttribute implements DataPatchInterface
                 'type' => 'int',
                 'backend' => '',
                 'frontend' => '',
-                'label' => 'Tamanho',
+                'label' => 'Size',
                 'input' => 'select',
                 'class' => '',
                 'source' => '',

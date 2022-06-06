@@ -1,14 +1,15 @@
 <?php
 
-namespace Webjump\LanguageAndCurrency\Setup\Patch\Data;
+namespace Webjump\BaseConfig\Setup\Patch\Data;
 
 use Magento\Catalog\Api\ProductAttributeRepositoryInterface;
 use Magento\Eav\Api\Data\AttributeFrontendLabelInterfaceFactory;
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
+use Magento\Framework\Setup\Patch\DataPatchInterface;
 use Magento\Store\Model\StoreManagerInterface;
 
-class TranslateAttributes
+class TranslateAttributes implements DataPatchInterface
 {
     private StoreManagerInterface $storeManager;
     private EavSetupFactory $eavSetupFactory;
@@ -23,6 +24,7 @@ class TranslateAttributes
         AttributeFrontendLabelInterfaceFactory $attributeFrontendLabel,
         ModuleDataSetupInterface $moduleDataSetup
     ) {
+        $this->storeManager = $storeManager;
         $this->moduleDataSetup = $moduleDataSetup;
         $this->eavSetupFactory = $eavSetupFactory;
         $this->productAttributeRepository = $productAttributeRepository;
@@ -70,7 +72,7 @@ class TranslateAttributes
 
         $wineTypeAttributeId = $eavSetup->getAttributeId(
             $entityTypeId,
-            'WyneType'
+            'WineType'
         );
 
         $yearAttributeId = $eavSetup->getAttributeId(
