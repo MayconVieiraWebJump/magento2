@@ -113,7 +113,6 @@ class NewPriceRule
         $ruleModel->setData($ruleData);
         $ruleModel->save();
     }
-}
 
     public function createCouponRule(){
         
