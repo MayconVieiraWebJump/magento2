@@ -1,11 +1,25 @@
 @background: #9a1e51;
 
 .block .box-actions,
-.block-title, 
+.block-title,
 .account .data.table .col.actions,
 .box-content,
 .page-title-wrapper {
     a {
         color: @background;
+    }
+}
+
+.order-details-items.shipments a {
+    color: @background;
+    &:hover {
+        color: darken(@background, 10%);
+    }
+}
+
+.order-details-items.invoice a {
+    color: @background;
+    &:hover {
+        color: darken(@background, 10%);
     }
 }
