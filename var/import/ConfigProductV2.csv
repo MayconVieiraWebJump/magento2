@@ -1,0 +1,386 @@
+sku,store_view_code,attribute_set_code,product_type,categories,product_websites,name,description,short_description,weight,product_online,tax_class_name,visibility,price,special_price,special_price_from_date,special_price_to_date,url_key,meta_title,meta_keywords,meta_description,base_image,base_image_label,small_image,small_image_label,thumbnail_image,thumbnail_image_label,swatch_image,swatch_image_label,created_at,updated_at,new_from_date,new_to_date,display_product_options_in,map_price,msrp_price,map_enabled,gift_message_available,custom_design,custom_design_from,custom_design_to,custom_layout_update,page_layout,product_options_container,msrp_display_actual_price_type,country_of_manufacture,additional_attributes,qty,out_of_stock_qty,use_config_min_qty,is_qty_decimal,allow_backorders,use_config_backorders,min_cart_qty,use_config_min_sale_qty,max_cart_qty,use_config_max_sale_qty,is_in_stock,notify_on_stock_below,use_config_notify_stock_qty,manage_stock,use_config_manage_stock,use_config_qty_increments,qty_increments,use_config_enable_qty_inc,enable_qty_increments,is_decimal_divided,website_id,related_skus,related_position,crosssell_skus,crosssell_position,upsell_skus,upsell_position,additional_images,additional_image_labels,hide_from_product_page,custom_options,bundle_price_type,bundle_sku_type,bundle_price_view,bundle_weight_type,bundle_values,bundle_shipment_type,associated_skus,downloadable_links,downloadable_samples,configurable_variations,configurable_variation_labels
+MD_001,,Moda_Attribute_Set,configurable,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,"Catalog, Search",,,,,calca-com-cos-elastico-e-cord-o-de-ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,CalcaC.png,,CalcaC.png,,CalcaC.png,,,,25/05/2022 10:53,25/05/2022 10:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,France,FabricType=Couro 100%,0.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,CalcaC.png,,,,,,,,,,,,,"sku=MD_001-Beige-P,color=Beige,tamanhoclo=P|sku=MD_001-Beige-M,color=Beige,tamanhoclo=M|sku=MD_001-Beige-G,color=Beige,tamanhoclo=G|sku=MD_001-Beige-GG,color=Beige,tamanhoclo=GG|sku=MD_001-Green-P,color=Green,tamanhoclo=P|sku=MD_001-Green-M,color=Green,tamanhoclo=M|sku=MD_001-Green-G,color=Green,tamanhoclo=G|sku=MD_001-Green-GG,color=Green,tamanhoclo=GG","color=Color,tamanhoclo=Size"
+MD_001-Green,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste-Green,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,Not Visible Individually,17111.000000,,,,calca-com-cos-elastico-e-cord-o-de-ajuste-green,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,CalcaV4.png,,CalcaV4.png,,CalcaV4.png,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,Use config,France,"color=Green,FabricType=Couro 100%",30.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"CalcaV2.png,CalcaV3.png,CalcaV5.png",,,,,,,,,,,,,,
+MD_001-Beige,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste-Beige,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,Not Visible Individually,17111.000000,,,,calca-com-cos-elastico-e-cord-o-de-ajuste-beige,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,Calca1.png,,Calca1.png,,Calca1.png,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,Use config,France,"color=Beige,FabricType=Couro 100%",25.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"Calca2.png,Calca3.png,Calca4.png",,,,,,,,,,,,,,
+MD_001-Beige-P,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste-Beige-P,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,Not Visible Individually,17000.000000,,,,calca-com-cos-elastico-e-cord-o-de-ajuste-beige-p,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,Calca1.png,,Calca1.png,,Calca1.png,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,Use config,France,"color=Beige,FabricType=Couro 100%,tamanhoclo=P",10.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"Calca2.png,Calca3.png,Calca4.png",,,,,,,,,,,,,,
+MD_001-Beige-M,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste-Beige-M,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,Not Visible Individually,17000.000000,,,,calca-com-cos-elastico-e-cord-o-de-ajuste-beige-m,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,Calca1.png,,Calca1.png,,Calca1.png,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,Use config,France,"color=Beige,FabricType=Couro 100%,tamanhoclo=M",25.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"Calca2.png,Calca3.png,Calca4.png",,,,,,,,,,,,,,
+MD_001-Beige-G,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste-Beige-G,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,Not Visible Individually,17000.000000,,,,calca-com-cos-elastico-e-cord-o-de-ajuste-beige-g,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,Calca1.png,,Calca1.png,,Calca1.png,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,Use config,France,"color=Beige,FabricType=Couro 100%,tamanhoclo=G",16.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"Calca2.png,Calca3.png,Calca4.png",,,,,,,,,,,,,,
+MD_001-Beige-GG,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste-Beige-GG,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,Not Visible Individually,17000.000000,,,,calca-com-cos-elastico-e-cord-o-de-ajuste-beige-gg,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,Calca1.png,,Calca1.png,,Calca1.png,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,Use config,France,"color=Beige,FabricType=Couro 100%,tamanhoclo=GG",4.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"Calca2.png,Calca3.png,Calca4.png",,,,,,,,,,,,,,
+MD_001-Green-P,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste-Green-P,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,Not Visible Individually,17000.000000,,,,calca-com-cos-elastico-e-cord-o-de-ajuste-green-p,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,CalcaV4.png,,CalcaV4.png,,CalcaV4.png,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,Use config,France,"color=Green,FabricType=Couro 100%,tamanhoclo=P",10.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"CalcaV2.png,CalcaV3.png,CalcaV5.png",,,,,,,,,,,,,,
+MD_001-Green-M,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste-Green-M,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,Not Visible Individually,17000.000000,,,,calca-com-cos-elastico-e-cord-o-de-ajuste-green-m,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,CalcaV4.png,,CalcaV4.png,,CalcaV4.png,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,Use config,France,"color=Green,FabricType=Couro 100%,tamanhoclo=M",25.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"CalcaV2.png,CalcaV3.png,CalcaV5.png",,,,,,,,,,,,,,
+MD_001-Green-G,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste-Green-G,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,Not Visible Individually,17000.000000,,,,calca-com-cos-elastico-e-cord-o-de-ajuste-green-g,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,CalcaV4.png,,CalcaV4.png,,CalcaV4.png,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,Use config,France,"color=Green,FabricType=Couro 100%,tamanhoclo=G",16.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"CalcaV2.png,CalcaV3.png,CalcaV5.png",,,,,,,,,,,,,,
+MD_001-Green-GG,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Calça com cós elástico e cordão de ajuste-Green-GG,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0""><span style=""font-size: 14px;"">Acabamento elástico, cós elástico com cordão de ajuste e dois bolsos laterais internos.</span></div>
+<div class=""_df8766 _ab46e0""><span style=""font-size: 14px;"">Produzido em: França</span>
+<p class=""_b4693b"" data-tstid=""madeIn""> </p>
+<h4 class=""_b4693b _61a1ae"">Informações sobre tamanhos</h4>
+<ul class=""_90ccf7"">
+<li class=""_bd1585""><span style=""font-size: 14px;"">Essa peça possui numeração correspondente ao seu tamanho real. Recomendamos a compra de seu tamanho regular</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Possui modelagem ajustada na cintura e nos quadris, solto nas pernas</span></li>
+<li class=""_bd1585""><span style=""font-size: 14px;"">Feito em couro flexível</span></li>
+</ul>
+<p><strong><span style=""font-size: 14px;"">Medidas do/a modelo:</span></strong></p>
+<table class=""_27edc7"" style=""width: 32.852%;"">
+<tbody>
+<tr>
+<td class=""_d68cfd measurementsTableProperty"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">altura</span></td>
+<td class=""measurementsTableValue"" style=""width: 36.7974%;""><span style=""font-size: 14px;"">1,78 m</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">busto/Peito</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">81 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">quadril</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">91 cm</span></td>
+</tr>
+<tr>
+<td class=""_d68cfd"" style=""width: 58.4858%;""><span style=""font-size: 14px;"">cintura</span></td>
+<td style=""width: 36.7974%;""><span style=""font-size: 14px;"">60 cm</span></td>
+</tr>
+</tbody>
+</table>
+<p><span style=""font-size: 14px;"">O(a) modelo mede 1,78 m e está usando tamanho 36 (FR).</span></p>
+</div>",0.800000,1,Taxable Goods,Not Visible Individually,17000.000000,,,,calca-com-cos-elastico-e-cord-o-de-ajuste-green-gg,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste,Calça com cós elástico e cordão de ajuste ,CalcaV4.png,,CalcaV4.png,,CalcaV4.png,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,Use config,France,"color=Green,FabricType=Couro 100%,tamanhoclo=GG",4.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"CalcaV2.png,CalcaV3.png,CalcaV5.png",,,,,,,,,,,,,,
