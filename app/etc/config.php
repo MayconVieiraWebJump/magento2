@@ -336,11 +336,16 @@ return [
         'Webjump_CoreConfigurator' => 1,
         'Webjump_CustomerBr' => 1,
         'Webjump_DisableRegistration' => 1,
+        'Webjump_HomepageModa' => 1,
+        'Webjump_HomepageWine' => 1,
         'Webjump_LanguageAndCurrency' => 1,
         'Webjump_MagnoliaSettings' => 1,
-        'Webjump_OrderStatus' => 1,
+        'Webjump_OrderStatus' => 0,
+        'Webjump_PaymentMethods' => 1,
         'Webjump_PostCode' => 1,
+        'Webjump_PriceRules' => 1,
         'Webjump_ProductIncrementButtons' => 1,
+        'Webjump_Shipping' => 1,
         'Webjump_ViaCep' => 0,
         'Webjump_WineClubSettings' => 1
     ],
@@ -432,39 +437,39 @@ return [
                 'sort_order' => '0',
                 'is_active' => '1'
             ],
-            'ModaStoreViewBR' => [
+            'Moda PT-BR' => [
                 'store_id' => '2',
                 'code' => 'msvBR',
                 'website_id' => '2',
                 'group_id' => '2',
-                'name' => 'ModaStoreViewBR',
+                'name' => 'Moda PT-BR',
                 'sort_order' => '0',
                 'is_active' => '1'
             ],
-            'WineStoreViewBR' => [
+            'Wine PT-BR' => [
                 'store_id' => '3',
                 'code' => 'wsvBR',
                 'website_id' => '3',
                 'group_id' => '3',
-                'name' => 'WineStoreViewBR',
+                'name' => 'Wine PT-BR',
                 'sort_order' => '0',
                 'is_active' => '1'
             ],
-            'ModaStoreViewEN' => [
+            'Moda EN-US' => [
                 'store_id' => '4',
                 'code' => 'msvEN',
                 'website_id' => '2',
                 'group_id' => '2',
-                'name' => 'ModaStoreViewEN',
+                'name' => 'Moda EN-US',
                 'sort_order' => '0',
                 'is_active' => '1'
             ],
-            'WineStoreViewEN' => [
+            'Wine EN-US' => [
                 'store_id' => '5',
                 'code' => 'wsvEN',
                 'website_id' => '3',
                 'group_id' => '3',
-                'name' => 'WineStoreViewEN',
+                'name' => 'Wine EN-US',
                 'sort_order' => '0',
                 'is_active' => '1'
             ]

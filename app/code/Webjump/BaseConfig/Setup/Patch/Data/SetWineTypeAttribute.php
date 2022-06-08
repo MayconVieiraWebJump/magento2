@@ -29,41 +29,45 @@ class SetWineTypeAttribute implements DataPatchInterface
             \Webjump\BaseConfig\Setup\Patch\Data\CreateWineAttributeSets::class
         ];
     }
-    
+
     public function apply()
     {
         $this->moduleDataSetup->getConnection()->startSetup();
 
         $eavSetup = $this->eavSetupFactory->create(['setup' => $this->moduleDataSetup]);
-        
+
         $eavSetup->addAttribute(
             \Magento\Catalog\Model\Product::ENTITY,
             'WineType',
             [
-                'attribute_set' => 'Wine_Attribute_Set',
                 'type' => 'varchar',
-                'comparable' => '1',
-                'filterable_in_search' => '1',
-                'filterable' => '1',
+                'backend' => '',
+                'frontend' => '',
                 'label' => 'Wine Type',
                 'input' => 'text',
-                'is_filterable_in_grid' => '1',
-                'global' => \Magento\Catalog\Model\ResourceModel\Eav\Attribute::SCOPE_WEBSITE,
-                'visible' => '1',
-                'required' => '0',
-                'user_defined' => '1',
-                'unique' => '0',
-                'visible_on_front' => '1',
-                'searchable' => '1',
+                'class' => '',
+                'source' => '',
+                'global' => \Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface::SCOPE_GLOBAL,
+                'visible' => true,
+                'required' => false,
+                'user_defined' => true,
+                'default' => '',
+                'searchable' => false,
+                'filterable' => false,
+                'comparable' => false,
+                'visible_on_front' => true,
+                'used_in_product_listing' => true,
+                'unique' => false,
+                'apply_to' => '',
                 'visible_in_advanced_search' => '1'
             ]
         );
 
         $entityTypeId = $eavSetup->getEntityTypeId(\Magento\Catalog\Model\Product::ENTITY);
-        
+
         $attributeSetId = $eavSetup->getAttributeSet(
-            $entityTypeId, 
-            'Wine_Attribute_Set', 
+            $entityTypeId,
+            'Wine_Attribute_Set',
             'attribute_set_id'
         );
 

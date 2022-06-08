@@ -1,0 +1,1726 @@
+sku,store_view_code,attribute_set_code,product_type,categories,product_websites,name,description,short_description,weight,product_online,tax_class_name,visibility,price,special_price,special_price_from_date,special_price_to_date,url_key,meta_title,meta_keywords,meta_description,base_image,base_image_label,small_image,small_image_label,thumbnail_image,thumbnail_image_label,swatch_image,swatch_image_label,created_at,updated_at,new_from_date,new_to_date,display_product_options_in,map_price,msrp_price,map_enabled,gift_message_available,custom_design,custom_design_from,custom_design_to,custom_layout_update,page_layout,product_options_container,msrp_display_actual_price_type,country_of_manufacture,additional_attributes,qty,out_of_stock_qty,use_config_min_qty,is_qty_decimal,allow_backorders,use_config_backorders,min_cart_qty,use_config_min_sale_qty,max_cart_qty,use_config_max_sale_qty,is_in_stock,notify_on_stock_below,use_config_notify_stock_qty,manage_stock,use_config_manage_stock,use_config_qty_increments,qty_increments,use_config_enable_qty_inc,enable_qty_increments,is_decimal_divided,website_id,related_skus,related_position,crosssell_skus,crosssell_position,upsell_skus,upsell_position,additional_images,additional_image_labels,hide_from_product_page,custom_options,bundle_price_type,bundle_sku_type,bundle_price_view,bundle_weight_type,bundle_values,bundle_shipment_type,associated_skus,downloadable_links,downloadable_samples,configurable_variations,configurable_variation_labels
+MD_015,,Moda_Attribute_Set,configurable,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Geométrico Listrado ocasional Vestido,,"<p>  Cor: Preto Estilo: Casual Tipo de Desenho: Listrado, Geométrico Tipo: Camiseta Decote: Gola Redonda Comprimento da Manga: Manga Comprida Tipo de manga: Manga Regular Linha de Cintura: Natural Bainha Formada: Alargado Comprimento:Curto Tipo de Ajuste: Ajuste Regular Tecido: Elasticidade Baixa Material: Algodão Tecido/material:9 5% Algodão, 5% Elastano Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco </p>",0.8,1,Taxable Goods,"Catalog, Search",73.90,,,,Geometrico-Listrado-ocasional-Vestido,Geométrico Listrado ocasional Vestido,Geométrico Listrado ocasional Vestido,Geométrico Listrado ocasional Vestido,listr1.png,,listr1.png,,listr1.png,,,,25/05/2022 10:53,25/05/2022 10:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,France,FabricType=Couro 100%,0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"listr2.png,listr3.png,listr4.png",,,,,,,,,,,,,"sku=MD_015-P,tamanhoclo=P|sku=MD_015-M,tamanhoclo=M,|sku=MD_015-G,tamanhoclo=G,|sku=MD_015-GG,tamanhoclo=GG",tamanhoclo=Size
+MD_015-P,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Geométrico Listrado ocasional Vestido,,"<p>  Cor: Preto Estilo: Casual Tipo de Desenho: Listrado, Geométrico Tipo: Camiseta Decote: Gola Redonda Comprimento da Manga: Manga Comprida Tipo de manga: Manga Regular Linha de Cintura: Natural Bainha Formada: Alargado Comprimento:Curto Tipo de Ajuste: Ajuste Regular Tecido: Elasticidade Baixa Material: Algodão Tecido/material:9 5% Algodão, 5% Elastano Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco </p>",0.8,1,Taxable Goods,Not Visible Individually,73.90,,,,Geometrico-Listrado-ocasional-Vestido,Geométrico Listrado ocasional Vestido,Geométrico Listrado ocasional Vestido,Geométrico Listrado ocasional Vestido,,,,,,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,France,"FabricType=Couro 100%,tamanhoclo=P",20,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_015-M,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Geométrico Listrado ocasional Vestido,,"<p>  Cor: Preto Estilo: Casual Tipo de Desenho: Listrado, Geométrico Tipo: Camiseta Decote: Gola Redonda Comprimento da Manga: Manga Comprida Tipo de manga: Manga Regular Linha de Cintura: Natural Bainha Formada: Alargado Comprimento:Curto Tipo de Ajuste: Ajuste Regular Tecido: Elasticidade Baixa Material: Algodão Tecido/material:9 5% Algodão, 5% Elastano Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco </p>",0.8,1,Taxable Goods,Not Visible Individually,73.90,,,,Geometrico-Listrado-ocasional-Vestido,Geométrico Listrado ocasional Vestido,Geométrico Listrado ocasional Vestido,Geométrico Listrado ocasional Vestido,,,,,,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,France,"FabricType=Couro 100%,tamanhoclo=M",25,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_015-G,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Geométrico Listrado ocasional Vestido,,"<p>  Cor: Preto Estilo: Casual Tipo de Desenho: Listrado, Geométrico Tipo: Camiseta Decote: Gola Redonda Comprimento da Manga: Manga Comprida Tipo de manga: Manga Regular Linha de Cintura: Natural Bainha Formada: Alargado Comprimento:Curto Tipo de Ajuste: Ajuste Regular Tecido: Elasticidade Baixa Material: Algodão Tecido/material:9 5% Algodão, 5% Elastano Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco </p>",0.8,1,Taxable Goods,Not Visible Individually,73.90,,,,Geometrico-Listrado-ocasional-Vestido,Geométrico Listrado ocasional Vestido,Geométrico Listrado ocasional Vestido,Geométrico Listrado ocasional Vestido,,,,,,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,France,"FabricType=Couro 100%,tamanhoclo=G",20,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_015-GG,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Promoções",moda_br,Geométrico Listrado ocasional Vestido,,"<p>  Cor: Preto Estilo: Casual Tipo de Desenho: Listrado, Geométrico Tipo: Camiseta Decote: Gola Redonda Comprimento da Manga: Manga Comprida Tipo de manga: Manga Regular Linha de Cintura: Natural Bainha Formada: Alargado Comprimento:Curto Tipo de Ajuste: Ajuste Regular Tecido: Elasticidade Baixa Material: Algodão Tecido/material:9 5% Algodão, 5% Elastano Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco </p>",0.8,1,Taxable Goods,Not Visible Individually,73.90,,,,Geometrico-Listrado-ocasional-Vestido,Geométrico Listrado ocasional Vestido,Geométrico Listrado ocasional Vestido,Geométrico Listrado ocasional Vestido,,,,,,,,,27/05/2022 13:36,27/05/2022 13:36,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,France,"FabricType=Couro 100%,tamanhoclo=GG",2,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_002,,Moda_Attribute_Set,configurable,"Moda,Moda/Lingerie",moda_br,Lingerie Anel Simples,,"<p><strong>Cor</strong>: Verde de Exercício</p>
+<p><strong>Tipo de Desenho</strong>: Simples</p>
+<p><strong>Tipo de sutiã:</strong> Com fio</p>
+<p><strong>Tipo de calcinha</strong>: Cordas em V</p>
+<p><strong>Número de peças</strong>: Conjunto de 2 peças</p>
+<p><strong>Tecido</strong>: Elasticidade Baixa</p>
+<p><strong>Material</strong>: Laço</p>
+<p><strong>Tecido/material</strong>: 95% Poliéster, 5% Spandex</p>
+<p><strong>Instruções de cuidados</strong>: Lavar à mão, não lavar a seco</p>
+<p><strong>Almofada de peito</strong>: Sem enchimento</p>",0.4,1,Taxable Goods,"Catalog, Search",31.950000,,,,lingerie-anel-simples,Lingerie Anel Simples,Lingerie Anel Simples,Lingerie Anel Simples ,LingV1.png,,LingV1.png,,LingV1.png,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,China,"FabricType=95% Poliéster, 5% Spandex",0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"LingV2.png,LingV3.png,LingV4.png",,,,,,,,,,,,,"sku=MD_002-P,tamanhoclo=P|sku=MD_002-M,tamanhoclo=M,|sku=MD_002-G,tamanhoclo=G,|sku=MD_002-GG,tamanhoclo=GG",tamanhoclo=Size
+MD_002-P,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie",moda_br,Lingerie Anel Simples,,"<p><strong>Cor</strong>: Verde de Exercício</p>
+<p><strong>Tipo de Desenho</strong>: Simples</p>
+<p><strong>Tipo de sutiã:</strong> Com fio</p>
+<p><strong>Tipo de calcinha</strong>: Cordas em V</p>
+<p><strong>Número de peças</strong>: Conjunto de 2 peças</p>
+<p><strong>Tecido</strong>: Elasticidade Baixa</p>
+<p><strong>Material</strong>: Laço</p>
+<p><strong>Tecido/material</strong>: 95% Poliéster, 5% Spandex</p>
+<p><strong>Instruções de cuidados</strong>: Lavar à mão, não lavar a seco</p>
+<p><strong>Almofada de peito</strong>: Sem enchimento</p>",0.4,1,Taxable Goods,Not Visible Individually,31.950000,,,,lingerie-anel-simples,Lingerie Anel Simples,Lingerie Anel Simples,Lingerie Anel Simples ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=95% Poliéster, 5% Spandex,tamanhoclo=P",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_002-M,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie",moda_br,Lingerie Anel Simples,,"<p><strong>Cor</strong>: Verde de Exercício</p>
+<p><strong>Tipo de Desenho</strong>: Simples</p>
+<p><strong>Tipo de sutiã:</strong> Com fio</p>
+<p><strong>Tipo de calcinha</strong>: Cordas em V</p>
+<p><strong>Número de peças</strong>: Conjunto de 2 peças</p>
+<p><strong>Tecido</strong>: Elasticidade Baixa</p>
+<p><strong>Material</strong>: Laço</p>
+<p><strong>Tecido/material</strong>: 95% Poliéster, 5% Spandex</p>
+<p><strong>Instruções de cuidados</strong>: Lavar à mão, não lavar a seco</p>
+<p><strong>Almofada de peito</strong>: Sem enchimento</p>",0.4,1,Taxable Goods,Not Visible Individually,31.950000,,,,lingerie-anel-simples,Lingerie Anel Simples,Lingerie Anel Simples,Lingerie Anel Simples ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=95% Poliéster, 5% Spandex,,tamanhoclo=M",30,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_002-G,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie",moda_br,Lingerie Anel Simples,,"<p><strong>Cor</strong>: Verde de Exercício</p>
+<p><strong>Tipo de Desenho</strong>: Simples</p>
+<p><strong>Tipo de sutiã:</strong> Com fio</p>
+<p><strong>Tipo de calcinha</strong>: Cordas em V</p>
+<p><strong>Número de peças</strong>: Conjunto de 2 peças</p>
+<p><strong>Tecido</strong>: Elasticidade Baixa</p>
+<p><strong>Material</strong>: Laço</p>
+<p><strong>Tecido/material</strong>: 95% Poliéster, 5% Spandex</p>
+<p><strong>Instruções de cuidados</strong>: Lavar à mão, não lavar a seco</p>
+<p><strong>Almofada de peito</strong>: Sem enchimento</p>",0.4,1,Taxable Goods,Not Visible Individually,31.950000,,,,lingerie-anel-simples,Lingerie Anel Simples,Lingerie Anel Simples,Lingerie Anel Simples ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=95% Poliéster, 5% Spandex,,tamanhoclo=G",14,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_002-GG,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie",moda_br,Lingerie Anel Simples,,"<p><strong>Cor</strong>: Verde de Exercício</p>
+<p><strong>Tipo de Desenho</strong>: Simples</p>
+<p><strong>Tipo de sutiã:</strong> Com fio</p>
+<p><strong>Tipo de calcinha</strong>: Cordas em V</p>
+<p><strong>Número de peças</strong>: Conjunto de 2 peças</p>
+<p><strong>Tecido</strong>: Elasticidade Baixa</p>
+<p><strong>Material</strong>: Laço</p>
+<p><strong>Tecido/material</strong>: 95% Poliéster, 5% Spandex</p>
+<p><strong>Instruções de cuidados</strong>: Lavar à mão, não lavar a seco</p>
+<p><strong>Almofada de peito</strong>: Sem enchimento</p>",0.4,1,Taxable Goods,Not Visible Individually,31.950000,,,,lingerie-anel-simples,Lingerie Anel Simples,Lingerie Anel Simples,Lingerie Anel Simples ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=95% Poliéster, 5% Spandex,tamanhoclo=GG",16,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_003,,Moda_Attribute_Set,configurable,"Moda,Moda/Lingerie/Pijamas",moda_br,Pijama Coração Rosa,,"<div class=""product-intro__attr-list-text""> </div>
+<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Rosa Empoeirado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Coração, Estampa em toda a parte</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Bolso, Cintura contrastada, Botões na frente</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Conjuntos de shorts</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Colarinho</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Curta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Número de peças: Conjunto de 2 peças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Cetim</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 97% Poliéster, 3% Elastano</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+</div>",0.5,1,Taxable Goods,"Catalog, Search",54.950000,,,,pijama-corac-o,Pijama Coração,Pijama Coração,Pijama Coração,PijamaR1.png,,PijamaR1.png,,PijamaR1.png,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,China,FabricType=Cetim,0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"PijamaR2.png,PijamaR3.png,PijamaR4.png",,,,,,,,,,,,,"sku=MD_003-P,tamanhoclo=P|sku=MD_003-M,tamanhoclo=M,|sku=MD_003-G,tamanhoclo=G,|sku=MD_003-GG,tamanhoclo=GG",tamanhoclo=Size
+MD_003-P,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie/Pijamas",moda_br,Pijama Coração Rosa,,"<div class=""product-intro__attr-list-text""> </div>
+<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Rosa Empoeirado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Coração, Estampa em toda a parte</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Bolso, Cintura contrastada, Botões na frente</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Conjuntos de shorts</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Colarinho</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Curta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Número de peças: Conjunto de 2 peças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Cetim</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 97% Poliéster, 3% Elastano</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+</div>",0.5,1,Taxable Goods,Not Visible Individually,54.950000,,,,pijama-corac-o,Pijama Coração,Pijama Coração,Pijama Coração,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Cetim,tamanhoclo=P",25,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_003-M,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie/Pijamas",moda_br,Pijama Coração Rosa,,"<div class=""product-intro__attr-list-text""> </div>
+<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Rosa Empoeirado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Coração, Estampa em toda a parte</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Bolso, Cintura contrastada, Botões na frente</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Conjuntos de shorts</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Colarinho</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Curta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Número de peças: Conjunto de 2 peças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Cetim</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 97% Poliéster, 3% Elastano</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+</div>",0.5,1,Taxable Goods,Not Visible Individually,54.950000,,,,pijama-corac-o,Pijama Coração,Pijama Coração,Pijama Coração,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Cetim,tamanhoclo=M",14,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_003-G,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie/Pijamas",moda_br,Pijama Coração Rosa,,"<div class=""product-intro__attr-list-text""> </div>
+<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Rosa Empoeirado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Coração, Estampa em toda a parte</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Bolso, Cintura contrastada, Botões na frente</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Conjuntos de shorts</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Colarinho</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Curta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Número de peças: Conjunto de 2 peças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Cetim</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 97% Poliéster, 3% Elastano</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+</div>",0.5,1,Taxable Goods,Not Visible Individually,54.950000,,,,pijama-corac-o,Pijama Coração,Pijama Coração,Pijama Coração,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Cetim,tamanhoclo=G",32,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_003-GG,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie/Pijamas",moda_br,Pijama Coração Rosa,,"<div class=""product-intro__attr-list-text""> </div>
+<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Rosa Empoeirado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Coração, Estampa em toda a parte</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Bolso, Cintura contrastada, Botões na frente</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Conjuntos de shorts</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Colarinho</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Curta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Número de peças: Conjunto de 2 peças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Cetim</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 97% Poliéster, 3% Elastano</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+</div>",0.5,1,Taxable Goods,Not Visible Individually,54.950000,,,,pijama-corac-o,Pijama Coração,Pijama Coração,Pijama Coração,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Cetim,tamanhoclo=GG",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_004,,Moda_Attribute_Set,configurable,"Moda,Moda/Lingerie/Renda",moda_br,Sutiã de Renda floral,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Romântico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Floral</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Corte Fora</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de sutiã: Com fio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Alongamento Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Laço</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 90% Poliamida, 10% Elastano</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavar à mão, não lavar a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Almofada de peito: Preenchimento Não Removível</div>
+</div>
+</div>",0.4,1,Taxable Goods,"Catalog, Search",32.950000,,,,suti-de-renda-floral,Sutiã de Renda floral,Sutiã de Renda floral,Sutiã de Renda floral ,LingB1.png,,LingB1.png,,LingB1.png,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,China,"FabricType=90% Poliamida, 10% Elastano",0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"LingB2.png,LingB3.png",,,,,,,,,,,,,"sku=MD_004-P,tamanhoclo=P|sku=MD_004-M,tamanhoclo=M,|sku=MD_004-G,tamanhoclo=G,|sku=MD_004-GG,tamanhoclo=GG",tamanhoclo=Size
+MD_004-P,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie/Renda",moda_br,Sutiã de Renda floral,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Romântico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Floral</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Corte Fora</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de sutiã: Com fio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Alongamento Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Laço</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 90% Poliamida, 10% Elastano</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavar à mão, não lavar a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Almofada de peito: Preenchimento Não Removível</div>
+</div>
+</div>",0.4,1,Taxable Goods,Not Visible Individually,32.950000,,,,suti-de-renda-floral,Sutiã de Renda floral,Sutiã de Renda floral,Sutiã de Renda floral ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=90% Poliamida, 10% Elastano,tamanhoclo=P",10,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_004-M,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie/Renda",moda_br,Sutiã de Renda floral,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Romântico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Floral</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Corte Fora</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de sutiã: Com fio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Alongamento Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Laço</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 90% Poliamida, 10% Elastano</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavar à mão, não lavar a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Almofada de peito: Preenchimento Não Removível</div>
+</div>
+</div>",0.4,1,Taxable Goods,Not Visible Individually,32.950000,,,,suti-de-renda-floral,Sutiã de Renda floral,Sutiã de Renda floral,Sutiã de Renda floral ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=90% Poliamida, 10% Elastano,tamanhoclo=M",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_004-G,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie/Renda",moda_br,Sutiã de Renda floral,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Romântico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Floral</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Corte Fora</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de sutiã: Com fio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Alongamento Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Laço</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 90% Poliamida, 10% Elastano</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavar à mão, não lavar a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Almofada de peito: Preenchimento Não Removível</div>
+</div>
+</div>",0.4,1,Taxable Goods,Not Visible Individually,32.950000,,,,suti-de-renda-floral,Sutiã de Renda floral,Sutiã de Renda floral,Sutiã de Renda floral ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=90% Poliamida, 10% Elastano,tamanhoclo=G",25,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_004-GG,,Moda_Attribute_Set,simple,"Moda,Moda/Lingerie/Renda",moda_br,Sutiã de Renda floral,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Romântico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Floral</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Corte Fora</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de sutiã: Com fio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Alongamento Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Laço</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 90% Poliamida, 10% Elastano</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavar à mão, não lavar a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Almofada de peito: Preenchimento Não Removível</div>
+</div>
+</div>",0.4,1,Taxable Goods,Not Visible Individually,32.950000,,,,suti-de-renda-floral,Sutiã de Renda floral,Sutiã de Renda floral,Sutiã de Renda floral ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=90% Poliamida, 10% Elastano,tamanhoclo=GG",31,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_005,,Moda_Attribute_Set,configurable,"Moda,Moda/Roupas,Moda/Roupas/Verão",moda_br,Zíper Nó na gola Guingão Boho Macacão,,"<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Azul e branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Boho</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Guingão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Zíper, Nó na gola</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Sem Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Sem Mangas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Linha de Cintura: Cintura Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Curto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Ajuste Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 52% Poliéster, 22% Algodão, 22% Seda Artificial, 4% Elastano</div>
+</div>",0.9,1,Taxable Goods,"Catalog, Search",69.990000,,,,ziper-no-na-gola-guing-o-boho-macac-o,Zíper Nó na gola Guingão Boho Macacão,Zíper Nó na gola Guingão Boho Macacão,Zíper Nó na gola Guingão Boho Macacão,MacA1.png,,MacA1.png,,MacA1.png,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,China,"FabricType=52% Poliéster, 22% Algodão, 22% Seda Artificial, 4% Elastano",0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"MacA2.png,MacA3.png,MacA4.png",,,,,,,,,,,,,"sku=MD_005-P,tamanhoclo=P|sku=MD_005-M,tamanhoclo=M,|sku=MD_005-G,tamanhoclo=G,|sku=MD_005-GG,tamanhoclo=GG",tamanhoclo=Size
+MD_005-P,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Verão",moda_br,Zíper Nó na gola Guingão Boho Macacão,,"<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Azul e branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Boho</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Guingão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Zíper, Nó na gola</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Sem Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Sem Mangas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Linha de Cintura: Cintura Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Curto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Ajuste Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 52% Poliéster, 22% Algodão, 22% Seda Artificial, 4% Elastano</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,69.990000,,,,ziper-no-na-gola-guing-o-boho-macac-o,Zíper Nó na gola Guingão Boho Macacão,Zíper Nó na gola Guingão Boho Macacão,Zíper Nó na gola Guingão Boho Macacão,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=52% Poliéster, 22% Algodão, 22% Seda Artificial, 4% Elastano,tamanhoclo=P",10,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_005-M,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Verão",moda_br,Zíper Nó na gola Guingão Boho Macacão,,"<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Azul e branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Boho</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Guingão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Zíper, Nó na gola</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Sem Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Sem Mangas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Linha de Cintura: Cintura Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Curto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Ajuste Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 52% Poliéster, 22% Algodão, 22% Seda Artificial, 4% Elastano</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,69.990000,,,,ziper-no-na-gola-guing-o-boho-macac-o,Zíper Nó na gola Guingão Boho Macacão,Zíper Nó na gola Guingão Boho Macacão,Zíper Nó na gola Guingão Boho Macacão,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=52% Poliéster, 22% Algodão, 22% Seda Artificial, 4% Elastano,tamanhoclo=M",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_005-G,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Verão",moda_br,Zíper Nó na gola Guingão Boho Macacão,,"<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Azul e branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Boho</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Guingão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Zíper, Nó na gola</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Sem Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Sem Mangas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Linha de Cintura: Cintura Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Curto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Ajuste Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 52% Poliéster, 22% Algodão, 22% Seda Artificial, 4% Elastano</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,69.990000,,,,ziper-no-na-gola-guing-o-boho-macac-o,Zíper Nó na gola Guingão Boho Macacão,Zíper Nó na gola Guingão Boho Macacão,Zíper Nó na gola Guingão Boho Macacão,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=52% Poliéster, 22% Algodão, 22% Seda Artificial, 4% Elastano,tamanhoclo=G",0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_005-GG,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Verão",moda_br,Zíper Nó na gola Guingão Boho Macacão,,"<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Azul e branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Boho</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Guingão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Zíper, Nó na gola</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Sem Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Sem Mangas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Linha de Cintura: Cintura Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Curto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Ajuste Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 52% Poliéster, 22% Algodão, 22% Seda Artificial, 4% Elastano</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,69.990000,,,,ziper-no-na-gola-guing-o-boho-macac-o,Zíper Nó na gola Guingão Boho Macacão,Zíper Nó na gola Guingão Boho Macacão,Zíper Nó na gola Guingão Boho Macacão,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=52% Poliéster, 22% Algodão, 22% Seda Artificial, 4% Elastano,tamanhoclo=GG",24,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_006,,Moda_Attribute_Set,configurable,"Moda,Moda/Roupas,Moda/Roupas/Primavera",moda_br,Bainha de Ruffle Embrulhar Simples elegante Vestido,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Bege</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: elegante</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Justa</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Colarinho Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Comprida</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de manga: Manga de Bishop</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Linha de Cintura: Cintura Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Curto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Ajuste Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Chiffon</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 100% Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Revestimento: Forrado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Almofada de peito: Sem enchimento</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Composição de Forro: 100% Poliéster</div>
+</div>
+</div>",0.9,1,Taxable Goods,"Catalog, Search",101.900000,,,,bainha-de-ruffle-embrulhar-simples-elegante-vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,VestP1.png,,VestP1.png,,VestP1.png,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,China,FabricType=100% Poliéster,0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"VestP2.png,VestP3.png,VestP4.png",,,,,,,,,,,,,"sku=MD_006-P,tamanhoclo=P|sku=MD_006-M,tamanhoclo=M,|sku=MD_006-G,tamanhoclo=G,|sku=MD_006-GG,tamanhoclo=GG",tamanhoclo=Size
+MD_006-P,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Primavera",moda_br,Bainha de Ruffle Embrulhar Simples elegante Vestido,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Bege</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: elegante</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Justa</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Colarinho Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Comprida</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de manga: Manga de Bishop</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Linha de Cintura: Cintura Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Curto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Ajuste Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Chiffon</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 100% Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Revestimento: Forrado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Almofada de peito: Sem enchimento</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Composição de Forro: 100% Poliéster</div>
+</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,101.900000,,,,bainha-de-ruffle-embrulhar-simples-elegante-vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=100% Poliéster,tamanhoclo=P",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_006-M,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Primavera",moda_br,Bainha de Ruffle Embrulhar Simples elegante Vestido,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Bege</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: elegante</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Justa</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Colarinho Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Comprida</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de manga: Manga de Bishop</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Linha de Cintura: Cintura Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Curto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Ajuste Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Chiffon</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 100% Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Revestimento: Forrado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Almofada de peito: Sem enchimento</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Composição de Forro: 100% Poliéster</div>
+</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,101.900000,,,,bainha-de-ruffle-embrulhar-simples-elegante-vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=100% Poliéster,tamanhoclo=M",21,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_006-G,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Primavera",moda_br,Bainha de Ruffle Embrulhar Simples elegante Vestido,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Bege</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: elegante</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Justa</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Colarinho Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Comprida</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de manga: Manga de Bishop</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Linha de Cintura: Cintura Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Curto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Ajuste Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Chiffon</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 100% Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Revestimento: Forrado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Almofada de peito: Sem enchimento</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Composição de Forro: 100% Poliéster</div>
+</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,101.900000,,,,bainha-de-ruffle-embrulhar-simples-elegante-vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=100% Poliéster,tamanhoclo=G",35,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_006-GG,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Primavera",moda_br,Bainha de Ruffle Embrulhar Simples elegante Vestido,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Bege</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: elegante</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Justa</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Colarinho Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Comprida</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de manga: Manga de Bishop</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Linha de Cintura: Cintura Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Curto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Ajuste Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Não elástico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Chiffon</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 100% Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Revestimento: Forrado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Almofada de peito: Sem enchimento</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Composição de Forro: 100% Poliéster</div>
+</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,101.900000,,,,bainha-de-ruffle-embrulhar-simples-elegante-vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,Bainha de Ruffle Embrulhar Simples elegante Vestido,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=100% Poliéster,tamanhoclo=GG",40,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_007,,Moda_Attribute_Set,configurable,"Moda,Moda/Roupas/Outono",moda_br,Malhado Simples ocasional,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: básico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Malhado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Blusas Básicas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Gola Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Comprida</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de manga: Manga Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Colheita</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Slim Fit</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Alongamento Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Viscose</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 50% Viscose, 28% Poliéster, 22% Nylon</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Forro Quente: Não</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Puro: Não</div>
+</div>
+</div>",0.9,1,Taxable Goods,"Catalog, Search",54.950000,,,,malhado-simples-ocasional,Malhado Simples ocasional,Malhado Simples ocasional,Malhado Simples ocasional,BlusB1.png,,BlusB1.png,,BlusB1.png,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,China,"FabricType=50% Viscose, 28% Poliéster, 22% Nylon",0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"BlusB2.png,BlusB3.png,BlusB4.png",,,,,,,,,,,,,"sku=MD_007-P,tamanhoclo=P|sku=MD_007-M,tamanhoclo=M,|sku=MD_007-G,tamanhoclo=G,|sku=MD_007-GG,tamanhoclo=GG",tamanhoclo=Size
+MD_007-P,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas/Outono",moda_br,Malhado Simples ocasional,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: básico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Malhado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Blusas Básicas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Gola Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Comprida</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de manga: Manga Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Colheita</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Slim Fit</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Alongamento Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Viscose</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 50% Viscose, 28% Poliéster, 22% Nylon</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Forro Quente: Não</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Puro: Não</div>
+</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,54.950000,,,,malhado-simples-ocasional,Malhado Simples ocasional,Malhado Simples ocasional,Malhado Simples ocasional,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=50% Viscose, 28% Poliéster, 22% Nylon,tamanhoclo=P",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_007-M,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas/Outono",moda_br,Malhado Simples ocasional,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: básico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Malhado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Blusas Básicas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Gola Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Comprida</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de manga: Manga Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Colheita</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Slim Fit</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Alongamento Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Viscose</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 50% Viscose, 28% Poliéster, 22% Nylon</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Forro Quente: Não</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Puro: Não</div>
+</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,54.950000,,,,malhado-simples-ocasional,Malhado Simples ocasional,Malhado Simples ocasional,Malhado Simples ocasional,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=50% Viscose, 28% Poliéster, 22% Nylon,tamanhoclo=M",32,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_007-G,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas/Outono",moda_br,Malhado Simples ocasional,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: básico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Malhado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Blusas Básicas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Gola Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Comprida</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de manga: Manga Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Colheita</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Slim Fit</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Alongamento Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Viscose</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 50% Viscose, 28% Poliéster, 22% Nylon</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Forro Quente: Não</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Puro: Não</div>
+</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,54.950000,,,,malhado-simples-ocasional,Malhado Simples ocasional,Malhado Simples ocasional,Malhado Simples ocasional,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=50% Viscose, 28% Poliéster, 22% Nylon,tamanhoclo=G",56,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_007-GG,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas/Outono",moda_br,Malhado Simples ocasional,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: básico</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Malhado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Blusas Básicas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Decote: Gola Alta</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento da Manga: Manga Comprida</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de manga: Manga Regular</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Comprimento: Colheita</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Ajuste: Slim Fit</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido: Alongamento Alto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material: Viscose</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tecido/material: 50% Viscose, 28% Poliéster, 22% Nylon</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Instruções de cuidados: Lavagem de máquina ou lavagem profissional a seco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Forro Quente: Não</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Puro: Não</div>
+</div>
+</div>",0.9,1,Taxable Goods,Not Visible Individually,54.950000,,,,malhado-simples-ocasional,Malhado Simples ocasional,Malhado Simples ocasional,Malhado Simples ocasional,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=50% Viscose, 28% Poliéster, 22% Nylon,tamanhoclo=GG",21,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_008,,Moda_Attribute_Set,configurable,"Moda,Moda/Calçados,Moda/Calçados/Botas",moda_br,Bota com ziper lateral,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Fechamento: Zíper lateral</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Misturas de Algodão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Botas de combate</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipos de altura das botas: Botas de Tornozelo</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Algodão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Preto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro de microfibra</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura do Calcanhar: Calcunhar Médio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Calcanhares: Plataforma</div>
+</div>
+</div>",1.2,1,Taxable Goods,"Catalog, Search",175.990000,,,,bota-com-ziper-lateral,Bota com ziper lateral,Bota com ziper lateral,Bota com ziper lateral,BotaP1.png,,BotaP1.png,,BotaP1.png,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,China,FabricType=Couro de microfibra,0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"BotaP2.png,BotaP3.png,BotaP4.png",,,,,,,,,,,,,"sku=MD_008-36,tamanhosnek=36|sku=MD_008-37,tamanhosnek=37,|sku=MD_008-38,tamanhosnek=38,|sku=MD_008-39,tamanhosnek=39",tamanhoclo=Size
+MD_008-36,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Botas",moda_br,Bota com ziper lateral,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Fechamento: Zíper lateral</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Misturas de Algodão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Botas de combate</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipos de altura das botas: Botas de Tornozelo</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Algodão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Preto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro de microfibra</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura do Calcanhar: Calcunhar Médio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Calcanhares: Plataforma</div>
+</div>
+</div>",1.2,1,Taxable Goods,Not Visible Individually,175.990000,,,,bota-com-ziper-lateral,Bota com ziper lateral,Bota com ziper lateral,Bota com ziper lateral,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro de microfibra,tamanhosnek=36",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_008-37,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Botas",moda_br,Bota com ziper lateral,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Fechamento: Zíper lateral</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Misturas de Algodão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Botas de combate</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipos de altura das botas: Botas de Tornozelo</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Algodão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Preto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro de microfibra</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura do Calcanhar: Calcunhar Médio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Calcanhares: Plataforma</div>
+</div>
+</div>",1.2,1,Taxable Goods,Not Visible Individually,175.990000,,,,bota-com-ziper-lateral,Bota com ziper lateral,Bota com ziper lateral,Bota com ziper lateral,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro de microfibra,tamanhosnek=37",24,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_008-38,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Botas",moda_br,Bota com ziper lateral,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Fechamento: Zíper lateral</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Misturas de Algodão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Botas de combate</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipos de altura das botas: Botas de Tornozelo</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Algodão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Preto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro de microfibra</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura do Calcanhar: Calcunhar Médio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Calcanhares: Plataforma</div>
+</div>
+</div>",1.2,1,Taxable Goods,Not Visible Individually,175.990000,,,,bota-com-ziper-lateral,Bota com ziper lateral,Bota com ziper lateral,Bota com ziper lateral,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro de microfibra,tamanhosnek=38",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_008-39,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Botas",moda_br,Bota com ziper lateral,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Fechamento: Zíper lateral</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Misturas de Algodão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Botas de combate</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipos de altura das botas: Botas de Tornozelo</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Algodão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Preto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro de microfibra</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Simples</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura do Calcanhar: Calcunhar Médio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Calcanhares: Plataforma</div>
+</div>
+</div>",1.2,1,Taxable Goods,Not Visible Individually,175.990000,,,,bota-com-ziper-lateral,Bota com ziper lateral,Bota com ziper lateral,Bota com ziper lateral,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro de microfibra,tamanhosnek=39",12,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_009,,Moda_Attribute_Set,configurable,"Moda,Moda/Calçados,Moda/Calçados/Sandálias",moda_br,Sandálias,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Glamour</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Bege</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Cinta: Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura do Calcanhar: Calcunhar Médio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Dedo do Pé: Dedo do pé aberto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Strass</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Calcanhares: Pirâmide</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Ajuste do tamanho: Verdadeira dimensão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro do Plutônio</div>
+</div>
+</div>",0.6,1,Taxable Goods,"Catalog, Search",115.990000,,,,sandalias1,Sandálias,Sandálias,Sandálias ,SandB1.png,,SandB1.png,,SandB1.png,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,,China,FabricType=Couro do Plutônio,0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"SandB2.png,SandB3.png,SandB4.png",,,,,,,,,,,,,"sku=MD_009-34,tamanhosnek=34|sku=MD_009-35,tamanhosnek=35,|sku=MD_009-36,tamanhosnek=36,|sku=MD_009-37,tamanhosnek=37",tamanhoclo=Size
+MD_009-34,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Sandálias",moda_br,Sandálias,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Glamour</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Bege</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Cinta: Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura do Calcanhar: Calcunhar Médio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Dedo do Pé: Dedo do pé aberto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Strass</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Calcanhares: Pirâmide</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Ajuste do tamanho: Verdadeira dimensão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro do Plutônio</div>
+</div>
+</div>",0.6,1,Taxable Goods,Not Visible Individually,115.990000,,,,sandalias1,Sandálias,Sandálias,Sandálias ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro do Plutônio,tamanhosnek=34",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_009-35,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Sandálias",moda_br,Sandálias,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Glamour</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Bege</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Cinta: Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura do Calcanhar: Calcunhar Médio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Dedo do Pé: Dedo do pé aberto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Strass</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Calcanhares: Pirâmide</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Ajuste do tamanho: Verdadeira dimensão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro do Plutônio</div>
+</div>
+</div>",0.6,1,Taxable Goods,Not Visible Individually,115.990000,,,,sandalias1,Sandálias,Sandálias,Sandálias ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro do Plutônio,tamanhosnek=35",25,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_009-36,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Sandálias",moda_br,Sandálias,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Glamour</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Bege</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Cinta: Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura do Calcanhar: Calcunhar Médio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Dedo do Pé: Dedo do pé aberto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Strass</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Calcanhares: Pirâmide</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Ajuste do tamanho: Verdadeira dimensão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro do Plutônio</div>
+</div>
+</div>",0.6,1,Taxable Goods,Not Visible Individually,115.990000,,,,sandalias1,Sandálias,Sandálias,Sandálias ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro do Plutônio,tamanhosnek=36",14,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_009-37,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Sandálias",moda_br,Sandálias,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Glamour</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Bege</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Cinta: Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura do Calcanhar: Calcunhar Médio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Dedo do Pé: Dedo do pé aberto</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Detalhes: Strass</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Calcanhares: Pirâmide</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Alças</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Ajuste do tamanho: Verdadeira dimensão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro do Plutônio</div>
+</div>
+</div>",0.6,1,Taxable Goods,Not Visible Individually,115.990000,,,,sandalias1,Sandálias,Sandálias,Sandálias ,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro do Plutônio,tamanhosnek=37",12,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_010,,Moda_Attribute_Set,configurable,"Moda,Moda/Calçados,Moda/Calçados/Tênis",moda_br,Tênis Branco Desenho Animado,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Preppy</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Cinta: Amarrar</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Desenho Animado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura superior: Top baixo</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Dedo do Pé: Toe Redonda</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Calçados de Skatistas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Ajuste do tamanho: Verdadeira dimensão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro do Plutônio</div>
+</div>
+</div>",1.0,1,Taxable Goods,"Catalog, Search",95.950000,,,,tenis-branco-desenho-animado,Tênis Branco Desenho Animado,Tênis Branco Desenho Animado,Tênis Branco Desenho Animado,TCat2.png,,TCat2.png,,TCat2.png,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,,China,FabricType=Couro do Plutônio,0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"TCat1.png,TCat3.png",,,,,,,,,,,,,"sku=MD_008-34,tamanhosnek=34|sku=MD_008-35,tamanhosnek=35,|sku=MD_008-36,tamanhosnek=36,|sku=MD_008-37,tamanhosnek=37",tamanhoclo=Size
+MD_010-34,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Tênis",moda_br,Tênis Branco Desenho Animado,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Preppy</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Cinta: Amarrar</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Desenho Animado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura superior: Top baixo</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Dedo do Pé: Toe Redonda</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Calçados de Skatistas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Ajuste do tamanho: Verdadeira dimensão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro do Plutônio</div>
+</div>
+</div>",1.0,1,Taxable Goods,Not Visible Individually,95.950000,,,,tenis-branco-desenho-animado,Tênis Branco Desenho Animado,Tênis Branco Desenho Animado,Tênis Branco Desenho Animado,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro do Plutônio,tamanhosnek=34",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_010-35,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Tênis",moda_br,Tênis Branco Desenho Animado,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Preppy</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Cinta: Amarrar</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Desenho Animado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura superior: Top baixo</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Dedo do Pé: Toe Redonda</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Calçados de Skatistas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Ajuste do tamanho: Verdadeira dimensão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro do Plutônio</div>
+</div>
+</div>",1.0,1,Taxable Goods,Not Visible Individually,95.950000,,,,tenis-branco-desenho-animado,Tênis Branco Desenho Animado,Tênis Branco Desenho Animado,Tênis Branco Desenho Animado,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro do Plutônio,tamanhosnek=34",21,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_010-36,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Tênis",moda_br,Tênis Branco Desenho Animado,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Preppy</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Cinta: Amarrar</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Desenho Animado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura superior: Top baixo</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Dedo do Pé: Toe Redonda</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Calçados de Skatistas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Ajuste do tamanho: Verdadeira dimensão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro do Plutônio</div>
+</div>
+</div>",1.0,1,Taxable Goods,Not Visible Individually,95.950000,,,,tenis-branco-desenho-animado,Tênis Branco Desenho Animado,Tênis Branco Desenho Animado,Tênis Branco Desenho Animado,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro do Plutônio,tamanhosnek=34",21,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_010-37,,Moda_Attribute_Set,simple,"Moda,Moda/Calçados,Moda/Calçados/Tênis",moda_br,Tênis Branco Desenho Animado,,"<div class=""product-intro__description-table"">
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Estilo: Preppy</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Cor: Branco</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Quantidade: 1 par</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Cinta: Amarrar</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo de Desenho: Desenho Animado</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Altura superior: Top baixo</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Dedo do Pé: Toe Redonda</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Tipo: Calçados de Skatistas</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Ajuste do tamanho: Verdadeira dimensão</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de revestimento: Poliéster</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material de Palmilha: Couro do Plutônio</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material da Sola: Borracha</div>
+</div>
+<div class=""product-intro__description-table-item"" tabindex=""0"" role=""text"">
+<div class=""key"">Material Superior: Couro do Plutônio</div>
+</div>
+</div>",1.0,1,Taxable Goods,Not Visible Individually,95.950000,,,,tenis-branco-desenho-animado,Tênis Branco Desenho Animado,Tênis Branco Desenho Animado,Tênis Branco Desenho Animado,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=Couro do Plutônio,tamanhosnek=34",15,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_014,,Moda_Attribute_Set,configurable,"Moda,Moda/Roupas,Moda/Roupas/Inverno",moda_br,Botão Duplo Simples elegante Sobretudos femininos,,"<p> Cor: Caqui Estilo: elegante Tipo de Desenho: Simples Detalhes: Botão Duplo Tipo: Regular Decote: Lapela Comprimento da Manga: Manga Comprida Tipo de manga: Manga Regular Comprimento: Regular Carcela: Trespassado Tipo de Ajuste: Ajuste Regular Tecido: Não elástico Material: Tecido tipo lã Tecido/material: 100% Poliéster Instruções de cuidados: Lavar à mão, não lavar a seco </p> ",1.0,1,Taxable Goods,"Catalog, Search",154.90,,,,Botao-duplo-simples-elegante-sobretudos-femininos,Botão Duplo Simples elegante Sobretudos femininos,Botão Duplo Simples elegante Sobretudos femininos,Botão Duplo Simples elegante Sobretudos femininos,SobrP1.png,,SobrP1.png,,SobrP1.png,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,,China,FabricType=100% Poliéster,0,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"SobrP2.png,SobrP3.png,SobrP4.png",,,,,,,,,,,,,"sku=MD_014-P,tamanhoclo=P|sku=MD_014-M,tamanhoclo=M,|sku=MD_014-G,tamanhoclo=G,|sku=MD_014-GG,tamanhoclo=GG",tamanhoclo=Size
+MD_014-P,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Inverno",moda_br,Botão Duplo Simples elegante Sobretudos femininos,,"<p> Cor: Caqui Estilo: elegante Tipo de Desenho: Simples Detalhes: Botão Duplo Tipo: Regular Decote: Lapela Comprimento da Manga: Manga Comprida Tipo de manga: Manga Regular Comprimento: Regular Carcela: Trespassado Tipo de Ajuste: Ajuste Regular Tecido: Não elástico Material: Tecido tipo lã Tecido/material: 100% Poliéster Instruções de cuidados: Lavar à mão, não lavar a seco </p> ",1.0,1,Taxable Goods,Not Visible Individually,154.90,,,,Botao-duplo-simples-elegante-sobretudos-femininos,Botão Duplo Simples elegante Sobretudos femininos,Botão Duplo Simples elegante Sobretudos femininos,Botão Duplo Simples elegante Sobretudos femininos,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=100% Poliéster,tamanhoclo=P",25,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_014-M,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Inverno",moda_br,Botão Duplo Simples elegante Sobretudos femininos,,"<p> Cor: Caqui Estilo: elegante Tipo de Desenho: Simples Detalhes: Botão Duplo Tipo: Regular Decote: Lapela Comprimento da Manga: Manga Comprida Tipo de manga: Manga Regular Comprimento: Regular Carcela: Trespassado Tipo de Ajuste: Ajuste Regular Tecido: Não elástico Material: Tecido tipo lã Tecido/material: 100% Poliéster Instruções de cuidados: Lavar à mão, não lavar a seco </p> ",1.0,1,Taxable Goods,Not Visible Individually,154.90,,,,Botao-duplo-simples-elegante-sobretudos-femininos,Botão Duplo Simples elegante Sobretudos femininos,Botão Duplo Simples elegante Sobretudos femininos,Botão Duplo Simples elegante Sobretudos femininos,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=100% Poliéster,tamanhoclo=M",21,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_014-G,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Inverno",moda_br,Botão Duplo Simples elegante Sobretudos femininos,,"<p> Cor: Caqui Estilo: elegante Tipo de Desenho: Simples Detalhes: Botão Duplo Tipo: Regular Decote: Lapela Comprimento da Manga: Manga Comprida Tipo de manga: Manga Regular Comprimento: Regular Carcela: Trespassado Tipo de Ajuste: Ajuste Regular Tecido: Não elástico Material: Tecido tipo lã Tecido/material: 100% Poliéster Instruções de cuidados: Lavar à mão, não lavar a seco </p> ",1.0,1,Taxable Goods,Not Visible Individually,154.90,,,,Botao-duplo-simples-elegante-sobretudos-femininos,Botão Duplo Simples elegante Sobretudos femininos,Botão Duplo Simples elegante Sobretudos femininos,Botão Duplo Simples elegante Sobretudos femininos,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,Product -- Full Width,,,China,"FabricType=100% Poliéster,Tamanho=G",1,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_014-GG,,Moda_Attribute_Set,simple,"Moda,Moda/Roupas,Moda/Roupas/Inverno",moda_br,Botão Duplo Simples elegante Sobretudos femininos,,"<p> Cor: Caqui Estilo: elegante Tipo de Desenho: Simples Detalhes: Botão Duplo Tipo: Regular Decote: Lapela Comprimento da Manga: Manga Comprida Tipo de manga: Manga Regular Comprimento: Regular Carcela: Trespassado Tipo de Ajuste: Ajuste Regular Tecido: Não elástico Material: Tecido tipo lã Tecido/material: 100% Poliéster Instruções de cuidados: Lavar à mão, não lavar a seco </p> ",1.0,1,Taxable Goods,Not Visible Individually,154.90,,,,Botao-duplo-simples-elegante-sobretudos-femininos,Botão Duplo Simples elegante Sobretudos femininos,Botão Duplo Simples elegante Sobretudos femininos,Botão Duplo Simples elegante Sobretudos femininos,,,,,,,,,25/05/2022 12:03,25/05/2022 15:59,,,Block after Info Column,,,,No,,,,,,,,China,"FabricType=100% Poliéster,tamanhoclo=GG",2,0,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,,,,,,,,,,,,,,,
+MD_011,,Moda_Attribute_Set,simple,"Moda,Moda/Acessórios",moda_br,Valentino Garavani Cinto dupla face Vlogo,,"<div class=""_ab46e0"">
+<p class=""_b4693b"" data-tstid=""fullDescription"">Cinto Valentino Garavani VLOGO dupla face de couro. Com fivela com o logo, tamanho ajustável e detalhe de acabamento dourado.</p>
+</div>
+<div class=""_df8766 _ab46e0"">
+<p class=""_b4693b"" data-tstid=""madeIn"">Produzido em: Itália</p>
+</div>",1.000000,1,Taxable Goods,"Catalog, Search",3550.000000,,,,valentino-garavani-cinto-dupla-face-vlogo,Valentino Garavani Cinto dupla face Vlogo,Valentino Garavani Cinto dupla face Vlogo,Valentino Garavani Cinto dupla face Vlogo ,CintoV1.png,,CintoV1.png,,CintoV1.png,,,,25/05/2022 15:39,25/05/2022 15:39,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,Italy,FabricType=Couro de bezerro 100%,25.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,CintoV2.png,,,,,,,,,,,,,,
+MD_012,,Moda_Attribute_Set,simple,"Moda,Moda/Acessórios",moda_br,Versace Presilha de cabelo La Medusa,,"<div class=""_ab46e0"">
+<div id=""bannerComponents-Container"" class=""_861fd5""></div>
+</div>
+<div class=""_ab46e0"">
+<p class=""_b4693b"" data-tstid=""fullDescription"">Detalhe cabeça de Medusa e fechamento por encaixe.</p>
+<p class=""_b4693b"" data-tstid=""fullDescription"">Material: Liga metálica.</p>
+</div>",0.100000,1,Taxable Goods,"Catalog, Search",1886.000000,,,,versace-presilha-de-cabelo-la-medusa,Versace Presilha de cabelo La Medusa,Versace Presilha de cabelo La Medusa,Versace Presilha de cabelo La Medusa ,PrsC1.png,,PrsC1.png,,PrsC1.png,,,,25/05/2022 15:50,25/05/2022 15:50,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,Italy,FabricType=Cobre 100%,30.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,PrsC2.png,,,,,,,,,,,,,,
+MD_013,,Moda_Attribute_Set,simple,"Moda,Moda/Acessórios",moda_br,James Perse Echarpe de cashmere com listras,,"<p>Echarpe de cashmere com listras cinza James Perse. Com padronagem listrada, design bicolor e a fine knit. </p>
+<p>Lavar somente a seco.</p>",0.500000,1,Taxable Goods,"Catalog, Search",23439.000000,,,,james-perse-echarpe-de-cashmere-com-listras,James Perse Echarpe de cashmere com listras,James Perse Echarpe de cashmere com listras,James Perse Echarpe de cashmere com listras ,CachF1.png,,CachF1.png,,CachF1.png,,,,25/05/2022 15:56,25/05/2022 16:01,,,Block after Info Column,,,,Use config,,,,,Product -- Full Width,,Use config,Italy,FabricType=Cashmere 100%,10.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,1.0000,1,1,1,1,1.0000,1,0,0,0,,,,,,,"CachF2.jpg,CachF3.jpg",,,,,,,,,,,,,,

@@ -1,2 +1,8 @@
 "Create an Account","Cadastre-se",module,Magento_Customer
 "Sign In",Entre,module,Magento_Checkout
+"Sign In",Entre,module,Magento_Checkout
+"Enter your email address", Insira seu e-mail aqui, module, Magento_Newsletter
+"Installment in up to 10 installments with a minimum installment of $300.00.", Parcele em até 10x com parcela mínima de R$ 600,00, module, Magento_Catalog
+"Show Password", "Mostrar senha", module, Magento_Customer
+"Allow remote shopping assistance", "Permitir assistência remota para compras", module, Magento_Customer
+This allows merchants to "see what you see" and take actions on your behalf in order to provide better assistance.,Isso permite que os comerciantes "vejam o que você vê" e realizem ações em seu nome para fornecer uma melhor assistência., module, Magento_LoginAsCustomerAssistance

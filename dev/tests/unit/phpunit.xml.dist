@@ -43,6 +43,9 @@
             <directory>../../tests/unit/*/Test/Unit</directory>
         </testsuite>
     </testsuites>
+    <logging>
+        <testdoxHtml outputFile="test-reports/coverage.html"/>
+    </logging>
     <php>
         <ini name="memory_limit" value="-1"/>
         <ini name="date.timezone" value="America/Los_Angeles"/>

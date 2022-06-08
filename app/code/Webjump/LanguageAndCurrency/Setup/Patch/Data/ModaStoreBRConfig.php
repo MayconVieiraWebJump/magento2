@@ -9,17 +9,15 @@ use Magento\Store\Model\StoreManagerInterface;
 
 class ModaStoreBRConfig implements DataPatchInterface
 {
-    private $moduleDataSetup;
-    private $writer;
-    private $storeManager;
+    private ModuleDataSetupInterface $moduleDataSetup;
+    private WriterInterface $writer;
+    private StoreManagerInterface $storeManager;
 
     public function __construct(
         ModuleDataSetupInterface $moduleDataSetup,
         WriterInterface $writer,
         StoreManagerInterface $storeManager
-    )
-    
-    {
+    ) {
         $this->moduleDataSetup = $moduleDataSetup;
         $this->writer = $writer;
         $this->storeManager = $storeManager;
@@ -30,13 +28,13 @@ class ModaStoreBRConfig implements DataPatchInterface
         return [
         ];
     }
-    
+
     public static function getDependencies()
     {
         return [
         ];
     }
-    
+
     public function apply()
     {
         $this->moduleDataSetup->getConnection()->startSetup();
@@ -67,10 +65,10 @@ class ModaStoreBRConfig implements DataPatchInterface
         );
 
         $this->writer->save(
-           "currency/options/allow",
-           "BRL",
-           "stores",
-           $storeId
+            "currency/options/allow",
+            "BRL",
+            "stores",
+            $storeId
         );
 
         $this->writer->save(

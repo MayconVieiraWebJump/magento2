@@ -1,10 +1,16 @@
 @menuBg: #40015f;
 @yellow: #fee95f;
+@login-font:#707070;
 @smoke: #f2f2f2;
 @midPurple:#6e01a5;
 @cleanPurple:#6215e1;
 @black:#000000;
+@descritiveText:#101821;
 @FontDefault: 'Raleway-Regular';
+
+.panel .header {
+  font-family: @FontDefault;
+}
 
 .navigation {
   .level0.active > .level-top {
@@ -15,6 +21,11 @@
       border-color:@yellow;
   }
 }
+
+.minicart-wrapper {
+  margin-left: 5px;
+}
+
 
 .section-item-content {
   background-color: @menuBg;
@@ -92,8 +103,8 @@
 }
 
 
-.navigation .level0.parent>.level-top>.ui-menu-icon:after {
-  margin-top: 1.1em;
+.navigation .level0.parent>.level-top>.ui-menu-icon {
+  margin-top: 0.8em;
   margin-left: 0.5em ;
 }
 
@@ -123,12 +134,32 @@
   border: none;
 }
 
-@media (max-width: 768px) {
+.breadcrumbs a:visited {
+  color: @descritiveText;
+  text-decoration: none;
+  font-family: @FontDefault;
+}
+
+.breadcrumbs a {
+  color: @descritiveText;
+  text-decoration: none;
+  font-family: @FontDefault;
+}
+
+.header.panel .header.links .customer-welcome span button {
+  color: @login-font !important;
+}
+
+
+@media (max-width: 767px) {
   .section-item-content {
     ul {
       height: auto;
     }
   }
+  .nav-sections-item-title {
+    width: 30.33%;
+}
 
   .nav-sections {
     .header.links {
@@ -148,7 +179,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
   .navigation .level0.has-active>a:not(.ui-state-active){
     border-color: @yellow;
@@ -162,7 +193,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .section-item-content ul {
     height: auto;
@@ -221,11 +252,20 @@
   color: @midPurple;
 }
 
-@media (max-width: 768px) {
+.nav-toggle:hover:before {
+  color: @midPurple;
+}
+
+@media (max-width: 767px) {
   .nav-sections .header.links li a {
     border-top: none;
     font-family: @FontDefault;
   }
+
+  .minicart-items .product-item-name {
+    font-weight: 400;
+    margin: 0 0 45px;
+}
 }
 
 .nav-5 a span{
@@ -241,4 +281,25 @@
 .nav-sections-item-switch {
   font-family: @FontDefault;
   font-weight: bold;
+}
+
+.header.panel>.header.links>li>a:visited  {
+  color: @login-font;
+  font-family: @FontDefault;
+}
+
+.header.panel>.header.links>li.welcome {
+  color:@login-font;
+  font-family: @FontDefault;
+}
+
+div[data-content-type='text'] {
+  font-family: @FontDefault;
+  color: @descritiveText;
+}
+
+@media (max-width: 1350px) {
+  div[data-content-type='text'] {
+    margin: 0px 40px;
+  }
 }

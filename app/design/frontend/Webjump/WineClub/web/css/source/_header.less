@@ -4,7 +4,11 @@
 @text-color: #000;
 @background: #9a1e51;
 @color-border: #ccc;
-@font-default: 'Poppins-Regular';
+@font-default: "Poppins-Regular";
+
+html {
+    scroll-behavior: smooth !important;
+}
 
 body {
     overflow-x: hidden;
@@ -13,14 +17,69 @@ body {
     margin-top: 0px;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: @background #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: @background;
+    border-radius: 15px;
+    border: 3px solid #ffffff;
+  }
+
+
 .logo {
     margin: 0px 0px 0px 0px;
 }
 
 .page-header {
+    .header.panel {
+        display: flex;
+        align-items: center;
+        .header.links {
+            .customer-welcome span button {
+                margin-top: -2px;
+            }
+            li {
+
+                color: @text-color;
+    
+                a {
+                    color: @text-color;
+                    font-size: 14px;
+                    font-weight: bold;
+                    font-family: @font-default;
+                    &:hover {
+                        color: @text-color;
+                    }
+                    &:visited {
+                        color: @text-color;
+                    }
+                }
+            }
+            .customer-welcome {
+                span button {
+                    color: @text-color;
+                }
+            }
+        }
+    }
     .panel.wrapper {
         background-color: @panel-background;
         .switcher {
+            margin-top: 5px;
             .options .action.toggle {
                 color: @text-color;
             }
@@ -34,10 +93,8 @@ body {
             }
         }
     }
-    li {
-        span {
-            display: none;
-        }
+    .not-logged-in {
+        display: none;
     }
 }
 
@@ -53,12 +110,11 @@ body {
 }
 
 .minicart-wrapper {
-    margin-top: 29px;
+    margin-top: 26px;
     margin-bottom: 29px;
     .action.showcart {
         display: flex;
         position: relative;
-        /* topo | horizontal | inferior */
         margin: 0.2em 1.4em;
         &::before {
             content: "";
@@ -66,7 +122,7 @@ body {
             margin-right: 8px;
             width: 19px;
             height: 25px;
-            background: url('@{baseDir}images/mall.png');
+            background: url("@{baseDir}images/mall.png");
         }
     }
     .action.showcart.active {
@@ -84,25 +140,74 @@ body {
     padding-bottom: 30px;
 }
 
-.header.panel {
-    .header.links {
-        li {
-            color: @text-color;
 
-            a {
-                color: @text-color;
-                font-size: 14px;
-                font-weight: bold;
-                font-family: @font-default;
-                &:hover {
-                    color: @text-color;
+
+.switcher {
+    .options {
+        .action.toggle {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .view-wsvBR,
+        .view-wsvEN{
+            span {
+                line-height: 0;
+                font-size: 0;
+                color: transparent;
+                text-align: center;
+                &::before {
+                    display: inline-block;
+                }
+            }
+        }
+        .view-wsvBR {
+            span {
+                &::before {
+                    content: url("@{baseDir}images/brasil.png");
+                }
+            }
+        }
+        .view-wsvEN{
+            span {
+                &::before {
+                    content: url("@{baseDir}images/usa.png");
+                }
+            }
+        }
+        .dropdown.switcher-dropdown {
+            min-width: 80px;
+            .view-wsvEN,
+            .view-wsvBR{
+                a {
+                    line-height: 0;
+                    font-size: 0;
+                    color: transparent;
+                    text-align: center;
+                    &::before {
+                        display: inline-block;
+                    }
+                }
+            }
+            .view-wsvBR {
+                a {
+                    &::before {
+                        content: url("@{baseDir}images/brasil.png");
+                    }
+                }
+            }
+            .view-wsvEN{
+                a {
+                    &::before {
+                        content: url("@{baseDir}images/usa.png");
+                    }
                 }
             }
         }
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 767px) {
     .logo {
         margin-top: 10px;
         margin-bottom: 13px;
@@ -114,8 +219,6 @@ body {
         padding-top: 20px;
     }
     .field.search {
-        padding-left: 70px;
-
         .control {
             border-top: none;
         }
@@ -128,10 +231,32 @@ body {
         .block-search {
             width: auto;
             margin-bottom: 15px;
+
+            input {
+                padding-right: none;
+            }
         }
     }
     .page-header {
         border-bottom: none;
         margin-bottom: none;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo {
+        width: 100px;
+        height: 42px;
+        padding-left: 40px;
+    }
+
+    .header.content {
+        margin-left: 0px;
+        margin-right: 0px;
+        z-index: 1;
+    }
+
+    .block-search .label:before {
+        margin: 0px;
     }
 }

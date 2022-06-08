@@ -65,6 +65,8 @@ class CreateCategories implements DataPatchInterface
         return $categories;
     }
 
+    // Atualizando
+
     /**
      * Method for create subcategorie for Moda
      * @return array
@@ -137,8 +139,9 @@ class CreateCategories implements DataPatchInterface
 
         $this->createCategories($this->subCategories('Frisantes', 'frisantes', 'espumantes'));
 
-        $this->createCategories($this->subCategories('Acessórios', 'acessorios-wine', 'kits'));
-        $this->createCategories($this->subCategories('sobremesa', 'sobremesa', 'kits'));
+        $this->createCategories($this->subCategories('Utensílios', 'acessorios-wine', 'wine'));
+        $this->createCategories($this->subCategories('Coleção NFT', 'nft-collection', 'wine'));
+
 
         $this->moduleDataSetup->getConnection()->endSetup();
     }

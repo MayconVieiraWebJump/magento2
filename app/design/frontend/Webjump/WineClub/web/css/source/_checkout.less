@@ -1,0 +1,91 @@
+@color-nav: #9a1e51;
+@color-nav-bright: #bd2967;
+@font-color: #fff;
+@font-type: "Poppins-Regular";
+
+.opc-progress-bar-item._active {
+    span {
+        &::before {
+            background: @color-nav;
+            border: @color-nav;
+        }
+        &::after {
+            border: @color-nav;
+        }
+    }
+    &::before {
+        background: @color-nav;
+        border: @color-nav;
+    }
+}
+.column.main .block:last-child .actions-toolbar > .primary .action:last-child {
+    padding: 7px;
+}
+
+.cart-empty a,
+.checkout-success a,
+.page-title-wrapper a,
+.billing-address-details a,
+.shipping-information-content a,
+.actions-toolbar > .secondary:last-child a,
+.authentication-wrapper .action-auth-toggle:not(:focus),
+.checkout-payment-method .payment-option-title .action-toggle,
+.opc-progress-bar-item._complete > span,
+.cart.table-wrapper .action {
+    color: @color-nav;
+}
+
+.opc-wrapper {
+    .shipping-address-item.selected-item {
+        border: 2px solid @color-nav;
+        &::after {
+            background: @color-nav;
+        }
+        a {
+            color: @color-nav;
+        }
+    }
+    .action-show-popup {
+        background: @color-nav-bright;
+        border: 1px solid @color-nav-bright;
+        border-radius: 5px;
+        color: @font-color;
+        &:hover {
+            background: @color-nav;
+            color: @font-color;
+        }
+    }
+}
+
+.checkout-payment-method {
+    .payment-option-content 
+    .form-discount .actions-toolbar .primary .action{
+        background: @color-nav-bright;
+        border: 1px solid @color-nav-bright;
+        color: @font-color;
+        border-radius: 0px 10px 10px 0px;
+        font-family: @font-type;
+        box-shadow: none !important;
+        &:hover, &:active, &:focus {
+            background: @color-nav;
+            border: 1px solid @color-nav-bright;
+            color: @font-color;
+            box-shadow: none;
+        }
+    }
+    .payment-option-inner .field .control input[type="text"]{
+        height: 38px;
+    }
+}
+
+.actions-toolbar > .primary .action:last-child,
+.actions-toolbar > .secondary .action:last-child {
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    .column.main .block:last-child .actions-toolbar > .primary .action:last-child {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
