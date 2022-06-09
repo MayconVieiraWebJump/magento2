@@ -11,7 +11,7 @@
          columns="max"
          beStrictAboutTestsThatDoNotTestAnything="false"
          bootstrap="./framework/bootstrap.php">
-    <coverage>
+    <coverage pathCoverage="true">
         <include>
             <directory suffix=".php">../../../app/code/*</directory>
             <directory suffix=".php">../../../lib/internal/Magento</directory>
@@ -23,12 +23,13 @@
             <directory>../../../lib/internal/*/*/*/Test</directory>
             <directory>../../../setup/src/*/*/Test</directory>
         </exclude>
+        <report>
+            <html outputDirectory="html-coverage"/>
+        </report>
     </coverage>
     <testsuites>
         <testsuite name="Magento_Unit_Tests_App_Code">
             <directory>../../../app/code/*/*/Test/Unit</directory>
-            <directory>../../../vendor/magento/module-*/Test/Unit</directory>
-            <exclude>../../../app/code/Magento/Indexer/Test/Unit</exclude>
         </testsuite>
         <testsuite name="Magento_Unit_Tests_App_Code_Indexer">
             <directory>../../../app/code/*/Indexer/Test/Unit</directory>
